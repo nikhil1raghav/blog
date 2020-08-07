@@ -6,7 +6,7 @@ cover="hello.jpg"
 
 +++
 >I am a student currently pursuing B.Tech in Computer Engineering at __JC Bose University of Science and Technology__. I'm interested in
-__competitive programming__, __web development__ and __open source technologies__. 
+__competitive programming__, __web development__ and __Open source technologies__. 
 >
 >I write about new things that I learn, interesting programming problems that I solve and privacy on internet.
 
