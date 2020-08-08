@@ -15,4 +15,3 @@ __competitive programming__, __web development__ and __Open source technologies_
 - [Codechef](https://www.codechef.com/users/nikhil1_raghav)
 - [Atcoder](https://atcoder.jp/users/nikhil1_raghav)
 - [Github](https://github.com/nikhil1raghav)
-- [Mail](nikhil1_raghav@tutanota.com)
