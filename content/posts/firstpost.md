@@ -2,7 +2,7 @@
 title = "Birthday Post"
 date = "7 August 2020"
 author = "Nikhil Raghav"
-cover = "birthday.jpg"
+cover = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.F2KRe3yT_GahrI55p02b4AHaEc%26pid%3DApi&f=1"
 description = "First post to check post functionality"
 showFullContent = false
 +++
