@@ -70,3 +70,7 @@ paginate = 5
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+        [[language.en.menu.main]]
+        identifier="p1"
+        name="Post1"
+        url="/posts/firstpost"
