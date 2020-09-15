@@ -1,6 +1,6 @@
 +++title="Counting with C++ maps"
 author="Nikhil Raghav"
-cover="map.png"
+cover="https://c7.uihere.com/files/543/911/831/pepe-the-frog-emoticon-sticker-t-shirt-emote-pepe-emoji.jpg"
 description="A useful technique with hashmaps"
 showFullContent = false
 +++
@@ -9,7 +9,7 @@ It is a recurring and really useful idea to count some property in O(n) in an ar
 This post is work in progress. Solve these problems till I complete it.
 <br>
 
-###**Some relevant problems**
+**Some relevant problems**
 - [E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)
 - [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d)
 - [E - Rem of Sum is Num](https://atcoder.jp/contests/abc146/tasks/abc146_e)
