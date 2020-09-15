@@ -1,6 +1,6 @@
 +++title="Counting with C++ maps"
 author="Nikhil Raghav"
-cover="https://imgur.com/mIYOmA4"
+cover="https://i.postimg.cc/MTKD8MVX/map.png"
 description="A useful technique with hashmaps"
 showFullContent = false
 +++
