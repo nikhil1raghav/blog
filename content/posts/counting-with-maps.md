@@ -9,7 +9,7 @@ It is a recurring and really useful idea to count some property in O(n) in an ar
 
 ## Subarrays with sum X
 
-Let's say we are given an array $$A$$ of length $$N$$ and we have to count how many subarrays of $$A$$ sum up to a given number $$X$$. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for $$A$$. After that we have two options:
+Let's say we are given an array $A$ of length $$N$$ and we have to count how many subarrays of $$A$$ sum up to a given number $$X$$. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for $$A$$. After that we have two options:
 
 ```
 vector<int> prefix(n+1);
@@ -30,7 +30,7 @@ for(int start=1;start<=n;start++)
   return ans;
   
 ```
-2. Now as we have seen in option 1 we simply need to count all $$(l,r)$$ pairs such that $$prefix[r] - prefix[l-1] = X$$ or $$prefix[r] - X= prefix[l-1]$$. Now, if we store count of all prefix sums seen previously, at every index $$i$$ we can query for how many $$prefix[i]-X$$ we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at $$i$$. It is that simple.
+2. Now as we have seen in option 1 we simply need to count all $$(l,r)$$ pairs such that $$prefix[r] - prefix[l-1] = X$$ or $$prefix[r] - X= prefix[l-1]$$. Now, if we store count of all prefix sums seen previously, at every index $$i$$ we can query for how many [img]https://bit.ly/32CwMi4[/img] we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at $$i$$. It is that simple.
 
 ```
 unordered_map<int,int> f;
