@@ -30,7 +30,7 @@ for(int start=1;start<=n;start++)
   return ans;
   
 ```
-2. Now as we have seen in option 1 we simply need to count all $$(l,r)$$ pairs such that $$prefix[r] - prefix[l-1] = X$$ or $$prefix[r] - X= prefix[l-1]$$. Now, if we store count of all prefix sums seen previously, at every index $$i$$ we can query for how many [img](https://bit.ly/32CwMi4) we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at $$i$$. It is that simple.
+2. Now as we have seen in option 1 we simply need to count all $$(l,r)$$ pairs such that $$prefix[r] - prefix[l-1] = X$$ or $$prefix[r] - X= prefix[l-1]$$. Now, if we store count of all prefix sums seen previously, at every index $$i$$ we can query for how many ![img](https://bit.ly/32CwMi4) we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at $$i$$. It is that simple.
 
 ```
 unordered_map<int,int> f;
