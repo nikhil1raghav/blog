@@ -16,3 +16,4 @@ This post is work in progress. Solve these problems till I complete it.
 - [C. Good Subarrays](https://codeforces.com/contest/1398/problem/C)
 - [C. Molly's Chemicals](https://codeforces.com/problemset/problem/776/C)
 - [E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e)
+- [E - ∙ (Bullet)](https://atcoder.jp/contests/abc168/tasks/abc168_e)
