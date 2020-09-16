@@ -32,8 +32,9 @@ int main()
 ```
 
 ![Full size](https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg)
-![Smaller or bigger](https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg |width=40)
-![Maybe Bigger](https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg |width=100)
+<img src="https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg" width="200" height="auto">
+<img src="https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg" width="1000" height="auto">
+
 
 - [x] Check markdown on current theme.
 - [ ] Complete the post on maps.
