@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 [Linux](#)
 ---
 - [Dummy link](#)
@@ -14,7 +15,8 @@
 ```math
 a^2+b^2+C
 ```
-$`X`$
+After including the script
+$X$
 $$XX$$
 $$$XXX$$$
 
