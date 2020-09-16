@@ -8,6 +8,13 @@
 ### Somewhat Big
 #### Subheading
 
+
+
+### Equations
+$X$
+$$XX$$
+$$$XXX$$$
+
 >Blockquote __Miles to go before I sleep__
 ---
 Some space
