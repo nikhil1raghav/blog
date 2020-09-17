@@ -1,3 +1,4 @@
+
 [Linux](#)
 ---
 - [Dummy link](#)
@@ -21,7 +22,7 @@ After including the script
 $$XX$$
 $$$XXX$$$
 
->Blockquote __Miles to go before I sleep__
+>Blockquote __Na jaane kabse__
 ---
 Some space
 
@@ -47,11 +48,11 @@ int main()
 ![Full size](https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg)
 
 
-
 - [x] Check markdown on current theme.
 - [ ] Complete the post on maps.
+- [ ] Mathjax is not working yet
 
-~~Strikethrough is not working~~
+- [x]~~Strikethrough is not working~~
 
 
 
