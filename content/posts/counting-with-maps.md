@@ -31,7 +31,9 @@ for(int start=1;start<=n;start++)
   return ans;
   
 ```
+
 __Option 2.__ Now as we have seen in option 1 we simply need to count all __(l,r)__ pairs such that __prefix[r] - prefix[l-1] = X__ or __prefix[r] - X= prefix[l-1]__. Now, if we store count of all prefix sums seen previously, at every index __i__ we can query for how many __prefix[i] - X__  we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at __i__. It is that simple.
+
 
 ```cpp
 

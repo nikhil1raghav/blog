@@ -14,12 +14,7 @@
 ```math
 a^2+b^2+C
 ```
-After including the script
-`$X$`
-`\( Double brackets\)`
 
-$$XX$$
-$$$XXX$$$
 
 >Blockquote __Na jaane kabse__
 ---
@@ -44,7 +39,6 @@ int main()
 
 ```
 
-![Full size](https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg)
 
 
 - [x] Check markdown on current theme.
