@@ -1,6 +1,6 @@
 +++title="Counting with hashmaps"
 author="Nikhil Raghav"
-cover="https://c7.uihere.com/files/543/911/831/pepe-the-frog-emoticon-sticker-t-shirt-emote-pepe-emoji.jpg"
+cover="map.jpg"
 description="A useful technique with hashmaps"
 showFullContent = false
 +++
