@@ -1,6 +1,6 @@
-<script
-type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 [Linux](#)
 ---
@@ -19,7 +19,10 @@ type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?con
 a^2+b^2+C
 ```
 After including the script
-$X$
+`$X$`
+`\( Double brackets\)`
+<div>$$Div tag$$<div>
+  
 $$XX$$
 $$$XXX$$$
 
