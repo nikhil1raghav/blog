@@ -1,7 +1,3 @@
-<script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
 [Linux](#)
 ---
 - [Dummy link](#)
@@ -21,12 +17,11 @@ a^2+b^2+C
 After including the script
 `$X$`
 `\( Double brackets\)`
-<div>$$Div tag$$<div>
-  
+
 $$XX$$
 $$$XXX$$$
 
->Blockquote __Miles to go before I sleep__
+>Blockquote __Na jaane kabse__
 ---
 Some space
 
@@ -37,7 +32,7 @@ Some space
 1. HDU
 
 [My submission](#)
-```
+```cpp
 #include "bits/stdc++.h"
 using namespace std;
 int main()
@@ -50,14 +45,13 @@ int main()
 ```
 
 ![Full size](https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg)
-<img src="https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg" width="200" height="auto">
-<img src="https://i.ytimg.com/vi/4Arf4cO2l94/maxresdefault.jpg" width="1000" height="auto">
 
 
 - [x] Check markdown on current theme.
 - [ ] Complete the post on maps.
+- [ ] Mathjax is not working yet
 
-~~Strikethrough is not working~~
+- [x]~~Strikethrough is not working~~
 
 
 

@@ -1,6 +1,6 @@
 +++title="Counting with hashmaps"
 author="Nikhil Raghav"
-cover="https://c7.uihere.com/files/543/911/831/pepe-the-frog-emoticon-sticker-t-shirt-emote-pepe-emoji.jpg"
+cover="map.jpg"
 description="A useful technique with hashmaps"
 showFullContent = false
 +++
@@ -18,7 +18,7 @@ for(int i=1;i<=n;i++)
 prefix[i]=prefix[i-1]+a[i-1];
 
 ```
-1. Naively set start and end of a subarray and check if its sum is __X__, can be done in __O(n²)__.
+__Option 1.__ Naively set start and end of a subarray and check if its sum is __X__, can be done in __O(n²)__.
 ```cpp
 
 for(int start=1;start<=n;start++)
@@ -31,7 +31,7 @@ for(int start=1;start<=n;start++)
   return ans;
   
 ```
-2. Now as we have seen in option 1 we simply need to count all $$(l,r)$$ pairs such that __prefix[r] - prefix[l-1] = X__ or __prefix[r] - X= prefix[l-1]__. Now, if we store count of all prefix sums seen previously, at every index __i__ we can query for how many __prefix[i] - X__  we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at __i__. It is that simple.
+__Option 2.__ Now as we have seen in option 1 we simply need to count all __(l,r)__ pairs such that __prefix[r] - prefix[l-1] = X__ or __prefix[r] - X= prefix[l-1]__. Now, if we store count of all prefix sums seen previously, at every index __i__ we can query for how many __prefix[i] - X__  we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at __i__. It is that simple.
 
 ```cpp
 
