@@ -4,6 +4,10 @@ author="Nikhil Raghav"
 
 +++
 
+[RSS Feed](/index.xml)
+
+
+
 ```text
 ~$ ./nikhil.sh
 
