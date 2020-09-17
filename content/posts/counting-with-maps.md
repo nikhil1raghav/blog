@@ -9,16 +9,17 @@ It is a recurring and really useful idea to count some property in O(n) in an ar
 
 ## Subarrays with sum X
 
-Let's say we are given an array $A$ of length $$N$$ and we have to count how many subarrays of $$A$$ sum up to a given number $$X$$. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for $$A$$. After that we have two options:
+Let's say we are given an array __A__ of length __N__ and we have to count how many subarrays of __A__ sum up to a given number __X__. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for __A__. After that we have two options:
 
-```
+```cpp
+
 vector<int> prefix(n+1);
 for(int i=1;i<=n;i++)
 prefix[i]=prefix[i-1]+a[i-1];
 
 ```
-1. Naively set start and end of a subarray and check if its sum is $$X$$, can be done in $$O(n^2)$$.
-```
+1. Naively set start and end of a subarray and check if its sum is __X__, can be done in __O(n²)__.
+```cpp
 
 for(int start=1;start<=n;start++)
   for(int end=start;end<=n;end++)
@@ -30,9 +31,10 @@ for(int start=1;start<=n;start++)
   return ans;
   
 ```
-2. Now as we have seen in option 1 we simply need to count all $$(l,r)$$ pairs such that $$prefix[r] - prefix[l-1] = X$$ or $$prefix[r] - X= prefix[l-1]$$. Now, if we store count of all prefix sums seen previously, at every index $$i$$ we can query for how many ![img](https://bit.ly/32CwMi4) we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at $$i$$. It is that simple.
+2. Now as we have seen in option 1 we simply need to count all $$(l,r)$$ pairs such that __prefix[r] - prefix[l-1] = X__ or __prefix[r] - X= prefix[l-1]__. Now, if we store count of all prefix sums seen previously, at every index __i__ we can query for how many __prefix[i] - X__  we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at __i__. It is that simple.
 
-```
+```cpp
+
 unordered_map<int,int> f;
 int ans=0;
 for(int i=1;i<=n;i++)
@@ -49,7 +51,7 @@ for(int i=1;i<=n;i++)
 
 
 
-This post is work in progress. You can solve these problems till I complete it.
+##### This post is work in progress. You can solve these problems till I complete it.
 ---
 **Some relevant problems**
 - [E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)
