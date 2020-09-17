@@ -1,3 +1,11 @@
++++
+title="Markdown test Page"
+showFullContent=false
+description="Checking markdown support on this theme"
++++
+
+
+
 [Linux](#)
 ---
 - [Dummy link](#)
