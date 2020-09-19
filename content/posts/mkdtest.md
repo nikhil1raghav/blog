@@ -18,11 +18,15 @@ description="Checking markdown support on this theme"
 
 
 
-### Equations
-```math
-a^2+b^2+C
-```
 
+
+### Equations
+$a^2+b^2+C + 10^{123}$ 
+- Answer can be large so print it modulo $998244353$
+- Elements of the array $A_1,A_2,\cdots ,A_n$
+- Find $A_1\oplus A_2\oplus2\cdots\oplus A_n$
+- $1\leq N \leq10^5$
+- $dp_i=max(0,dp_{i-1}+a_i)$
 
 >Blockquote __Na jaane kabse__
 ---
@@ -51,7 +55,7 @@ int main()
 
 - [x] Check markdown on current theme.
 - [ ] Complete the post on maps.
-- [ ] Mathjax is not working yet
+- [x] Mathjax is working now [referred this](https://geoffruddock.com/math-typesetting-in-hugo/)
 
 - [x]~~Strikethrough is not working~~
 

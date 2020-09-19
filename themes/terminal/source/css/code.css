@@ -81,4 +81,10 @@
   .code-toolbar {
     margin: 0;
   }
+  .has-jax {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
+    font-size: 100%;
+}
 }
