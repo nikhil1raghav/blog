@@ -21,7 +21,7 @@ description="Checking markdown support on this theme"
 
 
 ### Equations
-$a^2+b^2+C + 10^{123}$ 
+- $a^2+b^2+C + 10^{123}$ 
 - Answer can be large so print it modulo $998244353$
 - Elements of the array $A_1,A_2,\cdots ,A_n$
 - Find $A_1\oplus A_2\oplus2\cdots\oplus A_n$
@@ -55,7 +55,7 @@ int main()
 
 - [x] Check markdown on current theme.
 - [ ] Complete the post on maps.
-- [x] Mathjax is working now [referred this](https://geoffruddock.com/math-typesetting-in-hugo/)
+- [x] Mathjax is working now
 
 - [x]~~Strikethrough is not working~~
 
