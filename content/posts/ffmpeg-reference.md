@@ -1,7 +1,7 @@
 +++
 title="Basic ffmpeg reference"
 author="Nikhil Raghav"
-cover="ffmpeglogo.jpg"
+cover="ffm.jpg"
 description="Basic and most used ffmpeg, notes for reference"
 showFullcontent=false
 +++
