@@ -1,6 +1,6 @@
 +++
 title="Table of Contents"
-
+noComment=true
 +++
 # [Competitive Programming:](#)
  - [Techniques](#)
