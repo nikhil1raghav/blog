@@ -1,5 +1,7 @@
 +++
 title="Private search engine in 5 minutes"
+nomath=true
+date="2020-09-21"
 author="Nikhil Raghav"
 cover="sear.jpg"
 description="Create and deploy your own searx instance"

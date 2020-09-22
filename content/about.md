@@ -1,6 +1,7 @@
 +++
 title="About Me"
 author="Nikhil Raghav"
+nomath=true
 noComment=true
 +++
 

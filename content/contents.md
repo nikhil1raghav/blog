@@ -1,5 +1,6 @@
 +++
 title="Table of Contents"
+nomath=true
 noComment=true
 +++
 # [Competitive Programming:](#)

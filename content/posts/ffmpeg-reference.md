@@ -1,6 +1,8 @@
 +++
 title="Basic ffmpeg reference"
 author="Nikhil Raghav"
+date="2020-09-19"
+nomath=true
 cover="ffm.jpg"
 description="Basic and most used ffmpeg, notes for reference"
 showFullcontent=false
