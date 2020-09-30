@@ -50,3 +50,12 @@ noComment=true
 	```
 - In many SCC problems look for property of indegree 0 vertices first.
 - Condensed graph is when we substitute SCC with a representative node. 
+
+#### Biconnectivity
+- Graph is biconnected if it has no articulation points
+- __Biconnected component__ : Maximal biconnected subgraph
+- __Edge biconnected__ if no bridges
+- __Vertex biconnected__ if no articulation points
+- In edge biconnected graph an edge will either be __bridge__ or part of a __biconnected component__. If we denote that component with a single node we'll get a tree.
+- In vertex biconnected graph same kind of condensation gives a __block-cut tree__ i.e. block of biconnected component cut vertex then another block followed by a cut vertex and so on.
+
