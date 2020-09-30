@@ -13,12 +13,12 @@ Every non privacy respecting search engine out there logs your search history to
 
 #### 1. Clone the repo
 ```bash
-[nikhil@nikhil]$ git clone https://github.com/searx/searx.git
+[nikhil@nikhil ~]$ git clone https://github.com/searx/searx.git
 ```
 
 #### 2. Install dependencies
 ```bash
-[nikhil@nikhil]$ cd searx
+[nikhil@nikhil ~]$ cd searx
 [nikhil@nikhil searx]$ ./manage.sh update_packages
 ```
 
@@ -30,7 +30,10 @@ Now a local instance will be up and running on port 8888. Enjoy searching with y
 
 #### 4. Some prep
 
-Now if you change default search engine in all your browser to __localhost:8888__,obviously you won't be able to search anything after you reboot unless you run the server manually. For that you can create a cronjob or write a small script in config of your window manager.
+Now if you change default search engine in all your browser to __localhost:8888__,obviously you won't be able to search anything after you reboot unless you run the server manually. For that you can create a cronjob or write a small script in config of your window manager.Something like this would work in a startup script.
+```bash
+exec python ~/searx/searx/webapp.py
+```
 
 You can customise appearance of your searx instance by tinkering with themes, css and other assets in __static__ folder. Searx also supports [bangs](https://duckduckgo.com/bang) like [duckduckgo](https://duckduckgo.com) you can find them in a json file named bangs inside searx folder.
 

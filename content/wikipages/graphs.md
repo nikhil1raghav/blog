@@ -18,8 +18,8 @@ noComment=true
 
 - __tin[node]__ : First time we visit __node__.
 - __low[node]__ : lowest __tin[]__ reachable in subtree of __node__
-- For articulation point : $low[child]\geq low[node]$
-- For bridge : $low[child] > low[node]$
+- For articulation point : $low[child]\geq tin[node]$
+- For bridge : $low[child] > tin[node]$
 - ##### Implementation:
 	```cpp
 	void dfs(int node,int p=-1)
