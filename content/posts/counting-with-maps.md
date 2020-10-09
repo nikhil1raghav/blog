@@ -1,7 +1,6 @@
 +++title="Counting with hashmaps"
 author="Nikhil Raghav"
 date="2020-09-15"
-cover="map.jpg"
 nomath=true
 description="A useful technique with hashmaps"
 showFullContent = false
