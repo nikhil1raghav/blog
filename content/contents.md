@@ -11,3 +11,7 @@ noComment=true
 # [Linux:](#)
  - [Media](#)
  	- [Basic ffmpeg reference](/posts/ffmpeg-reference)
+
+# [Privacy:](#)
+ - [Local Searx instance](/posts/searx)
+ - [Big Browser is watching](/posts/palemoon)
