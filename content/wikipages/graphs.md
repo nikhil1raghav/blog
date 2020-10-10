@@ -59,3 +59,5 @@ noComment=true
 - In edge biconnected graph an edge will either be __bridge__ or part of a __biconnected component__. If we denote that component with a single node we'll get a tree.
 - In vertex biconnected graph same kind of condensation gives a __block-cut tree__ i.e. block of biconnected component cut vertex then another block followed by a cut vertex and so on.
 
+#### Counting Paths
+- If $V$ is adjacency matrix of unweighted graph. Then $V^n$ contains number of paths of $n$ edges between nodes in a graph.
