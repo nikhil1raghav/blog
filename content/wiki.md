@@ -15,5 +15,3 @@ To note down something that is too concise to be a post on its own.
 - [Recurrence](/wikipages/recurrence)
 - [Combinatorics](/wikipages/combinatorics)
 
-#### [OOP](#)
-- [Assignment 4](/wikipages/ass4)
