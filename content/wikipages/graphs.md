@@ -5,6 +5,7 @@ noComment=true
 
 - Use bfs when possible
 - Look out for 0-1 before djikstra
+- __Independent set__ is a set of vertices, no two of which are adjacent.
 - __Topsort__
 	- __kahn's algo__ (when need to preserve order sometimes like UVA 11060, enqueue 0 indegree nodes in a heap process them)
 	- simple dfs everywhere else

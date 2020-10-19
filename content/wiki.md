@@ -8,10 +8,10 @@ This is my wiki where I try to organize my knowledge and make some notes for ref
 To note down something that is too concise to be a post on its own.
 
 
-#### [Math](#)
+#### [Programming](#)
 	
 - [Graphs](/wikipages/graphs)
 - [Algebra](/wikipages/algebra)
 - [Recurrence](/wikipages/recurrence)
 - [Combinatorics](/wikipages/combinatorics)
-
+- [Dynamic Programming](/wikipages/dp)
