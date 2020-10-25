@@ -9,7 +9,8 @@ To note down something that is too concise to be a post on its own.
 
 
 #### [Programming](#)
-	
+
+- [Git](/wikipages/git)
 - [Graphs](/wikipages/graphs)
 - [Algebra](/wikipages/algebra)
 - [Recurrence](/wikipages/recurrence)
