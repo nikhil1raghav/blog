@@ -12,18 +12,18 @@ Every non privacy respecting search engine out there logs your search history to
 
 #### 1. Clone the repo
 ```bash
-[nikhil@nikhil ~]$ git clone https://github.com/searx/searx.git
+git clone https://github.com/searx/searx.git
 ```
 
 #### 2. Install dependencies
 ```bash
-[nikhil@nikhil ~]$ cd searx
-[nikhil@nikhil searx]$ ./manage.sh update_packages
+cd searx
+./manage.sh update_packages
 ```
 
 #### 3. Run it
 ```bash
-[nikhil@nikhil searx]$ python searx/webapp.py
+python searx/webapp.py
 ```
 Now a local instance will be up and running on port 8888. Enjoy searching with your own search engine.
 
