@@ -1,5 +1,5 @@
 +++
-title="Some not so well known but useful SQL"
+title="SQL"
 author="Nikhil"
 +++
 
