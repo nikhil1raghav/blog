@@ -1,5 +1,6 @@
 +++
 title="Sockets"
+date="2020-10-26"
 +++
 In UNIX everything is a file, i.e. when programs do any kind of I/O they do it by reading or writing to a file descriptor. But when a program has to communicate with some file over internet it uses a socket descriptor using `send()` and `recv()`.
 

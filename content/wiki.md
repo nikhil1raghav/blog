@@ -12,6 +12,7 @@ To note down something that is too concise to be a post on its own.
 
 - [Git](/wikipages/git)
 - [SQL](/wikipages/sql)
+- [Bash](/wikipages/bash)
 - [Graphs](/wikipages/graphs)
 - [Algebra](/wikipages/algebra)
 - [Recurrence](/wikipages/recurrence)
@@ -25,3 +26,4 @@ To note down something that is too concise to be a post on its own.
 #### [Networking](#)
 
 - [Sockets](/wikipages/sockets)
+- [IP Addresses](/wikipages/ip)
