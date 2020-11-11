@@ -23,3 +23,10 @@ Everywhere else as: nikhil1_raghav
 
 ```
 
+[Public Key](/files/nikhil1raghav.key)
+
+
+```text
+BCD7 A8A0 575E B129 0F0E
+E602 2B3E 6EED B646 800D
+```

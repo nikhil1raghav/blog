@@ -24,3 +24,6 @@ Blogroll is a great way of sharing the content you care about with the people. H
 - [Ed summers](https://inkdroid.org)
 - [Tania Rascia](https://www.taniarascia.com)
 - [Abhay Rana](https://captnemo.in)
+- [CopyNinja](https://copyninja.info)
+- [Derek Sivers Blog](https://sive.rs/blog)
+- [Roger Ebert](https://www.rogerebert.com)
