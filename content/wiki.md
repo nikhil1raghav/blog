@@ -14,16 +14,18 @@ To note down something that is too concise to be a post on its own.
 - [SQL](/wikipages/sql)
 - [Bash](/wikipages/bash)
 - [Graphs](/wikipages/graphs)
+- [Dynamic Programming](/wikipages/dp)
+
+#### [Math](#)
+
 - [Algebra](/wikipages/algebra)
 - [Recurrence](/wikipages/recurrence)
 - [Combinatorics](/wikipages/combinatorics)
-- [Dynamic Programming](/wikipages/dp)
-
-
-
-
 
 #### [Networking](#)
 
 - [Sockets](/wikipages/sockets)
 - [IP Addresses](/wikipages/ip)
+
+#### [Formal languages and Automata theory](#)
+- [Alphabet and Language](/wikipages/alphabet)

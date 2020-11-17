@@ -2,7 +2,8 @@
 title='Graphs : Some observations and notes'
 noComment=true
 +++
-
+- __Walk__ is any sequences of vertices and edges.
+- __Path__ is same as walk but no vertex is repeated in a path.
 - Use bfs when possible
 - Look out for 0-1 before djikstra
 - __Independent set__ is a set of vertices, no two of which are adjacent.
