@@ -27,5 +27,9 @@ To note down something that is too concise to be a post on its own.
 - [Sockets](/wikipages/sockets)
 - [IP Addresses](/wikipages/ip)
 
-#### [Formal languages and Automata theory](#)
-- [Alphabet and Language](/wikipages/alphabet)
+#### [Semester notes](#)
+- [DBMS complete](/wikipages/dbms)
+- [Automata - Alphabet and Language](/wikipages/alphabet)
+
+
+
