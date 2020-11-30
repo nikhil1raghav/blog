@@ -29,21 +29,38 @@ Structured Query Language \(SQL\)
 
 ## Data Models
 
-* **Relational Model:** Data is stored in tables called relational. Attributes \(Columns\) Tuple \(Rows\). Degree = no. of attributes. Cardinality = no. of tuples. Advantages: Simplicity, Structural Independance \(only concerned about data and not with structure\), Easy to use, Query capability, Scalable. Disadvantages: Structured limit \(field length limit, type, etc\), Cost \(of softwares and implementing\).
-* **ER \(Entity Relationship\) Model:** It defines the conceptual view of a database. It works around real world entities and the assosiation among them. At view level it is considered a good option for designing database. An entity is a person or a thing which has logical or physical existence in the real world. For example, in a school database, students, teachers, classes, and courses. An entity set is a collection of similar types of entities. Entities are represented by means of their properties, called attributes. For example, a student entity may have name, class, and age as attributes. Advantages: Better understanding \(graphical\), Easy conversion to other models, easy and straightforward. Disadvantages: Popular for high-level design, No industry standard for notation.
-* **Object Oriented Model:** This data model is another method of representing real world objects. It considers each object in the world as objects and isolates it from each other. It groups its related functionalities together and allows inheriting its functionality to other related sub-groups. Advantages: Codes are reused because of inheritance, More flexible to change, More organized. Disadvantage: Complex to implement, Not widely used.
+* **Relational Model:** Data is stored in tables called relations. Attributes \(Columns\) Tuple \(Rows\). Degree = no. of attributes. Cardinality = no. of tuples. 
+	- Advantages: Simplicity, Structural Independence \(only concerned about data and not with structure\), Easy to use, Query capability, Scalable. 
+	- Disadvantages: Structured limit \(field length limit, type, etc\), Cost \(of softwares and implementing\).
+
+
+* **ER \(Entity Relationship\) Model:** It defines the conceptual view of a database. It works around real world entities and the association among them. At view level it is considered a good option for designing database. An entity is a person or a thing which has logical or physical existence in the real world. For example, in a school database, students, teachers, classes, and courses. An entity set is a collection of similar types of entities. Entities are represented by means of their properties, called attributes. For example, a student entity may have name, class, and age as attributes. 
+	- Advantages: Better understanding \(graphical\), Easy conversion to other models, easy and straightforward. 
+	- Disadvantages: Popular for high-level design, No industry standard for notation.
+
+
+* **Object Oriented Model:** This data model is another method of representing real world objects. It considers each object in the world as objects and isolates it from each other. It groups its related functionalities together and allows inheriting its functionality to other related sub-groups. 
+	- Advantages: Codes are reused because of inheritance, More flexible to change, More organized.
+	- Disadvantage: Complex to implement, Not widely used.
+
 
 > Both ER & Object Oriented Model are Object based model since they use real world objects
 
-* **Semi-Structured Model:** The data is modelled as a tree or rooted graph where the nodes and edges are labelled with names and/or have attributes associated with them. The data can exist without there being a schema, although it is possible that there is one. \(XML, JSON\) Advantages - It can represent the information of some data sources that cannot be constrained by schema, Data transfer is portable, flexible, schema can be easily changed, useful for browsers. Disadvantages - Queries are less efficient then in strucuted models.
+* **Semi-Structured Model:** The data is modelled as a tree or rooted graph where the nodes and edges are labelled with names and/or have attributes associated with them. The data can exist without there being a schema, although it is possible that there is one. \(XML, JSON\) 
+	- Advantages - It can represent the information of some data sources that cannot be constrained by schema, Data transfer is portable, flexible, schema can be easily changed, useful for browsers.
+	- Disadvantages - Queries are less efficient then in strucuted models.
+
+
 * **Hierarchial Model:** In hierarchical model, data is organized into a tree like structure with each record is having one parent record and many children. The main drawback of this model is that, it can have only one to many relationships between nodes. Rarely used.
+
+
 * **Network Model:** The network model was created to represent complex data relationships more effectively than the hierarchical model, to improve database performance. Advantages - Conceptual simplicity, handles more relationship type, data access flexibility, promotes data integrity. Disadvantages - system complexity, lack of structural dependencies.
 
 > A database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated.
 
 > Database users - Naive user, application programmer, sophisticated users, specialised users
 
-> Database administrator - schema defination, access control, routine maintainance, storage structure and access method defination
+> Database administrator - schema definition, access control, routine maintainance, storage structure and access method definition
 
 ## Keys
 
@@ -62,27 +79,27 @@ Structured Query Language \(SQL\)
 
 ## Database Languages
 
-1. DDL \(Data Defination Language\)
-   * Define schema
-   * Define integrity constraints \(PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK\)
+1. DDL \(Data Definition Language\)
+   - Define schema
+   - Define integrity constraints \(PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK\)
 2. DML \(Data Manipulation Language\)
-   * Retrive data
-   * Insert data
-   * Update data
-   * Delete data
+   - Retrieve data
+   - Insert data
+   - Update data
+   - Delete data
 3. Query language \(Data retrieval\)
-   * Relational Algebra \(Procedural\)
-   * SQL \(Declarative or Non Procedural\)
+   - Relational Algebra \(Procedural\)
+   - SQL \(Declarative or Non Procedural\)
 
 ## SQL \(Structured Query Language\)
 
-It offers - DDL, DML, Integrity, View defination, Transaction control, Embedded SQL & Dynamic SQL, Authorization.  
+It offers - DDL, DML, Integrity, View definition, Transaction control, Embedded SQL & Dynamic SQL, Authorization.  
 Basic data type - char\(n\), varchar\(n\), int, small int, numeric\(p, d\), float\(n\), date, time, timestamp
 
 Key functions of DBA:
 
-* Schema defination
-* Storage structure and access method defination
+* Schema definition
+* Storage structure and access method definition
 * Schema and physical organization modification
 * Granting of authority for data access
 * Routine maintainance \(periodically backups, ensuring enough free space, monitoring jobs running and ensuring performance\)
