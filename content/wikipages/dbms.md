@@ -190,7 +190,7 @@ Types:
 
 1. Simple-Composite : Simple cannot be divided any further represented by simple oval. Composite can be divided further in simple attributes, oval connected to oval.
 2. Single-Multivalued : Single can have only one value at an instance of time. Multivalued can have more then one value at an instance of time. Multivalued is double oval represented.
-3. Stored-Derrived : Stored is how value is stored in the database. Derrived is how value can be computed in runtime using stored attributes. Derrived is represented by dotted. \(Age is derrived by DOB or distance in google maps derrived by destination and source\)
+3. Stored-Derived : Stored is how value is stored in the database. Derived is how value can be computed in runtime using stored attributes. Derived is represented by dotted. \(Age is derived by DOB or distance in google maps derived by destination and source\)
 
 Relationship:  
 Relationship is an assosiation between two or more entities of same or different entity set
