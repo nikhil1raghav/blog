@@ -193,7 +193,7 @@ Types:
 3. Stored-Derived : Stored is how value is stored in the database. Derived is how value can be computed in runtime using stored attributes. Derived is represented by dotted. \(Age is derived by DOB or distance in google maps derived by destination and source\)
 
 Relationship:  
-Relationship is an assosiation between two or more entities of same or different entity set
+Relationship is an association between two or more entities of same or different entity set
 
 * No representation in ER diagram as it is an instance or data
 * In relational model represented either using a row in table
