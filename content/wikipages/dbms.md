@@ -198,7 +198,7 @@ Relationship is an association between two or more entities of same or different
 * No representation in ER diagram as it is an instance or data
 * In relational model represented either using a row in table
 
-Relationship Type: a set of simmilar type of relationship
+Relationship Type: a set of similar type of relationship
 
 * In ER diagram represented using diamond
 * In relational model either by a seperate table or by seperate column \(foreign key\)
@@ -497,7 +497,7 @@ Dirty read kehta tha ki write ho raha he kisi pe toh bina commit ke read nahi, s
 
 ![](/files/image232.png)
 
-M way search tree are simmilar to BST we can say that a 2 degree M way ST is BST.
+M way search tree are similar to BST we can say that a 2 degree M way ST is BST.
 
 ![](/files/image248.png)
 
