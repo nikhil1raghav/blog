@@ -249,7 +249,7 @@ Conversion to Relational Model:
 
 The functional dependency is a relationship that exists between two attributes. It typically exists between the primary key and non-key attribute within a table.
 
-A functional dependency between two sets of attributes X and Y that are subsets if R specifies a constraint on the possible tuples that can form a relation state 'r' of R. The constraint is that, for any 2 tuples t1 and t2 in r that have t1\[x\] = t2\[x\] they must also have t1\[y\] = t2\[y\]
+A functional dependency between two sets of attributes X and Y that are subsets of R specifies a constraint on the possible tuples that can form a relation state 'r' of R. The constraint is that, for any 2 tuples t1 and t2 in r that have t1\[x\] = t2\[x\] they must also have t1\[y\] = t2\[y\]
 
 X → Y  
 The left side of FD is known as a determinant, the right side of the production is known as a dependent.  
@@ -280,7 +280,7 @@ Primary rules:
 
 * Reflexivity - if Y ⊆ X then X → Y
 * Augmentation - if X → Y then XZ → YZ
-* Transivity - if X → Y & Y → Z then X → Z
+* Transitivity - if X → Y & Y → Z then X → Z
 
 We can prove secondary rules from primary rules
 
@@ -291,7 +291,7 @@ Secondary Rules:
 
 > Union & Decomposition need to be done on right side, union we can do on left side but usse nuksaan hi hoga [https://youtu.be/vs65S6Nku5g?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&t=959](https://youtu.be/vs65S6Nku5g?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&t=959)
 
-* Psuedo Transitive - if X → Y & W Y → Z then W X → Z
+* Pseudo Transitive - if X → Y & W Y → Z then W X → Z
 * Composite - if X → Y & Z → W then X Y → Y W
 
 [https://youtu.be/NeITRksKLzs?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV](https://youtu.be/NeITRksKLzs?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV)  
@@ -309,12 +309,14 @@ During finding candidate keys we first find which attribute doesn't have any inc
 
 Idea: In the table studentInfo we have tried to store entire data about student  
 Result: Entire branch data of a branch must be repeated for every student of the branch.  
-Redundancy: When some data is stored multiple time unnessarily in a database.  
+Redundancy: When some data is stored multiple time unnecessarily in a database.  
 Disadvantages:
 
 * Insertion, deletion and modification anomalies
 * Inconsistency \(data\)
-* Increase in data size and increase in time Insertion Anomalie: like say civil dept me koi banda nahi toh info table me dept ki bhi nahi hogi. Deletion Anomalie: agar akela banda he dept ka usse delete nahi karsakte warna branch khatam Updatation Anomalie: update karna ho branch related kaa usse multiple jagah karna padega
+* Increase in data size and increase in time Insertion Anomaly: like say civil dept me koi banda nahi toh info table me dept ki bhi nahi hogi. 
+* Deletion Anomaly: agar akela banda he dept ka toh usse delete nahi karsakte warna branch khatam 
+* Updation Anomaly: update karna ho branch related kaa usse multiple jagah karna padega
 
 Solution in Normalization. It is a logic of decomposing a table until the most optimal result is obtained. It is done on the basis of functional dependencies. Functional dependency can decompose till BCNF only for later on scenerios we need to consider lossy decomposition.
 
