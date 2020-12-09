@@ -21,6 +21,7 @@ To note down something that is too concise to be a post on its own.
 - [Algebra](/wikipages/algebra)
 - [Recurrence](/wikipages/recurrence)
 - [Combinatorics](/wikipages/combinatorics)
+- [Number Theory](/wikipages/numbertheory)
 
 #### [Networking](#)
 

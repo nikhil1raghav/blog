@@ -39,3 +39,7 @@ Blogroll is a great way of sharing the content you care about with the people. H
 - [True AI](http://trueai.blogspot.com)
 - [On Algorithm Problems](https://lbv-pc.blogspot.com)
 - [Fluent C++ - Jonathan Boccara's blog](https://fluentcpp.com)
+- [Mathblog](https://www.mathblog.dk)
+- [Raymii.org](https://raymii.org)
+- [Swyx's site](https://swyx.io)
+- [Tanuj Khattar's blog](https://tanujkhattar.wordpress.com)
