@@ -43,3 +43,4 @@ Blogroll is a great way of sharing the content you care about with the people. H
 - [Raymii.org](https://raymii.org)
 - [Swyx's site](https://swyx.io)
 - [Tanuj Khattar's blog](https://tanujkhattar.wordpress.com)
+- [acmqueue](https://queue.acm.org)

@@ -1,7 +1,7 @@
 +++title="Counting with hashmaps"
 author="Nikhil Raghav"
 date="2020-09-15"
-nomath=true
+nomath=false
 description="A useful technique with hashmaps"
 showFullContent = false
 +++
@@ -48,16 +48,44 @@ for(int i=1;i<=n;i++)
 
 ```
 
-## 2. Solving [ABC 146 E. Rem of Sum is num](https://atcoder.jp/contests/abc146/tasks/abc146_e)
- 
+#### [1398C. Good Subarrays](https://codeforces.com/contest/1398/problem/C)
+- __Abridged Problem Statement__ : Count number of subarrays where sum of the subarray is equal to size of the subarray.
+- More formally count all pairs (l,r) such that:
+	$$ Sum(l,r)=r-l+1 $$
 
+- Let $p[i]$ be sum of the prefix of length $i$ of the array. Then we can write:
+	$$ pre[r]-pre[l-1] = r-l+1$$
+- Some manipulation of above equation leads to:
+	$$ pre[r]-r = pre[l-1]-(l-1) $$
+- Above equation has the required property that we need to solve the problem using this technique that is __right hand side and left hand side only differ in their index__.
+- So we run a loop from $1$ to $n$ and for current index calculate its contribution to the answer as $r$. In simpler words just add to the answer all the occurences of $pre[r]-r$ occured so far, because all those occurences will be the leftmost indexes of the subarrays that are good.
+
+```cpp
+map<int,int> m;
+long long ans=0;
+m[0]=1;// or start the loop from 0
+for(int i=1;i<=n;i++){
+	ans+=m[pre[i]-i];
+	m[pre[i]-i]++;
+}
+cout<<ans<"\n";
+```
+#### [ABC 146 E. Rem of sum is num](https://atcoder.jp/contests/abc146_e)
+- __Abridged problem statement__: Count subarrays such that remainder of its sum when divided by $K$ is equal to the size of the subarray.
+- Formally:
+	$$Sum(l,r)\equiv (r-l+1) mod K$$
+
+- Or $$pre[r]-pre[l-1]\equiv r-(l-1) mod K$$
+- So if $pre[i]$ is the remainder we get when we divide sum of prefix of length $i$ by $K$.
+- Then we can write $pre[r]-pre[l-1] = (r-l+1)$ as 
 
 
 
 
 ##### This post is work in progress. You can solve these problems till I complete it.
+
 ---
-**Some relevant problems**
+#### Practice Problems
 - [A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)
 - [E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)
 - [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d)
