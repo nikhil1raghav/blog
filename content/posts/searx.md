@@ -4,6 +4,7 @@ nomath=true
 date="2020-09-21"
 author="Nikhil Raghav"
 description="Create and deploy your own searx instance"
+tags=["privacy", "searx"]
 +++
 
 Every non privacy respecting search engine out there logs your search history to profile you and target you with more personalised ads, sometimes that also leads to a self created filter bubble.

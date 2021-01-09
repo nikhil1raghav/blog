@@ -5,12 +5,10 @@ Author="Nikhil"
 +++
 
 Blogroll is a great way of sharing the content you care about with the people. Here are some amazing blogs that I want to share with you and many of them have their own blogrolls too. Happy depth first searching.
-
-- [Richard Stallman](https://stallman.org)
+- [Pluralistic: Daily links from Cory Doctorow](https://pluralistic.net)
+- [Eric Raymond's home page](https://www.catb.org/esr)
 - [Karan Goel](https://goel.io)
-- [Mathinvestor](https://mathinvestor.org)
 - [Drew DeVault's Blog](https://drewdevault.com)
-- [The Plain Text Project](https://plaintextproject.online)
 - [Open Source Musings](https://opensourcemusings.com)
 - [ParityBit](https://paritybit.ca)
 - [Lopeztel's blog](https://qua.name/lopeztel)
@@ -44,3 +42,12 @@ Blogroll is a great way of sharing the content you care about with the people. H
 - [Swyx's site](https://swyx.io)
 - [Tanuj Khattar's blog](https://tanujkhattar.wordpress.com)
 - [acmqueue](https://queue.acm.org)
+- [thessephist.com](https://thesephist.com)
+- [Terence Eden's blog](https://shkspr.mobi)
+- [Josh Duffney](https://duffney.io)
+- [SerHack](https://serhack.me)
+- [beepb00p](https://beepb00p.xyz)
+- [Ben Crowder](https://bencrowder.net)
+- [benkuhn.net](https://benkuhn.net)
+- [Luke Spear](https://lukespear.co.uk/blog)
+- [codewithoutrules](https://codewithoutrules.com)

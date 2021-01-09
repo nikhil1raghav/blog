@@ -5,6 +5,7 @@ date="2020-09-19"
 nomath=true
 description="Basic and most used ffmpeg, notes for reference"
 showFullcontent=false
+tags=["media", "linux", "reference"]
 +++
 
 #### 1. Converting to some format

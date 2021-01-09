@@ -4,6 +4,7 @@ date="2020-09-15"
 nomath=false
 description="A useful technique with hashmaps"
 showFullContent = false
+tags=["programming", "techniques", "codeforces", "atcoder"]
 +++
 
 It is a recurring and really useful idea to count some property in O(n) in an array if the relation is some kind of equation where right hand side and left hand side only differs in their indexes. For example __counting number of subarrays with sum X__.
@@ -85,6 +86,7 @@ cout<<ans<"\n";
 ##### This post is work in progress. You can solve these problems till I complete it.
 
 ---
+
 #### Practice Problems
 - [A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)
 - [E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)

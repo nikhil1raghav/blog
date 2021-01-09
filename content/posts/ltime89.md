@@ -3,6 +3,7 @@ title="Codechef October Lunchtime 2020 Division 1"
 date="2020-11-01"
 description="October lunchtime performance notes, mini editorials and upsolve journal"
 author="Nikhil"
+tags=["review", "codechef", "upsolve"]
 +++
 Made 3 full successful submissions and 1 partial scored 325 points with lot of wrong submissions and ended up at 230th place. Here are the notes on some problems I solved during and after the contest and the thought process I had while solving them. I write these posts so that I can document any new problem solving techniques, observation or method of thinking about the problem I encounter during a contest. It also doubles up as an upsolving journal and lets me review my own thought process and outlook during the contest.
 # Solved during contest

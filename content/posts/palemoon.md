@@ -3,6 +3,7 @@ title="Big Browser is watching"
 description="How I tried to stop using firefox and ended up with two more browsers"
 Author="Nikhil"
 date="2020-10-10"
+tags=["browser", "privacy", "palemoon", "firefox"]
 +++
 
 I love minimal software and always try to minimize bloat on whatever system I use. I also like to read too many blogs on internet but you don't need a power hungry and feature rich browser to "just read blogs". So recently, I came across [this](https://www.youtube.com/watch?v=EBWy1d-JE6A) video introducing [BadWolf](https://hacktivis.me/projects/badwolf), which is a minimal [WebKitGTK+](https://webkitgtk.org) based browser that has two very accessible buttons to toggle javascript and images on a webpage and one simple download manager. I know there is much more going on behind the scenes, but this is what that meets the eye first. 
