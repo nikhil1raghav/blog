@@ -1,0 +1,12 @@
+
+title="Centroid Decomposition - Divide and conquer on trees"
+author="Nikhil"
+date="2020-01-17"
+tags=["competitive-programming", "trees", "technique", "resources"]
+
+I had this idea of writing posts about whatever new algorithms I learn and the problems I solve so that it can be used as a collection of resources and a starting point for anyone who wants to learn the same. So in such blogs I'll point to the resources I used (I'm not re-inventing the wheel), these resources have links to other resources so I won't list them, then I'll list some problems that I solved and write some ideas under each problem.
+
+#### Resources
+- [Tanuj Khattar's post on centroid decomposition](https://tanujkhattar.wordpress.com/2016/01/10/centroid-decomposition-of-a-tree/)
+- [Algorithms Live! episode 12](https://www.youtube.com/watch?v=3pk02p1-weU)
+- [Algorithms Live blog post](https://algorithms-live.blogspot.com/2017/03/episode-12-divide-and-conquer-on-trees.html)
