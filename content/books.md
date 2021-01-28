@@ -40,5 +40,14 @@ tags=["books"]
 
 > Those companies own all our culture and they get to make anything they want with it. The rest of us have to break the law to do what they do all the time. But it's everyone's culture -- that's the whole point right? Once you put it out into the world, it's the *world's* -- it's part of the stories we tell one another to make sense of life.
 
+## [Swipe to unlock](https://swipetounlock.com)
 
+- Liked the way TCP/IP was explained. Book is written with the intention of being accessible. Not that illuminating for your daily hackernews visitor, but it is good as an introductory book for anyone who wants to make sense of what is going on in the tech world.
 
+## [1984](https://www.goodreads.com/book/show/40961427-1984?from_search=true&from_srp=true&qid=FwDAxLt8Eu&rank=1)
+
+All the time while reading it I was drawing parallels between 1984 in the book and today, how telescreens, manufacturing consent through media and surveillance is mainstream today. The book mainly intended as a warning written in 1949 works as a manual in 2020. There are couple of movies based on the book but none matches the cruelty and intensity of the book.
+
+> Don't you see that the whole aim of Newspeak is to narrow the range of thought? In the end we shall make thoughtcrime literally impossible, because there'll be no words to describe it.
+
+> We shall meet in the place where there is no darkness.
