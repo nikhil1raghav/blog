@@ -53,3 +53,6 @@ Blogroll is a great way of sharing the content you care about with the people. H
 - [codewithoutrules](https://codewithoutrules.com)
 - [arcana dot computer](https://arcana.computer)
 - [arp242.net](https://arp242.net)
+- [Chris Stucchio](https://www.chrisstucchio.com)
+- [Marginal Revolution](https://marginalrevolution.com)
+- [Aswath Damodaran](http://aswathdamodaran.blogspot.com)
