@@ -39,6 +39,9 @@ All the time while reading it I was drawing parallels between 1984 in the book a
 
 Took a detour from the dry and lengthy books I was reading, it is a short and very spaced out book filled with witty and nicely explained nuggets of food wisdom like "Don't eat what your grandma won't recognize as food" to "whiter the bread, sooner you'll be dead". No nutritional gobble-de-gook used, everything is stated as simply and coherently it can be.
 
+---
 
+## [The Cuckoo's Egg: Tracking a Spy through the Maze of Computer Espionage](https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg)
 
+Book is exactly what its title says. At the beginning I thought that the hacker is a warm-up and will be caught at the end of first 20 pages and main course is due after that but you can never imagine how that story spans through about 250 pages and none of it is filler. Loved how it takes you back to earlier time in computing when average computer user had more digital literacy than people have today (technology is so accessible). Above all the story is true and very engaging.
 
