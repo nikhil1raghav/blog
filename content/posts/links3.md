@@ -1,9 +1,9 @@
 +++
-title="Monday Links #2"
+title="Monday Links #3"
 author="Nikhil"
 description="Usecases of No SQL,better rate limiter, some UNIX memes and an essay by Martin Scorsese"
 tags=["links"]
-date="2021-02-02"
+date="2021-02-22"
 +++
 
 - [Asciinema](https://asciinema.org) Purely text-based approach to recording terminal sessions. I saw something of this kind on [scrimba](https://scrimba.com) where you can pause the video and start editing the code on the screen. Asciinema is a better way to post command line sessions or tutorials than writing down zillion commands for copy pasting or a gif without any video controls where someone has to wait for the loop to complete so that they can pickup from where they left.
