@@ -15,7 +15,7 @@ date="2021-02-22"
 
 - [The light and dark side of API economy](https://www.swyx.io/api-economy/) Features are products and how APIs help new businesses start. 
 
-- [What the Heck Are You Actually Using NoSQL For?(http://highscalability.com/blog/2010/12/6/what-the-heck-are-you-actually-using-nosql-for.html)
+- [What the Heck Are You Actually Using NoSQL For?](http://highscalability.com/blog/2010/12/6/what-the-heck-are-you-actually-using-nosql-for.html)
 
 - [Mystery Knowledge and Useful Tools](https://nikhilism.com/post/2020/mystery-knowledge-useful-tools/) Mystery tools used by a desktop developer and other accumulated knowledge, nicely categorized.
 
