@@ -13,7 +13,7 @@ tags=["books"]
 ---
 
 
-## [Pirate Cinema](https://www.goodreads.com/book/show/13539171-pirate-cinema?ac=1&from_search=true&qid=Wh0QyJzQVm&rank=1)
+## [Pirate Cinema](https://www.goodreads.com/book/show/13539171-pirate-cinema)
 
 - A great take on piracy and its implications and the concept of intellectual property. Covers the real-life conflict between megacorps and people over content and culture respectively. From what I've read everywhere it is not the best work of author but it felt very good and new to read and tastes are subjective. Loved the way how lively and life-like Cecil and his friends are. Not so predictable David v/s Goliath story. Laws can be more stringent in today's scenario as theaters aren't operating at full capacity and big money is poured into streaming platforms which are more prone to piracy than theaters. 
 
@@ -29,7 +29,7 @@ tags=["books"]
 
 
 
-## [1984](https://www.goodreads.com/book/show/40961427-1984?from_search=true&from_srp=true&qid=FwDAxLt8Eu&rank=1)
+## [1984](https://www.goodreads.com/book/show/40961427-1984)
 
 All the time while reading it I was drawing parallels between 1984 in the book and today, how telescreens, manufacturing consent through media and surveillance is mainstream today. The book mainly intended as a warning written in 1949 works as a manual in 2020. There are couple of movies based on the book but none matches the cruelty and intensity of the book. 
 
@@ -44,4 +44,9 @@ Took a detour from the dry and lengthy books I was reading, it is a short and ve
 ## [The Cuckoo's Egg: Tracking a Spy through the Maze of Computer Espionage](https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg)
 
 Book is exactly what its title says. At the beginning I thought that the hacker is a warm-up and will be caught at the end of first 20 pages and main course is due after that but you can never imagine how that story spans through about 250 pages and none of it is filler. Loved how it takes you back to earlier time in computing when average computer user had more digital literacy than people have today (technology is so accessible). Above all the story is true and very engaging.
+
+
+## [Drive: The Surprising Truth About What Motivates Us](https://www.goodreads.com/book/show/6452796-drive)
+
+It refers to flow by Mihaly Csikszentmihalyi numerous times, after reading the first chapter you can get away without reading the rest of the book. Though it has a lot of useful further reading links to explore at the end, which led me to famous essay by Peter Drucker titled Managing oneself published in Harvard business review, more value in that essay than this book but both scratch a different itch. Author defines 3 frameworks of motivation for human beings, citing third framework as somewhat unintuitive and better at explaining things which its predecessors can't but no framework is valid all the time, there are many situations where motivation 2.0 works.
 

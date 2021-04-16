@@ -99,3 +99,4 @@ cout<<ans<"\n";
 - [A- Integer Product](https://atcoder.jp/contest/agc047/tasks/agc047_a)
 - [B - Reverse and Compare](https://atcoder.jp/contests/agc019/tasks/agc019_b)
 - [K - PhD Math](https://codeforces.com/gym/100814/problem/K)
+- [D - A and B and Intersesting Substrings](https://codeforces.com/contest/519/problem/D)
