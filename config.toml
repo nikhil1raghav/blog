@@ -70,10 +70,6 @@ googleAnalytics = "UA-128511835-2"
         identifier = "posts"
         name = "Posts"
         url = "/posts"
-     	[[languages.en.menu.main]]
-	identifier="wiki"
-	name="Wiki"
-	url="/wiki"
 	[[languages.en.menu.main]]
 	identifier="blogroll"
 	name="Blogroll"

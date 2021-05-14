@@ -100,3 +100,4 @@ cout<<ans<"\n";
 - [B - Reverse and Compare](https://atcoder.jp/contests/agc019/tasks/agc019_b)
 - [K - PhD Math](https://codeforces.com/gym/100814/problem/K)
 - [D - A and B and Intersesting Substrings](https://codeforces.com/contest/519/problem/D)
+- [D - Count good substrings](https://codeforces.com/contest/451/problem/D)
