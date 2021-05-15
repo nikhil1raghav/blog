@@ -1,6 +1,7 @@
 +++
 title="Codechef October Lunchtime 2020 Division 1"
 date="2020-11-01"
+math=true
 description="October lunchtime performance notes, mini editorials and upsolve journal"
 author="Nikhil"
 tags=["review", "codechef", "upsolve"]

@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 15
 googleAnalytics = "UA-128511835-2"
+enableEmoji=true
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -22,6 +23,7 @@ googleAnalytics = "UA-128511835-2"
 
   # center theme with default width
   centerTheme = true
+
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"

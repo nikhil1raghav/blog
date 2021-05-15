@@ -4,6 +4,7 @@ author="Nikhil"
 description="Intuition behind solution of the problem titled A XOR operation of Feb Easy '21 on hackerearth"
 tags=["hackerearth","problem", "bits"]
 date="2021-02-08"
+math="true"
 +++
 
 For context, [link](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/practice-problems/algorithm/strange-xor-2-fc8ad535/) to the problem being discussed.
