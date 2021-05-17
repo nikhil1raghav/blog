@@ -8,6 +8,8 @@ tags=["manan", "notes", "CP"]
 
 [Slide Deck](/files/session.pdf)
 
+{{<youtube nKQpS0dg61Y>}}
+
 NOTE : This page is to act as a supplement to the content I covered in the stream. There are some points here which are very concise but are explained well in the stream because video format has its own benefits as you can't write as fast as you speak or think.
 
 #### What is Competitive Programming?

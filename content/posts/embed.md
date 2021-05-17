@@ -2,11 +2,19 @@
 title="Embed testing"
 Author="Nikhil"
 date="2021-05-15"
-description="Performance analysis and notes on codeforces round 676"
-tags=["codeforces", "review", "upsolve"]
+description="Testing various shortcodes and improved mathjax support and emojis"
+tags=["embed", "shortcodes", "testing"]
 math="true"
 +++
 
+
+# Soundcloud
+
+{{<soundcloud 135252497>}}
+
+
+
+# Selectable and more legible math
 
 
 $$ ax^2+bx+c $$
@@ -44,5 +52,5 @@ $ ax^2 + bx + c$
 
 ### Emoji
 
-I :heart: Nikhil!:
+Not made with :heart: 
 

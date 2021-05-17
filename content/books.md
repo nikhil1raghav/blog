@@ -3,6 +3,9 @@ title="Books"
 description="A place to note down things that I want to remember and share from the books I read"
 tags=["books"]
 +++
+
+
+
 ## [The Phoenix Project](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
 
 - Interesting read, way better than teaching all the managerial maxims in a non-fictional manner. Didn't know that CI and 10 deployments a day is not the norm everywhere and how much amount of work it takes to get there. Still characters are predictable sometimes and more of caricatures of the role they're in which somehow helps the narration. 
@@ -15,7 +18,12 @@ tags=["books"]
 
 ## [Pirate Cinema](https://www.goodreads.com/book/show/13539171-pirate-cinema)
 
-- A great take on piracy and its implications and the concept of intellectual property. Covers the real-life conflict between megacorps and people over content and culture respectively. From what I've read everywhere it is not the best work of author but it felt very good and new to read and tastes are subjective. Loved the way how lively and life-like Cecil and his friends are. Not so predictable David v/s Goliath story. Laws can be more stringent in today's scenario as theaters aren't operating at full capacity and big money is poured into streaming platforms which are more prone to piracy than theaters. 
+
+
+- A great take on piracy and its implications and the concept of intellectual property. Covers the real-life conflict between megacorps and people over content and culture respectively. From what I've read everywhere it is not the best work of author but it felt very good and new to read and tastes are subjective. Loved the way how lively and life-like Cecil and his friends are. Not so predictable David v/s Goliath story. Laws can be more stringent in today's scenario as theaters aren't operating at full capacity and big money is poured into streaming platforms which are more prone to piracy than theaters.
+
+
+[You can draw parallels with piratebay, in this podcast](https://darknetdiaries.com/transcript/92/)
 
 
 ---
@@ -45,8 +53,20 @@ Took a detour from the dry and lengthy books I was reading, it is a short and ve
 
 Book is exactly what its title says. At the beginning I thought that the hacker is a warm-up and will be caught at the end of first 20 pages and main course is due after that but you can never imagine how that story spans through about 250 pages and none of it is filler. Loved how it takes you back to earlier time in computing when average computer user had more digital literacy than people have today (technology is so accessible). Above all the story is true and very engaging.
 
+---
 
 ## [Drive: The Surprising Truth About What Motivates Us](https://www.goodreads.com/book/show/6452796-drive)
 
 It refers to flow by Mihaly Csikszentmihalyi numerous times, after reading the first chapter you can get away without reading the rest of the book. Though it has a lot of useful further reading links to explore at the end, which led me to famous essay by Peter Drucker titled Managing oneself published in Harvard business review, more value in that essay than this book but both scratch a different itch. Author defines 3 frameworks of motivation for human beings, citing third framework as somewhat unintuitive and better at explaining things which its predecessors can't but no framework is valid all the time, there are many situations where motivation 2.0 works.
+
+---
+
+
+## [Permanent Record - Edward Snowden](https://en.wikipedia.org/wiki/Permanent_Record_(autobiography))
+
+Very engaging read, he has been instrumental for bringing in shift and much needed discussion and action towards more private web and communications. There is also a movie named Snowden, but it would have been much better if they included the scenes where he contacted journalists hopping on different wifi networks by kicking off everyone on the network and stealing creds (but there is so much in this book for a movie to cover). Book doesn't assume anything about the reader and is very approachable unlike Cuckoo's Egg where you have to know all that technical stuff to make sense of things. 
+
+
+> A little bit of math can accomplish what all the guns and barbed wire can't: a little bit of math can keep a secret
+
 
