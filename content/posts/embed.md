@@ -27,7 +27,7 @@ $ ax^2 + bx + c$
 
 ### Figure
 
-{{<figure src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Omni-Man.jpg/250px-Omni-Man.jpg" title="Omniman" caption="Nagadi" width="300">}}
+{{<figure src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Omni-Man.jpg/250px-Omni-Man.jpg" title="Omniman" caption="Omni-man" width="300">}}
 
 
 
