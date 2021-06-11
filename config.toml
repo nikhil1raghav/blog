@@ -13,7 +13,7 @@ enableEmoji=true
   themeColor = "pink"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 5
+  showMenuItems = 6
 
   # show selector to switch language
   showLanguageSelector = false
@@ -30,7 +30,7 @@ enableEmoji=true
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  showLastUpdated = true
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
  #updatedDatePrefix = "Updated: 2020-xx-xx"
 
@@ -44,7 +44,9 @@ enableEmoji=true
   # do not include @
   creator = ""
   site = ""
-
+[markup]
+ [markup.goldmark.renderer]
+ 	unsafe=true
 [languages]
   [languages.en]
     languageName = "English"
@@ -68,15 +70,23 @@ enableEmoji=true
         identifier = "about"
         name = "About"
         url = "/about"
+	[[languages.en.menu.main]]
+	identifier="archive"
+	name="Archive"
+	url="/archive"
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"
         url = "/posts"
 	[[languages.en.menu.main]]
-	identifier="blogroll"
-	name="Blogroll"
-	url="/blogroll"
+	identifier="links"
+	name="Links"
+	url="/links"
 	[[languages.en.menu.main]]
 	identifier="Books"
 	name="Books"
 	url="/books"
+	[[languages.en.menu.main]]
+	identifier="TIL"
+	name="TIL"
+	url="/til"

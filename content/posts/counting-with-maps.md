@@ -11,7 +11,7 @@ It is a recurring and really useful idea to count some property in O(n) in an ar
 
 ## 1. Subarrays with sum X
 
-- Let's say we are given an array __A__ of length __N__ and we have to count how many subarrays of __A__ sum up to a given number __X__. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for __A__. After that we have two options:
+Let's say we are given an array __A__ of length __N__ and we have to count how many subarrays of __A__ sum up to a given number __X__. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for __A__. After that we have two options:
 
 ```cpp
 
@@ -20,7 +20,7 @@ for(int i=1;i<=n;i++)
 prefix[i]=prefix[i-1]+a[i-1];
 
 ```
--  __Option 1.__ Naively set start and end of a subarray and check if its sum is __X__, can be done in __O(n²)__.
+  __Option 1.__ Naively set start and end of a subarray and check if its sum is __X__, can be done in __O(n²)__.
 ```cpp
 
 for(int start=1;start<=n;start++)
@@ -34,7 +34,12 @@ for(int start=1;start<=n;start++)
   
 ```
 
-- __Option 2.__ Now as we have seen in option 1 we simply need to count all __(l,r)__ pairs such that __prefix[r] - prefix[l-1] = X__ or __prefix[r] - X= prefix[l-1]__. Now, if we store count of all prefix sums seen previously, at every index __i__ we can query for how many __prefix[i] - X__  we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at __i__. It is that simple.
+ __Option 2.__ As we have seen in option 1 we simply need to count all __(l,r)__ pairs such that __prefix[r] - prefix[l-1] = X__ or __prefix[r] - X= prefix[l-1]__. 
+
+
+
+If we store count of all prefix sums seen previously, at every index __i__, we can count how many __prefix[i] - X__  we have seen before and add them to the answer as they all will be the starting indexes of subarrays ending at __i__. It is that simple.
+
 
 
 ```cpp
@@ -49,17 +54,33 @@ for(int i=1;i<=n;i++)
 
 ```
 
+It is a recurring pattern in this approach that you add contribution for every index and make changes to some count that is affected by the value at that index.
+
+
+
 #### [1398C. Good Subarrays](https://codeforces.com/contest/1398/problem/C)
-- __Abridged Problem Statement__ : Count number of subarrays where sum of the subarray is equal to size of the subarray.
-- More formally count all pairs (l,r) such that:
+
+
+__Abridged Problem Statement__ : Count number of subarrays where sum of the subarray is equal to size of the subarray.
+
+More formally count all pairs (l,r) such that:
 	$$ Sum(l,r)=r-l+1 $$
 
-- Let $p[i]$ be sum of the prefix of length $i$ of the array. Then we can write:
+
+Let $p[i]$ be sum of the prefix of length $i$ of the array. Then we can write:
 	$$ pre[r]-pre[l-1] = r-l+1$$
-- Some manipulation of above equation leads to:
+
+
+Some manipulation of above equation leads to:
 	$$ pre[r]-r = pre[l-1]-(l-1) $$
-- Above equation has the required property that we need to solve the problem using this technique that is __right hand side and left hand side only differ in their index__.
-- So we run a loop from $1$ to $n$ and for current index calculate its contribution to the answer as $r$. In simpler words just add to the answer all the occurences of $pre[r]-r$ occured so far, because all those occurences will be the leftmost indexes of the subarrays that are good.
+
+
+Above equation has the required property that we need to solve the problem using this technique that is __right hand side and left hand side only differ in their index__.
+
+
+So we run a loop from $1$ to $n$ and for current index calculate its contribution to the answer as $r$. In simpler words just add to the answer all the occurences of $pre[r]-r$ occured so far, because all those occurences will be the leftmost indexes of the subarrays that are good.
+
+
 
 ```cpp
 map<int,int> m;

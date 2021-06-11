@@ -7,6 +7,16 @@ tags=["embed", "shortcodes", "testing"]
 math="true"
 +++
 
+## Mastodon
+
+{{<mastodon src="https://qiitadon.com/@hidao/102765485747500054">}}
+
+{{<mastodon src="https://mas.to/@JayatiGhosh/106389796854202903">}}
+
+{{<mastodon src="https://qiitadon.com/@hidao/102765485747500054" newline="false">}}
+
+
+
 
 # Soundcloud
 
