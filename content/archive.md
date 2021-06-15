@@ -5,7 +5,7 @@ author="Nikhil"
 
 
 
-- [Embed Testing](/posts/embed)
+- [CSES Math Problemset Tutorial](/posts/cses-math)
 - [Monday Links #3](/posts/links3)
 - [Solving A XOR operation - Hackerearth](/posts/xor-operation)
 - [Monday Links #2](/posts/links2)

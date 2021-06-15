@@ -97,8 +97,19 @@ Very engaging read, he has been instrumental for bringing in shift and much need
 
 ---
 
-## [The 22 immutable laws of Marketing - Al ries, Jack trout]()
+## [The 22 immutable laws of Marketing - Al ries, Jack trout](https://www.goodreads.com/book/show/33449.The_22_Immutable_Laws_of_Marketing)
 {{<image src="/files/22marketing.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
 
 Was reading tools of titans and then author talked about Law of Categories, so finished this book first. Book was written in 1994, and some examples are really outdated (didn't age well) and funny to read now. Like calling Microsoft's move to offer all office software under one roof a mistake. There are many successful megacorps today which defy law of line extension. So, instead of laws they're more of general ideas, because general ideas can accommodate  outliers. Many firms discussed are not around today but still it interesting to note why they're not. An interesting, easy to process book with actionable wisdom.
+
+---
+
+## [The Vault of Vishnu](https://www.goodreads.com/book/show/49675742-the-vault-of-vishnu)
+
+
+{{<image src="/files/vaultofvishnu.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
+
+One of the fastest 300 page book you'll read. Story defies the title of the book though, I don't know if title was selected before writing the story just because it has alliteration and sounds cool. Premise is really interesting, biologically enhanced soldiers created with age old concoction with a supernatural connection, but execution in the end and climax betrays many of the expectations and is not as interesting as the first 70% pages. References a lot of scriptures and books, I still was not able to find any English translation of Rasavinoda online.
+
+
 

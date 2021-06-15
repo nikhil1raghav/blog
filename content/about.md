@@ -11,7 +11,7 @@ Hi, I'm Nikhil. I'm a programmer with wide range of interests and this is where 
 
 
 
-[Résumé](/resume.html)
+[Résumé](/files/resume.pdf)
 
 
 
@@ -24,10 +24,10 @@ Hi, I'm Nikhil. I'm a programmer with wide range of interests and this is where 
 Output:
 -------------------------------
 
-Languages: C++, bash, Javascript
+Languages: C++, Go, Python, bash, Javascript
 Interests: Web dev, Scripting, Competitive Programming, Infosec, Music
 Github: https://www.github.com/nikhil1raghav
-Mail: hello@nikhilraghav.codes
+Mail: nikhil@nikhilraghav.codes
 Everywhere else as: nikhil1_raghav
 
 ```
