@@ -11,7 +11,6 @@ Hi, I'm Nikhil. I'm a programmer with wide range of interests and this is where 
 
 
 
-[Résumé](/files/resume.pdf)
 
 
 
