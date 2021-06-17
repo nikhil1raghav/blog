@@ -13,7 +13,9 @@ __NOTE : It is incomplete, If you don't find what you're looking for, check back
 
 So, there are total 31 problems, let's solve them by the solve count.
 
-## [Exponentiation](https://cses.fi/problemset/result/2320542/)
+## Exponentiation
+
+[Problem Statement](https://cses.fi/problemset/result/2320542/)
 
 __Given $a$ and $b$, calculate $a^b$ modulo $10^9+7$. Standard application of binary exponentiation.__
 
@@ -30,7 +32,9 @@ int modp(int a,int b){
 
 ---
 
-## [Exponentiation II](https://cses.fi/problemset/task/1712)
+## Exponentiation II
+
+[Problem Statement](https://cses.fi/problemset/task/1712)
 
 __Given $a$,$b$ and $c$, calculate $a^{b^{c}}$ modulo $10^9+7$.__
 
@@ -65,7 +69,9 @@ cout<<ans<<"\n";
 
 ---
 
-## [Counting Divisors](https://cses.fi/problemset/task/1713)
+## Counting Divisors
+
+[Problem Statement](https://cses.fi/problemset/task/1713)
 
 Count number of divisors of $X$. There are about $10^5$ such queries in the largest test. It is trivial to find divisors of $N$ in $O(N\sqrt{N})$, and it will be very slow here because of the large number of such queries.
 
@@ -99,7 +105,9 @@ while(t--){
 
 ---
 
-## [Common divisors](https://cses.fi/problemset/task/1081)
+## Common divisors
+
+[Problem Statement](https://cses.fi/problemset/task/1081)
 
 __Find a pair of numbers in given array such that they have maximum gcd.__
 
@@ -136,7 +144,9 @@ for(int i=N-1;i>=1;i--){
 
 ---
 
-## [Sum of Divisors](https://cses.fi/problemset/task/1082)
+## Sum of Divisors
+
+[Problem Statement](https://cses.fi/problemset/task/1082)
 
 __Given a number $n$, calculate sum of all divisors of numbers in range $1$ to $n$ modulo $10^9+7$.__
 
@@ -199,7 +209,9 @@ cout<<ans<<"\n";
 
 
 
-## [Binomial Coefficients](https://cses.fi/problemset/task/1079)
+## Binomial Coefficients
+
+[Problem Statement](https://cses.fi/problemset/task/1079)
 
 Many queries of the form $n$ and $r$ calculate $C(n,r)$ modulo $10^9 +7$
 
@@ -216,11 +228,13 @@ int ncr(int n,int r){
 
 ---
 
-## [Creating Strings II](https://cses.fi/problemset/task/1715)
+## Creating Strings II
 
-How many different strings can be formed from the characters of given string?
+[Problem Statement](https://cses.fi/problemset/task/1715)
 
-Here, using its characters means that all characters are to be used. So we have to print valid permutations of given string.
+__How many different strings can be formed from the characters of given string?__
+
+Here, using its characters means that all characters are to be used. So we have to print number of all valid permutations of given string.
 
 Let's suppose all characters are distinct in a string of length $N$, then answer is $N!$. If $X$ characters are same out of $N$ then number of distinct permutations will be $\frac {N!}{X!}$ because after making $X$ characters same, we counted identical permutations $X!$ times.
 
@@ -238,7 +252,9 @@ for(int i=0;i<26;i++){
 
 ---
 
-## [Distributing Apples](https://cses.fi/problemset/task/1716)
+## Distributing Apples
+
+[Problem Statement](https://cses.fi/problemset/task/1716)
 
 Ways to distribute $m$ apples among $n$ children. It is possible that someone gets nothing. Consider $n-1$ partitions and $m$ apples are to be arranged together. Now every arrangement can be considered as a possible distribution. Apples to the left of $i_{th}$ partition are number of apples $i_{th}$ child gets, and number of apples to the right of last partition is the number of apples the last child gets.
 
@@ -255,7 +271,9 @@ cout<<ans<<"\n";
 
 ---
 
-## [Christmas Party](https://cses.fi/problemset/task/1717)
+## Christmas Party
+
+[Problem Statement](https://cses.fi/problemset/task/1717)
 
 It is equivalent to finding how many ways are there such that a gift doesn't leave with the same child it came to party with, and every gift can be with exactly one child. Therefore it is equal to counting the number of derangements of size $N$.
 
@@ -277,7 +295,9 @@ cout<<d[n]<<"\n";
 
 ---
 
-## [Fibonacci Numbers](https://cses.fi/problemset/task/1722)
+## Fibonacci Numbers
+
+[Problem Statement](https://cses.fi/problemset/task/1722)
 
 Find $n_{th}$ fibonacci number, here $n$ can be as large as $10^{18}$, so $O(n)$ approach won't work. Can be calculated by matrix exponentiation. [Further reading on matrix exponentiation](http://zobayer.blogspot.com/2010/11/matrix-exponentiation.html)
 
@@ -314,7 +334,9 @@ cout<<ret[0][1]<<"\n";
 ---
 
 
-## [Throwing Dice](https://cses.fi/problemset/task/1096)
+## Throwing Dice
+
+[Problem Statement](https://cses.fi/problemset/task/1096)
 
 Ways to get sum $n$ by throwing a dice. Let's say answer for $n$ is $T_n$.
 
@@ -369,7 +391,9 @@ cout<<ret[0][0]<<"\n";
 
 ---
 
-## [Graph Paths I](https://cses.fi/problemset/task/1723)
+## Graph Paths I
+
+[Problem Statement](https://cses.fi/problemset/task/1723)
 
 ##### Given a directed graph with $n$ nodes find out number of paths from node $1$ to $n$ with exactly $k$ edges.
 
@@ -440,7 +464,9 @@ cout<<ret[0][n-1]<<"\n";
 ---
 
 
-## [Graph Paths II](https://cses.fi/problemset/task/1724)
+## Graph Paths II
+
+[Problem Statement](https://cses.fi/problemset/task/1724)
 
 In a weighted graph of $n$ nodes. Find the minimum path length from $1$ to $n$ with exactly $k$ edges.
 
@@ -493,7 +519,9 @@ cout<<ret[0][n-1]<<"\n";
 
 ---
 
-## [Dice Probability](https://cses.fi/problemset/task/1725)
+## Dice Probability
+
+[Problem Statement](https://cses.fi/problemset/task/1725)
 
 What is the probability that sum of the outcomes of rolling a 6-faced dice $n$ times is in range $[a,b]$?
 
@@ -525,6 +553,98 @@ for(int i=a;i<=b;i++)ans+=dp[n][i];
 printf("%.6lf",ans);
 
 ```
+
+## Bracket Sequences I
+
+[Problem statement](https://cses.fi/problemset/task/2064)
+
+__Calculate the number of valid bracket sequences of length $n$.__
+
+Here, the total length of the sequence is $n$. So there won't be any valid sequence when $n$ is odd because we'll not have equal number of opening and closing brackets.
+
+
+So what are the necessary and sufficient conditions to create a valid bracket sequence of length $n$.
+
+- Equal number of opening and closing brackets
+- At every point number of closing brackets must be less than or equal to number of opening brackets.
+
+Therefore after printing 0 for every odd $n$, we needn't care about first condition. Now, we have $\frac{n}2$ opening brackets and $\frac{n}2$ closing brackets and have to find number of valid bracket sequences using all of them.
+
+
+Thus we have two kind of moves - Use $)$ or $($, and there is a limit on their use, each move can be used exactly $n/2$ times.
+
+We can model this problem to an equivalent grid walking problem. 
+
+There is a grid (as shown in the figure below), you are standing at $(0,0)$ and the destination is $(\frac{n}2, \frac{n}2)$, count total possible paths such that you can only move up i.e. use "$)$" exactly $\frac{n}2$ times and move right i.e. use "$($" exactly $\frac{n}2$ times.
+
+
+{{<image src="/files/grid1.png" style="margin:auto;width:40%;">}}
+
+
+But, what about the condition that at every moment : $$closing\space brackets \leq opening \space brackets$$
+can be rephrase as:
+$$ moves\space in \space upward \space direction \leq moves \space to \space the \space right$$
+
+It means that no point in the possible valid paths will be above anti-diagonal. In the figures below, figure to the left shows a valid path, as it is entirely below the diagonal, and the figure to the left shows an invalid path as it overshoots diagonal at point $P$. 
+
+
+{{<image src="/files/grid-valid.png" style="float:left;margin:auto;width:40%;">}}
+{{<image src="/files/grid-invalid.png" style="margin:auto;width:40%;">}}
+
+
+
+__How to count these good paths?__
+
+Total possible paths irrespective of the conditions imposed by the diagonal are ${}^n C_{\frac{n}2}$
+So, if we can somehow count all the paths that overshoot the diagonal at some point, we can subtract them from total to get the count of good paths.
+
+
+When a path crosses the diagonal for the first time, let's call it $k_{th}$ move. Note that $k$ here is odd because it is the first time up moves become greater than right moves. Till $k_{th}$ move, we already have used exactly, $\frac{k-1}2$ right moves and $\frac{k-1}2 + 1$ up moves. 
+
+We are left with $\frac{n}2 - \frac{k-1}2$ right moves and $\frac{n}2 - \frac{k-1}2 - 1$ up moves.
+
+__PLEASE PAY ATTENTION NOW (MAGICAL STEP OF THE PROOF)__
+
+Now, for every move if we __go up whenever the invalid path goes right__ and __go right whenever the invalid path goes up__, then __sum of the moves in both directions becomes constant again__.
+
+__What do we get by making the sum of moves constant?__
+
+It means that now any invalid path can be mapped to a path from $(0,0)$ to a __fixed position__ in the grid, and we know how to calculate number of possible paths between two points in a grid, if we have only two kind of moves.
+
+__What is that fixed point?__
+
+In essence we swapped the number of right moves left and number of up moves left with each other.
+
+By doing so,$$total \space right \space moves = \frac{k-1}2 + \frac{n}2 - \frac{k-1}2 -1 = \frac{n}2 - 1 $$ 
+
+And, $$ total \space up \space moves = \frac{k-1}2 + 1 + \frac{n}2 - \frac{k-1}2 = \frac{n}2 + 1$$
+
+So final position every time would be $(\frac{n}2 -1 , \frac{n}2 +1)$, as shown in the figure below
+
+Therefore number of such paths is ${}^nC_{\frac{n}2 -1}$ 
+
+
+{{<image src="/files/grid-final.png" style="margin:auto;width:40%;">}}
+
+
+Therefore answer is $$Total\space paths - bad \space paths = {}^nC_{\frac{n}2} - {}^nC_{\frac{n}2 -1}$$
+
+```cpp
+int total=ncr(n,n/2);
+int bad=ncr(n,n/2+1);
+int ans=(total-bad+mod)%mod;
+cout<<ans<<"\n";
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
