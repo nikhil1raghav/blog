@@ -630,11 +630,68 @@ Therefore number of such paths is ${}^nC_{\frac{n}2 -1}$
 Therefore answer is $$Total\space paths - bad \space paths = {}^nC_{\frac{n}2} - {}^nC_{\frac{n}2 -1}$$
 
 ```cpp
+cin>>n;
+if(n&1){
+	puts("0");
+	return 0;
+}
 int total=ncr(n,n/2);
 int bad=ncr(n,n/2+1);
 int ans=(total-bad+mod)%mod;
 cout<<ans<<"\n";
 ```
+
+
+## Bracket Sequences II
+
+[Problem Link](https://cses.fi/problemset/task/2187)
+
+Instead of just the number $n$, you are also given a prefix of the sequence, how many valid ways are to complete this sequence such that it becomes a valid bracket sequence of length $n$.
+
+
+
+Let $O$ be __number of opening brackets__ in the prefix and $C$ be __number of closing brackets__ in the prefix.
+
+
+__Re-frame this problem to previously seen grid walking problem__ 
+
+You are standing at $(O,C)$ on the grid, how many ways are there to reach $(n/2, n/2)$ such that you always remain below the straight line connecting $(n/2, n/2)$ and $(0,0)$.
+
+So, $Total \space Paths = {}^{n-(O+C)}C_{\frac{n}2-O}$, irrespective of any condition. 
+
+Again, all invalid paths can be mapped to paths from $(O,C)$ to $(\frac{n}2 -1, \frac{n}2 +1)$ 
+
+Thus, $Bad \space paths = {}^{n-(O+C)}C_{\frac{n}2 - O -1}$
+
+First we check if the prefix is valid, i.e. it is under the diagonal, and number of opening brackets and closing brackets is less than $\frac{n}2$.
+
+If prefix is not valid, answer is $0$.
+
+
+else, it is $Total \space paths - Bad \space paths$
+
+```cpp
+string s;cin>>s;
+int o=0,c=0;
+bool valid=1;
+for(auto i:s){
+	if(i==')')c++;
+	else o++;
+	valid&=(c<=o);
+}
+valid&=(c<=(n/2));
+valid&=(o<=(n/2));
+if(!valid or n&1){
+	puts("0");
+	return 0;
+}
+
+int total=ncr(n-(o+c), n/2-o);
+int bad=ncr(n-(o+c), n/2-o-1);
+cout<<(total-bad+mod)%mod<<"\n";
+```
+
+
 
 
 
