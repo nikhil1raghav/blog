@@ -582,7 +582,7 @@ There is a grid (as shown in the figure below), you are standing at $(0,0)$ and 
 
 
 But, what about the condition that at every moment : $$closing\space brackets \leq opening \space brackets$$
-can be rephrase as:
+can be rephrased as:
 $$ moves\space in \space upward \space direction \leq moves \space to \space the \space right$$
 
 It means that no point in the possible valid paths will be above anti-diagonal. In the figures below, figure to the left shows a valid path, as it is entirely below the diagonal, and the figure to the left shows an invalid path as it overshoots diagonal at point $P$. 

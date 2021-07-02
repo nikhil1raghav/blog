@@ -74,6 +74,8 @@ Some blogs, people, youtube channels, subreddits and other pages on internet wor
 
 - [deliberate software](https://deliberate-software.com) - Author of 10-minute Vim
 
+- [Snap Engineering](https://eng.snap.com) - Engineering blog of Snap Inc.
+
 
 
 

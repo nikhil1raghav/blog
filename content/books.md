@@ -111,5 +111,17 @@ Was reading tools of titans and then author talked about Law of Categories, so f
 
 One of the fastest 300 page book you'll read. Story defies the title of the book though, I don't know if title was selected before writing the story just because it has alliteration and sounds cool. Premise is really interesting, biologically enhanced soldiers created with age old concoction with a supernatural connection, but execution in the end and climax betrays many of the expectations and is not as interesting as the first 70% pages. References a lot of scriptures and books, I still was not able to find any English translation of Rasavinoda online.
 
+---
+
+## [Irresistible : The Rise of Addictive Technology and Business of Keeping Us Hooked](https://www.goodreads.com/book/show/30962055-irresistible)
+
+
+{{<image src="/files/irresistible.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
+
+Case study on different addictions, comparing addictions of past and drawing parallels between modern digital stimulants which exploit the same reward mechanisms. I didn't know that someone is called Steve Jobs of gaming industry before reading it. You walk out with a clear understanding of what qualifies as an addiction in general sense, how it works, some ideas on how to make it work in your favour. It is a systematic breakdown of why we do what we do and how addictive experiences around us are engineered. Most striking fact that I learned was that you can't leave a habit cold turkey, there are parts to it which need to dismantled or just replaced one by one and some caution to be taken to not including the same cues in your environment which will surely result in relapse.
+
+> Motivated perception shapes how we take negative feedback, categorizing loss as "almost win" and then coming back for more.
+
+---
 
 

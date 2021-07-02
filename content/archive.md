@@ -3,8 +3,8 @@ title="Archive"
 author="Nikhil"
 +++
 
-
-
+- [How to setup MPD with blissify](/posts/mpd-with-bliss)
+- [[Tutorial] I. Magic Potion - Asia Nanjing Regional Contest 2018-19](/posts/magic-potion.md)
 - [CSES Math Problemset Tutorial](/posts/cses-math)
 - [Monday Links #3](/posts/links3)
 - [Solving A XOR operation - Hackerearth](/posts/xor-operation)
