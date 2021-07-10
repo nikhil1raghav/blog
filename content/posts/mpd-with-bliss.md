@@ -56,7 +56,7 @@ sticker_file	"~/.config/mpd/sticker.sql"
 
 #music daemon options
 bind_to_address	"any"
-port	"6600"
+port	"6700"
 log_level	"notice"
 save_absolute_paths_in_playlists	"no"   #writing no so that playlists are portable (path-independent)
 auto_update	"yes"

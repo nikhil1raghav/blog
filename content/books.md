@@ -4,7 +4,7 @@ description="A place to note down things that I want to remember and share from 
 tags=["books"]
 +++
 
-
+Summary and review of some books I read after creating this page.
 
 ## [The Phoenix Project](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
 
@@ -37,7 +37,7 @@ tags=["books"]
 
 
 
-[You can draw parallels with piratebay, in this podcast](https://darknetdiaries.com/transcript/92/)
+[You can relate this with true story of piratebay, in this podcast](https://darknetdiaries.com/transcript/92/)
 
 
 ---
@@ -61,7 +61,7 @@ tags=["books"]
 ## [1984](https://www.goodreads.com/book/show/40961427-1984)
 
 {{<image src="/files/1984.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
-All the time while reading it I was drawing parallels between 1984 in the book and today, how telescreens, manufacturing consent through media and surveillance is mainstream today. The book mainly intended as a warning written in 1949 works as a manual in 2020. There are couple of movies based on the book but none matches the cruelty and intensity of the book. 
+All the time while reading it I was comparing 1984 depicted in the book and some constructs of society today, how telescreens, manufacturing consent through media and surveillance is mainstream today. The book mainly intended as a warning written in 1949 works as a manual in 2020. There are couple of movies based on the book but none matches the cruelty and intensity of the book. 
 
 ---
 
@@ -76,6 +76,8 @@ Took a detour from the dry and lengthy books I was reading, it is a short and ve
 
 {{<image src="/files/cuckoosegg.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
 Book is exactly what its title says. At the beginning I thought that the hacker is a warm-up and will be caught at the end of first 20 pages and main course is due after that but you can never imagine how that story spans through about 250 pages and none of it is filler. Loved how it takes you back to earlier time in computing when average computer user had more digital literacy than people have today (technology is so accessible). Above all the story is true and very engaging.
+
+As they say two of the most famous products of Berkeley are LSD and BSD (Unix).
 
 ---
 
@@ -118,10 +120,17 @@ One of the fastest 300 page book you'll read. Story defies the title of the book
 
 {{<image src="/files/irresistible.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
 
-Case study on different addictions, comparing addictions of past and drawing parallels between modern digital stimulants which exploit the same reward mechanisms. I didn't know that someone is called Steve Jobs of gaming industry before reading it. You walk out with a clear understanding of what qualifies as an addiction in general sense, how it works, some ideas on how to make it work in your favour. It is a systematic breakdown of why we do what we do and how addictive experiences around us are engineered. Most striking fact that I learned was that you can't leave a habit cold turkey, there are parts to it which need to dismantled or just replaced one by one and some caution to be taken to not including the same cues in your environment which will surely result in relapse.
+Case study on different addictions, comparing addictions of past to modern digital stimulants which exploit the same reward mechanisms. I didn't know that someone is called Steve Jobs of gaming industry before reading it. You walk out with a clear understanding of what qualifies as an addiction in general sense, how it works, some ideas on how to make it work in your favour. It is a systematic breakdown of why we do what we do and how addictive experiences around us are engineered. Most striking fact that I learned was that you can't leave a habit cold turkey, there are parts to it which need to dismantled or just replaced one by one and some caution to be taken to not including the same cues in your environment which will surely result in relapse.
 
 > Motivated perception shapes how we take negative feedback, categorizing loss as "almost win" and then coming back for more.
 
 ---
 
+## [Planet of the Apes](https://en.wikipedia.org/wiki/Planet_of_the_Apes_(novel))
 
+
+{{<image src="/files/planetofapes.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
+
+Original book that started all those spin offs and movies sometimes expanding on a few pages of the book or adapting it to a completely new storyline. It is exciting to see how much control a writer has compared to the director of a movie. A writer can direct your attention to even most mundane or subtle things which you'll otherwise overlook or will seem lost in the sensory overload a movie provides.
+
+Read the book even if you have watched the movies, just read it.
