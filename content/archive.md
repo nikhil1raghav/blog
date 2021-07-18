@@ -3,6 +3,7 @@ title="Archive"
 author="Nikhil"
 +++
 
+- [Minimum changes to make XOR of all segments of a fixed length zero](/posts/subarray-xor-zero)
 - [How to setup MPD with blissify](/posts/mpd-with-bliss)
 - [[Tutorial] I. Magic Potion - Asia Nanjing Regional Contest 2018-19](/posts/magic-potion.md)
 - [CSES Math Problemset Tutorial](/posts/cses-math)
