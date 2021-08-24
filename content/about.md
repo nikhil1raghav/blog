@@ -5,7 +5,7 @@ nomath=true
 noComment=true
 +++
 
-Hi, I'm Nikhil. I'm a programmer with wide range of interests and this is where I write about them. I like solving puzzles, singing, reading all kind of books (except self-help), designing, programming, watching good old movies, ricing linux and nerding out on things I know and care about.
+Hi, I'm Nikhil. I'm an engineer with wide range of interests and this is where I write about them. I like solving puzzles, singing, reading all kind of books (except self-help), designing, programming, watching good old movies, ricing linux and nerding out on things I know and care about.
 
 
 
@@ -22,13 +22,9 @@ Hi, I'm Nikhil. I'm a programmer with wide range of interests and this is where 
 
 Output:
 -------------------------------
-
-Languages: C++, Go, Python, bash, Javascript
-Interests: Web dev, Scripting, Competitive Programming, Infosec, Music
 Github: https://www.github.com/nikhil1raghav
-Mail: nikhil@nikhilraghav.codes
 Everywhere else as: nikhil1_raghav
-
+Mail : nikhil@raghavnikhil.com
 ```
 
 

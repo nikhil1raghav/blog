@@ -76,7 +76,7 @@ Some blogs, people, youtube channels, subreddits and other pages on internet wor
 
 - [Snap Engineering](https://eng.snap.com) - Engineering blog of Snap Inc.
 
-
+- [A bit of CS](https://abitofcs.blogspot.com/) - A cool blog on algorithms
 
 
 
