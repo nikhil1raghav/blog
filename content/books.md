@@ -134,3 +134,14 @@ Case study on different addictions, comparing addictions of past to modern digit
 Original book that started all those spin offs and movies sometimes expanding on a few pages of the book or adapting it to a completely new storyline. It is exciting to see how much control a writer has compared to the director of a movie. A writer can direct your attention to even most mundane or subtle things which you'll otherwise overlook or will seem lost in the sensory overload a movie provides.
 
 Read the book even if you have watched the movies, just read it.
+
+
+## [Chitralekha](https://en.wikipedia.org/wiki/Chitralekha_(novel))
+
+{{<image src="/files/chitralekha.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 0px;">}}
+Book is an exploration of sin, human nature and effectiveness of imposed abstinence. There are two kinds of abstinence, one is absence of desires and the other is just suppressing them, latter is deteriorating. How most coveted things lose their charm and appeal when you have them and the chaos we create while moving on from one hit to another.
+
+>जीवन एक अवि‍कल पि‍पासा है। उसे तृप्त करना जीवन का अंत कर देना है। जि‍से तुम साधना कहते हो वो आत्‍मा का हनन है।
+
+
+
