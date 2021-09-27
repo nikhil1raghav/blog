@@ -107,7 +107,15 @@ __NOTE__: In the code below, the name $tight$ is counter-intuitive it is $1$ in 
 
 #### 6. [The combat of ages](https://www.hackerearth.com/problem/algorithm/the-combat-of-ages-bd7707d1/)
 
+As no hero can kill someone stronger, we can process all heroes in increasing order of their strength. If two heroes have equal strength then we process the hero with smaller age first because doing so gives more coins to older heroes when they will kill this one.
 
-__TODO__
+Let's say we have a magic function $best(X)$ which returns maximum number of coins a processed hero with $age \leq X$ has.
+
+Now consider we are processing a hero with age $A$ and it has $C$ coins. So this hero can surely have $C+best(A-1)$ coins by killing a processed hero which has maximum coins i.e. $best(A-1)$ and its age is less than $A$.
+
+This $best(X)$ function can be implemented by using any range update range query data structure, as we are querying only the prefix we can use [Fenwick tree](https://www.youtube.com/watch?v=kPaJfAUwViY) here for easier implementation.
+
+After the score of current player is determined we can update the tree with value $C+best(A-1)$, so that it becomes a candidate for the queries $best(X)$ where $X>A$.
+
 
 [Solution](https://github.com/Manan-YMCA/codecadet-XXII-editorial/blob/master/The_Combat_of_Ages.cpp)
