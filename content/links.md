@@ -10,7 +10,7 @@ Some blogs, people, youtube channels, subreddits and other pages on internet wor
 
 # Blogs
 
-
+- [Venam's blog](https://venam.nixers.net/blog/) - Well researched articles about UNIX, philosophy and more
 
 - [Drew DeVault's Blog](https://drewdevault.com/) - founder of [SourceHut](https://sr.ht), writes about state of FOSS, opinions on different tech, some rants, personal experiences and HOW-Tos
 

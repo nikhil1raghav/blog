@@ -6,6 +6,29 @@ tags=["books"]
 
 Summary and review of some books I read after creating this page.
 
+## [A Guide to the Good Life: The Ancient Art of Stoic Joy](https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life)
+
+
+{{<image src="/files/guide-to-good.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Meaning of stoic is entirely different from what leading dictionaries tell. This book discusses stoic philosophy, history and how the author incorporates it in his life. A good start to understanding stoics and a collection of gems from stoic literature with deliberate discussion. Book does its job in describing that principles of stoics are not to be taken literally and applying them in your life is simply guided by common sense. Try reading it if you don't have a philosophy of life or if you're worrying that you may mislive this life fighting the wrong battles. At the end it also points you to all the right places.
+
+
+---
+
+## [The War of Art](https://www.goodreads.com/book/show/1319.The_War_of_Art)
+
+
+{{<image src="/files/war-of-art.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Book is about how hard it is to do creative work and what stops most artists. Can be easily extended to how hard it is to do knowledge work and the roadblocks we're up against while doing it. I don't usually read self-helps but what is the point of discriminating, there is nothing to lose. It has its good parts, end of the book is not one of them. Still equips with you the information who your enemy is and it is half the battle.
+
+
+
+---
+
+
+
 ## [The Phoenix Project](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
 
 
