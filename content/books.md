@@ -6,6 +6,34 @@ tags=["books"]
 
 Summary and review of some books I read after creating this page.
 
+---
+
+## [The Great Mental Models: General Thinking Concepts](https://www.goodreads.com/book/show/44245196-the-great-mental-models)
+
+
+{{<image src="/files/mental-model-1.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Compiled by the creator of [Farnam Street Blog](https://fs.blog). Book is collection of real life examples categorized by mental models and some commentary from the author.
+
+Learning this way is better than someone instructing you and synthesizing the results for you to digest.
+
+
+> Ego gets in the way, locking reality behind a door that it controls with a gating mechanism. We optimize for short-term ego protection over long-term happiness.
+
+---
+
+## [Fahrenheit 451](https://www.anobii.com/books/fahrenheit-451/9780345410016/0026f2d09a47c2ae38)
+
+{{<image src="/files/451.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+First book by Bradbury that I read. Interpolating the tech at the time of writing to the era that book is set in is a hard problem for an author. More like how records were destroyed in 1984 and then changed to control past, there is a dedicated department to burn books. Other theme explored is how shallow entertainment is degrading society and makes people complacent. People worrying more about celebrities than family members and someone so caught up in all this that they don't even remember how they met their better half. 
+
+Now I know the inspiration behind the hounds in Kingsman.
+
+> The difference between the man who just cuts lawns and a real gardener is in the touching, he said. The lawn-cutter might just as well not have been there at all; the gardener will be there a lifetime.
+
+---
+
 ## [A Guide to the Good Life: The Ancient Art of Stoic Joy](https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life)
 
 
