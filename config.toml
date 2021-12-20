@@ -87,6 +87,6 @@ enableEmoji=true
 	name="Books"
 	url="/books"
 	[[languages.en.menu.main]]
-	identifier="TIL"
-	name="TIL"
-	url="/til"
+	identifier="Subscribe"
+	name="Subscribe"
+	url="/subscribe"

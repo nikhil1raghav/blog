@@ -10,7 +10,13 @@ Some blogs, people, youtube channels, subreddits and other pages on internet wor
 
 # Blogs
 
+
+- [Super Memory](https://super-memory.com)
+- [Dynomight](https://dynomight.net)
+
 - [Venam's blog](https://venam.nixers.net/blog/) - Well researched articles about UNIX, philosophy and more
+
+- [Farnam Street Blog](https://fs.blog/) - Great blog on improving reading, decisions and mental models
 
 - [Drew DeVault's Blog](https://drewdevault.com/) - founder of [SourceHut](https://sr.ht), writes about state of FOSS, opinions on different tech, some rants, personal experiences and HOW-Tos
 
@@ -77,6 +83,9 @@ Some blogs, people, youtube channels, subreddits and other pages on internet wor
 - [Snap Engineering](https://eng.snap.com) - Engineering blog of Snap Inc.
 
 - [A bit of CS](https://abitofcs.blogspot.com/) - A cool blog on algorithms
+
+
+
 
 
 
