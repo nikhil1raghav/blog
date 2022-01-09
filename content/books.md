@@ -8,6 +8,51 @@ Summary and review of some books I read after creating this page.
 
 ---
 
+
+## [Of Mice and Men](https://www.goodreads.com/book/show/890.Of_Mice_and_Men)
+
+
+{{<image src="/files/mice-and-men.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+It is a novella you can finish in an hour, low effort and good read. Didn't get mice stands for in the title. A story about two brothers (related) and their dream to escape drudgery of everyday life and become their own masters which is not realized. 
+
+Not that enlightening if you are focused on some takeaways from your reading.
+
+> Books ain't no good. A guy needs somebody to be near him
+
+
+---
+
+## [Men without Women](https://www.goodreads.com/book/show/33652490-men-without-women)
+
+
+{{<image src="/files/men-without-women.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Short story collection by Haruki Murakami. Unlike other collections, title story is at the end. I felt "men without women" was a common theme in all the stories rather than a title of one story. Stories I liked and remember most is "An independent organ" and "Kino". I would suggest you read metamorphosis by Franz Kafka before reading "Samsa in Love".
+
+
+> Maybe working on the little things as dutifully and honestly as we can now is how we stay sane when the world is falling apart.
+
+
+
+---
+
+## [Karmayog](https://www.goodreads.com/book/show/34189589-karmayog)
+
+
+{{<image src="/files/karmayog.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Great book. One of the main ideas are about how work or carrying out one's duties is equally powerful tool for transformation as penance. Other one is quitting an addiction is harder if done too soon, Swami Vivekananda suggests diving deep in pursuing that addiction, going right through will help in leaving it permanently rather than a quick fix. Working in detached manner to not expect rewards. How ethics and responsibilities change with situation and doing what you want to compound.
+
+Filled with anecdotes and stories like you'll find in Tales told by mystics by Manoj Das
+
+> यह सोचना कि मेरे ऊपर कोई निर्भर है तथा मैं किसी का भला कर सकता हूँ—अत्यंत दुर्बलता का चिह्न है। यह संसार न तो तुम्हारी सहायता का भूखा है और न मेरी।
+
+
+
+---
+
+
 ## [The Great Mental Models: General Thinking Concepts](https://www.goodreads.com/book/show/44245196-the-great-mental-models)
 
 
