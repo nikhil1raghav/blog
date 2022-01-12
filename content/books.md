@@ -6,6 +6,18 @@ tags=["books"]
 
 Summary and review of some books I read after creating this page.
 
+
+---
+
+## [Animal Farm](https://www.goodreads.com/book/show/170448.Animal_Farm)
+
+
+{{<image src="/files/animal-farm.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Allegorical story. You may have seen the same story play out in different countries/places at different point of times. Sequence of events never changes. Rebels become leaders everything is good for some time, system and new rules are established. Populace is kept ignorant or deceived regularly to keep in check. Attributing all the failures and mishaps to a made up public enemy or opposition. A side-project that is never completed but everyone has something to look forward to and occupy their imagination. New rules seep in unnoticed for sole benefit of the lawmakers. General public is worse off than they were earlier.
+
+> Somehow it seemed as though the farm had grown richer without making the animals themselves any richer. Except, of course, for the pigs and dogs.
+
 ---
 
 
@@ -28,7 +40,7 @@ Not that enlightening if you are focused on some takeaways from your reading.
 
 {{<image src="/files/men-without-women.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
 
-Short story collection by Haruki Murakami. Unlike other collections, title story is at the end. I felt "men without women" was a common theme in all the stories rather than a title of one story. Stories I liked and remember most is "An independent organ" and "Kino". I would suggest you read metamorphosis by Franz Kafka before reading "Samsa in Love".
+Short story collection by Haruki Murakami. Unlike other collections, title story is at the end. I felt "men without women" was a common theme in all the stories rather than a title of one story. Stories I liked and remember most were "An independent organ" and "Kino". I would suggest you read metamorphosis by Franz Kafka before reading "Samsa in Love".
 
 
 > Maybe working on the little things as dutifully and honestly as we can now is how we stay sane when the world is falling apart.
@@ -231,6 +243,7 @@ Original book that started all those spin offs and movies sometimes expanding on
 
 Read the book even if you have watched the movies, just read it.
 
+---
 
 ## [Chitralekha](https://en.wikipedia.org/wiki/Chitralekha_(novel))
 
