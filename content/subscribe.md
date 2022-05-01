@@ -9,7 +9,7 @@ Trying to improve as an engineer, competitive programmer and finding new ways an
 
 
 
-Won't spam and you can read previous versions [here](https://nikhilr.substack.com/archive)
+Won't spam and you can read previous versions [here](/newsletter).
 
 In case you don't like subscribing via email, [here](https://nikhilr.substack.com/feed) is full content RSS Feed for the newsletter
 

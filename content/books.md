@@ -4,10 +4,126 @@ description="A place to note down things that I want to remember and share from 
 tags=["books"]
 +++
 
-Summary and review of some books I read after creating this page.
+Some books that I read after creating this page.
+
+I love reading for both recreational consumption and educated execution. Stopped maintaining this list at some point in time as it motivated shallow reading but I'm at it again, no shallow reading this time.
+
+You might want to look at [How I learned to stop worrying and start reading](http://www.shubhro.com/2019/07/11/rules-reading/)
+
+And this tweet by [illacertus](https://www.youtube.com/channel/UCmvhCWvHk3-SJqljh5cCm8A)
+
+{{<tweet user="illacertus" id="779563228959498240">}}
 
 
 ---
+
+
+## [Picture of Dorian Grey](https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray)
+
+{{<image src="/files/picture-of-dorian-grey.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+Before this the only works that I ever read by Oscar Wilde were *The Selfish Giant* and *Canterville Ghost*. Latter is 
+what everyone was forced to read in 11th standard, which is too immature for students in 11th standard. At least Gulliver travels had more complex themes.
+
+The selfish Giant was good. Picture of Dorian Grey is a book on Faustian bargain, but you never see the devil here.
+More than the story of the book, I liked reading how Lord Henry has an entertaining opinion on everything.
+
+It is held back at some places or censored, but movies do a good job in extrapolating those parts.
+
+> Women, as some witty Frenchman once put it, inspire us with the desire to do masterpieces and always prevent us from carrying them out.
+
+
+## [Brave New World](https://www.goodreads.com/book/show/5129.Brave_New_World)
+
+{{<image src="/files/brave-new-world.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+As Neil Postman says there were two visions of the future one was 1984 and the other created by Huxley in brave new world. 
+Opening chapter is very engaging and well thought out then it transforms into Logan's Run. 
+
+At this point things like misinformation, short attention spans, intoxication to escape reality and racism is so mainstream that it doesn't ring any bells when you read about it again and again in a ninety year old book.
+
+You must read the first chapter though.
+
+> You can’t make flivvers without steel—and you can’t make tragedies without social instability. The world’s stable now. People are happy; they get what they want, and they never want what they can’t get. They’re well off; they’re safe; they’re never ill; they’re not afraid of death; they’re blissfully ignorant of passion and old age; they’re plagued with no mothers or fathers; they’ve got no wives, or children, or lovers to feel strongly about
+
+
+
+---
+
+## [I am legend](https://www.goodreads.com/book/show/40940649-i-am-legend)
+
+{{<image src="/files/imlegend.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+I want to read more such stories where protagonist is alone on entire planet. This book inspired a completely new genre of movies, all of Romero's and other zombie apocalypse movies, but more
+than vampires it is a study of human loneliness.
+
+> All these books, he thought, the residue of a planet’s intellect, the scrapings of futile minds, the leftovers, the potpourri of artifacts that had no power to save men from perishing
+
+
+
+
+## [Devdas](https://www.goodreads.com/book/show/28571424)
+
+
+{{<image src="/files/devdas.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+Felt like reading it after watching [Dev D](https://www.imdb.com/title/tt1327035/). It is so popular that even without reading the book or watching SRK starrer
+everyone is atleast vaguely aware of the story.
+
+Read it just to get the references in [Dev D](https://www.imdb.com/title/tt1327035/).
+
+>किंतु किसी में भी इतना तेज नहीं देखा और आते ही तुमने मुझे चोट पहुँचाई—एक अप्रत्याशित, उपयुक्त, किंतु अनुचित और रूखा व्यवहार किया, घृणा से मुँह फेर लिया और अंत में तमाशे के टिकट की तरह, कुछ देकर चले गए। यह सब याद है!
+
+
+---
+
+
+## [The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal](https://www.goodreads.com/book/show/722412.The_Dream_Machine)
+
+
+{{<image src="/files/dream-machine.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+How do you go about building things that no one has built before? This book is 80% revolution that made computing personal and 20% biography of JCR licklider like 2 chapters in the beginning 1 chapter in the end. It feels like a superhero movie as in these pages you can see arcs of so many great inventors and scientists coming together which is so cool to read.
+I wasn't interested in biography of Licklider as biography contains many details I'm not personally interested in so I skipped the last chapter which was clearly titled to children of JCR licklider.
+
+>Taylor's motto was "Never hire 'good' people, because ten good people together can't do what a single great one can do."
+---
+
+## [Vijaydan Detha ki Lokpriya Kahaniyan](https://www.goodreads.com/book/show/48665614-vijaydan-detha-ki-lokpriya-kahaniyan)
+
+{{<image src="/files/vijaydan.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Read it first when I was in school didn't finish it then. Came to know about Vijaydan Detha when I heard the movie [Paheli](https://www.imdb.com/title/tt0451850) was adapted from his story titled Duvidha.
+I love these stories and can relate to them better as they're closer to home. All selected stories are great, you may have even heard some of them from someone. 
+
+<br>
+
+
+> पतिव्रता औरतों के तमाशे मैंने बहुत देखे हैं। डर तो फकत बदनामी का है। भेद खुलने का डर न हो तो स्वयं भगवान् भी पाप करने से न चूके। अब जो भी तुम्हारी इच्छा हो, जाहिर कर दो। मैंने तो भूत होकर भी कोई बात नहीं छिपाई।
+
+
+
+
+---
+
+<br>
+
+## [Jagannath](https://www.goodreads.com/book/show/16054161-jagannath)
+
+{{<image src="/files/jagannath.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Bizarre and surreal short stories. Some are good like the opening one but I had tough time reading the complete book. There is an incoherence which can be attributed to the fact that English is not the first language of Author which she acknowledges in afterword. I didn't even understand some of them. 
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+> But always in heterosexual configuration. I asked Sigvard what they were doing. We're multiplying, he said. That's what people do.
+
+
 
 ## [Animal Farm](https://www.goodreads.com/book/show/170448.Animal_Farm)
 
