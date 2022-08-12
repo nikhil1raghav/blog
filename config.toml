@@ -50,11 +50,11 @@ enableEmoji=true
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Nikhil Raghav's Blog"
+    title = "Purple Terminal - Nikhil's Blog"
     subtitle = ""
-    owner = "Nikhil Raghav"
+    owner = "Nikhil"
     keywords = ""
-    copyright = "© Nikhil Raghav 2021"
+    copyright = "© Nikhil 2021"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -62,7 +62,7 @@ enableEmoji=true
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "nikhil1_raghav"
+      logoText = "Purple Terminal"
       logoHomeLink = "/"
 
     [languages.en.menu]
