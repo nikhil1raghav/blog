@@ -8,15 +8,113 @@ Some books that I read after creating this page.
 
 I love reading for both recreational consumption and educated execution. Stopped maintaining this list at some point in time as it motivated shallow reading but I'm at it again, no shallow reading this time.
 
+
+
 You might want to look at [How I learned to stop worrying and start reading](http://www.shubhro.com/2019/07/11/rules-reading/)
 
 And this tweet by [illacertus](https://www.youtube.com/channel/UCmvhCWvHk3-SJqljh5cCm8A)
+
+
+Every review is more often than not ends with a line or two from the book because this columns don't render properly in firefox if content is not big as the book cover
 
 {{<tweet user="illacertus" id="779563228959498240">}}
 
 
 ---
 
+## Dune 
+
+
+{{<image src="/files/dune.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+
+Read it because 2021 movie which ended prematurely. There are many concepts I find interesting in the universe of Dune. For example, training someone since birth to do calculations like computer because relying on machines to do this is bad. Planting prophecies across planets to bend locals. Still-suits, shields, ornithopters. Selective breeding by Bene gesserit. World building, treatment of politics & environment make it worthwhile read. 
+
+Ending was underwhelming & I don't feel like reading any sequels.
+
+
+> When religion and politics travel in the same cart, the riders believe nothing can stand in their way. Their movement becomes headlong—faster and faster and faster. They put aside all thought of obstacles and forget that a precipice does not show itself to the man in a blind rush until it’s too late
+
+---
+
+## Little Prince
+
+{{<image src="/files/little-prince.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Again a popular book, used to see it a lot on back cover of NCERT books. Didn't understand much of it except that according to narrator adults lack imagination and understanding.
+
+Maybe it is one of those which require re-re-reading to get them. Starting few chapters felt just like Nate the Snake. 
+
+
+> He is the only one of them all who does not seem to me ridiculous.  Perhaps that is because he is thinking of something else besides himself
+
+
+
+
+
+
+---
+
+
+## Missing Readme
+
+{{<image src="/files/missing-readme.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Directed towards new Software engineers, won't hurt skimming through some chapters you if you're not.
+
+Great book if you're starting out like me.
+
+
+Discusses things that you probably don’t have any idea about like
+- navigating enormous codebase without documentation
+- Design docs, better PR reviews, impostor syndrome (not always true, sometimes you're right)
+- 1:1 with managers and the jargon like OKR, KPI, NFR.
+- Oncalls, TDD, conventions that teams take for granted that you must be knowing about and many similar things
+
+
+Great book, doesn't matter if you’re starting out or not.
+
+> Use divide and conquer or a binary search (also called half-splitting) on bigger systems. Find a point halfway through the call stack and see if the problem is upstream or downstream of the issue. If the problem is upstream, pick a new component halfway upstream; if it’s downstream, do the reverse. Keep iterating until you find the component where you believe the problem is occurring.
+
+
+---
+
+<br>
+
+
+## Old man and the Sea
+
+{{<image src="/files/old-man-and-sea.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Famous book. Engaging. Good story. That's the review
+
+Everything you read doesn't need to have a lesson, moral or a cool idea waiting to be discovered :)
+
+
+>  “Age is my alarm clock,” the old man said. “Why do old men wake so early? Is it to have one longer day?”  
+
+
+
+
+---
+
+<br>
+
+
+## Pragmatic Thinking
+
+{{<image src="/files/pragmatic-thinking.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Book explains how human brain works from a Software engineer's perspective. Using computers as props to support the analogy. Core themes are ways to improve learn, work & author's wisdom on software engineering as a profession.
+
+
+One thing that stuck with me was how brain switches between L mode and R mode and how to leverage that for inspired solutions. 
+
+Written well, I couldn't move past one chapter of Pragmatic programmer but reading it was effortless.
+
+> You can instantly realize productivity gains of 20 to 30 percent just by getting yourself a second monitor, regardless of how you measure productivity.
+
+---
 
 ## [Picture of Dorian Grey](https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray)
 
