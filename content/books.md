@@ -15,7 +15,7 @@ You might want to look at [How I learned to stop worrying and start reading](htt
 And this tweet by [illacertus](https://www.youtube.com/channel/UCmvhCWvHk3-SJqljh5cCm8A)
 
 
-Every review is more often than not ends with a line or two from the book because this columns don't render properly in firefox if content is not big as the book cover
+Every review, more often than not ends with a line or two from the book because these columns don't render properly in firefox if content is not big as the book cover
 
 {{<tweet user="illacertus" id="779563228959498240">}}
 
@@ -28,7 +28,7 @@ Every review is more often than not ends with a line or two from the book becaus
 {{<image src="/files/dune.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
 
 
-Read it because 2021 movie which ended prematurely. There are many concepts I find interesting in the universe of Dune. For example, training someone since birth to do calculations like computer because relying on machines to do this is bad. Planting prophecies across planets to bend locals. Still-suits, shields, ornithopters. Selective breeding by Bene gesserit. World building, treatment of politics & environment make it worthwhile read. 
+Read it because 2021 movie ended prematurely. There are many concepts I find interesting in the universe of Dune. For example, training someone since birth to do calculations like computer because relying on machines to do this is bad. Planting prophecies across planets to bend locals. Still-suits, shields, ornithopters. Selective breeding by Bene gesserit. World building, treatment of politics & environment make it a worthwhile read. 
 
 Ending was underwhelming & I don't feel like reading any sequels.
 
