@@ -15,12 +15,251 @@ You might want to look at [How I learned to stop worrying and start reading](htt
 And this tweet by [illacertus](https://www.youtube.com/channel/UCmvhCWvHk3-SJqljh5cCm8A)
 
 
-Every review, more often than not ends with a line or two from the book because these columns don't render properly in firefox if content is not big as the book cover
 
 {{<tweet user="illacertus" id="779563228959498240">}}
 
 
+
+
+## Kafka on the shore
+
+
+{{<image src="/files/kafka-shore.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Great book. If you want to read magical realism, don't bother with 100 years of solitude, pick this up. It will make more sense (relatively).
+
+
+
+Plays like a Ghibli studio movie in your head. Last 10% is straight out of Howl's moving castle. 
+Reminds me of Paulo Coelho's Brida and Eleven minutes at times. Full of beautiful lines. I highlighted a lot.
+
+
+Murakami is raw and honest, pulls no punches. Part of the reason why I still prefer reading books is that they're not incentivized to hide how real people feel and what they do. Characters aren't desexualised or lobotomized to get some censor rating so that more people can read the book and it can rake in more money. 
+
+You read literature, because you can't meet enough people (I guess Mark Manson said that). You meet a lot of fully developed characters here. Even the characters introduced in the second half like Hoshino and Sanders become too familiar and real as if they were at the center stage from beginning. 
+
+
+Something that bothers me is whenever any character starts discussing music they all become Murakami and no longer remain the same character. They start speaking in the voice of narrator, sharing same vocabulary and taste no matter what their age, profession and life experiences are. 
+
+> Listen, every object’s in flux. The Earth, time, concepts, love, life, faith, justice, evil—they’re all fluid and in transition. They don’t stay in one form or in one place forever. The whole universe is like some big FedEx box.  
+
+
 ---
+
+
+## The Metamorphosis
+
+
+{{<image src="/files/metamo.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Story is not much. I was only able to underline about 14-15 lines but they convey too much. So it can be used as a class in writing and psychology. 
+
+As an example
+
+> "She's absolutely right", said Gregor's father to himself. His mother, who still had not had time to catch her breath, began to cough dully, her hand held out in front of her and a deranged expression in her eyes. 
+
+This interaction is representative of all the scenes where a group of people have to decide fate of someone they consider as burden or may become a hindrance to their survival or let's say comfort. The process they follow to achieve a consensus is almost similar.
+
+One guy supporting the radical decision, others picking up after him and some member like Samsa's mom who are too scared to accept that they support the decision.
+
+Then few more arguments to convince themselves that they're not doing anything wrong.
+
+> How can that be Gregor? If it were Gregor he would have seen long ago that it's not possible for human beings to live with an animal like that and he would have gone of his own free will. We wouldn't have a brother any more, then, but we could carry on with our lives and remember him with respect. —  
+
+
+
+---
+
+
+## Story of your life and others
+
+
+{{<image src="/files/soyl-o.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Selection of some of the best stories by Ted Chiang. He explores a world to an extent that you stop thinking it is not real. All details are thought through so well. 
+
+I didn't like the one on which Arrival is based and the tower of Babylon. Maybe it was because I read Project Hail Mary first and detailed interaction between two species for learning each others language is almost similar there. So it lost its novelity by the time I read Arrival.
+
+
+Best ones are _Liking what you see_, _Hell is absence of God_, _The Merchant and the Alchemist's Gate_ and _Understand_ 
+
+> "Dermatology" computer virus. This virus has begun infecting video servers around the world, altering broadcasts so that faces and bodies exhibit conditions such as acne and varicose veins.
+
+
+---
+
+## Lifecycle of Software Objects
+
+
+{{<image src="/files/losb.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Feels like a 5 hour long movie. Resonates because you might have seen this pattern over and over in your life. A startup pioneers new tech, everything goes well until they run out of time to figure out how to make the business profitable. Now when they pull the plug and shut down the shop, hobbyists, tinkerers and fanboys are left behind. Finding ways to make whatever they're left with work. Forming communities. Things aren't fun anymore. 
+
+I don't have any pets, but pet and parent dynamics explored here do evoke emotions. And, what a book cover.
+
+> They've created an engine that favors asocial behavior and obsessive personalities. The vast majority of the digients generated with the engine are discarded for their psychological malformations, but a tiny fraction prove capable of learning with minimal supervision: give them the right tutoring software and they'll happily study for weeks of subjective time, meaning that they can be run at hothouse speeds without going feral
+
+
+---
+
+## Designing Distributed Systems
+
+
+{{<image src="/files/dds.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+This is a densely packed book. You must read if you deploy your code in cloud, almost everyone does. Cloud, because book leans towards container orchestration. Collection of common deployment patterns like sidecar, ambassador and adapters, constructs like workqueue are explained in detail with dedicated sections.
+
+Unlike DDIA, this is hands on. Yamls which can be applied to a k8s setup are sprinkled throughout. 
+
+God knows if they're up to date.
+
+
+
+---
+
+## Designing Data Intensive Applications
+
+
+{{<image src="/files/ddia.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Book is hyped up for a good reason. It doesn't matter if you're working on data intensive systems or not. It covers enough topics to benefit anyone who reads it, whatever earlier knowledge they have. It makes no assumptions. 
+
+Reading it is an eye opening experience when you realize how tweaking fairly simple things like enforcing schema while reading or writing can have effect on what kind of guarantees your system provides. I didn't know you can do it in two ways, forget about guarantees. 
+
+Key learning is there are no be all and end all solutions, choosing what will work totally depends on the context, usecase and resources. Book makes it a point to showcase all the available solutions for a problem that author could think of or find.
+
+One reading doesn't do justice to it, even if you make notes. If you read one technical book this year, make it this one.
+
+
+> Data outlives code
+
+
+
+
+---
+
+## Effective Engineer
+
+
+{{<image src="/files/eff-eng.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+It has two major ideas - prioritize high leverage tasks, make feedback loops shorter. Rest of the book is examples, techniques and action plans to adopt, practice and exploit these ideas.
+
+There are other tangential advice which are useful but look so trivial on face value that you tend to ignore it until you face the repercussions in real life. 
+
+For example "Don't defer approvals till the end" looks like a very innocent piece of advice. Even after knowing this fully well, I've failed in following it many times and I know a lot of people who make the same mistake.
+
+So reading the book and making notes is half the battle. Must read even if you're not planning to be an engineer for long. 
+
+
+> Even still, given the benefits of good metrics, it’s worth asking yourself: Is there some way to measure the progress of what I’m doing? If a task I’m working on doesn’t move a core metric, is it worth doing? Or is there a missing key metric?
+
+
+
+---
+
+## Project Hail Mary
+
+
+{{<image src="/files/project-hail-mary.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+This book is so good. No wonder it was best sci-fi of 2021. All stars including Sun are losing their shine to an alien life form. A parasite, similar to nanomites in G.I. Joe Rise of Cobra. One star far away is immune to this. Earth sends a one way mission to that star as the last hope of saving Sun from dimming further. Out of three, two crew members didn't survive coma.
+
+Story is told in two timelines, Ashwin Sanghi style.
+
+Most readable book you can pick up. I wonder how some writers manage to write characters smarter than them. You learn from the protagonist a lot. How to not rest the case on assumptions and thinking from first principles. Carrying out systematic experiments to figure out things. Not giving up.
+
+I read it during two 4 hour flights. Sound of aeroplane engine and occasional turbulence elevate the reading experience as most of the story is in a spaceship. 
+
+Some may say, Ryland grace is Mark Whatney with K-12 science facts stuffed into him, but I enjoyed the book.
+
+> I start to hyperventilate. “We’re dead in space. We’re stuck here forever.” “Not forever,” Rocky says. I perk up. “No?” “No. Orbit decay soon. Then we die.”
+
+---
+
+## Foundation
+
+
+{{<image src="/files/foundation.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Early job descriptions of Directi mentioned remembering planets in Foundation as a nice to have. I don't dig science fiction written by authors of previous generation. H.G. Wells and PKD are exceptions. Contemporary authors like Ted Chiang and Andy Weir write more relevant and gripping stories.
+
+Read this because it is a popular classic, not planning to read other books in the series. 
+
+> Religion is one of the great civilizing influences of history and in that respect, it’s fulfilling.
+
+---
+
+## Beowulf
+
+
+{{<image src="/files/beowulf.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Watched animated movie on fast forward. Then read the book, translation by Seamus Heaney. Some parts are unclear or incoherent. Took a lot of effort to complete, which wasn't worth it at all. Zemeckis movie is better.
+
+> Do not give way to pride. For a brief while your strength is in bloom but it fades quickly; and soon there will follow illness or the sword to lay you low, or a sudden fire or surge of water or jabbing blade or javelin from the air
+
+
+---
+
+
+
+## Flowers for Algernon
+
+
+{{<image src="/files/flowers-for-algernon.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+A novella. Man with an IQ of 68 triples his IQ after treatment. Story is first person account of these changes. So quality of writing waxes and wanes with the IQ.
+
+
+
+> "Shut up! Leave him alone! It’s not his fault he can’t understand! He can’t help what he is! But for God’s sake he’s still a human being!"
+
+
+---
+
+## Einstein's Dreams
+
+
+{{<image src="/files/einstein-dreams.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+Short and evoking read. Every chapter is a new world where concept of time is different from others.In one world there is no past, in another everything is a picture (fodder for stable diffusion). Somewhere time passes slower if you're in motion, everyone is obsessed with speed and knows no rest.
+
+Barring few chapters, all the worlds have some similarity to how humans perceive time. How we think that we have all the time in the world or no time at all. Time stands still once in a while and at times actions are not dictated by what happened in the past. I'm just reading too much between the lines.
+
+A book of 30 thought experiments.
+
+The chapter where everything is a picture has interesting prompts for generating images. I created one [here](https://einstein.purpleterm.com)
+
+> Some say it is best not to go near the center of time. Life is a vessel of sadness, but it is noble to live life, and without time there is no life. Others disagree. They would rather have an eternity of contentment, even if that eternity were fixed and frozen, like a butterfly mounted in a case.
+
+
+---
+
+## High Output Management
+
+
+{{<image src="/files/high-output.jpg" style="width:15%;height:auto;float:left;margin:0px 10px 10px 10px;">}}
+
+It is like THE BOOK for MANAGERS but presents clever ideas that can be used by anyone. For example the idea that material becomes more valuable as it moves through the process, can be used to optimize any process you're working with whether it is conveyor belt in a factory or a CI pipeline.
+
+Andrew starts with an example of running a diner that serves a simple breakfast and how things change and the challenges you face when it scales to a breakfast factory.  This might be the book every manager might have read or will be familiar with the ideas discussed in it. Therefore it is worthwhile to read to get a language and framework to understand how middle managers operate and make sense of what is going around.
+
+Tobi Luetke read it while transitioning to CEO of shopify.
+
+
+>At Intel, we put ourselves through an annual strategic long-range planning effort in which we examine our future five years off. But what is really being influenced here? It is the next year—and only the next year. We will have another chance to replan the second of the five years in the next year’s long-range planning meeting, when that year will become the first year of the five
+
+
+
+
+
+
+
+---
+
+
+
 
 ## Dune 
 
