@@ -5,19 +5,15 @@ nomath=true
 noComment=true
 +++
 
+
 Hi, I'm Nikhil.  Welcome to my website. 
 
 
-Right now I work as Software Engineer @ [Flipkart](https://flipkart.com) on central build & delivery system. 
-
-
-Apart from work I like solving puzzles, singing, reading all kind of books (except softcore self-help), graphic designing (almost created a new logo for codeforces) , creating tools to remove toil from my workflow, and watching good old movies.
-
-
+I like singing, basketball, reading all kind of books (except softcore self-help), graphic designing (almost created a new logo for codeforces) , creating tools to remove toil from my workflow, and watching movies.
 
 [Gallery](https://gallery.purpleterm.com/) - Some digital art and banners that I created
-[Purple Terminal Newsletter](https://purpleterminal.substack.com) - I share links to some cool blogs and tools here
 
+[Purple Terminal Newsletter](https://purpleterminal.substack.com) - Here I share links to blogs and tools I find interesting.
 
 
 [RSS Feed](/index.xml)
