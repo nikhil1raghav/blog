@@ -78,7 +78,7 @@ Then few more arguments to convince themselves that they're not doing anything w
 
 Selection of some of the best stories by Ted Chiang. He explores a world to an extent that you stop thinking it is not real. All details are thought through so well. 
 
-I didn't like the one on which Arrival is based and the tower of Babylon. Maybe it was because I read Project Hail Mary first and detailed interaction between two species for learning each others language is almost similar there. So it lost its novelity by the time I read Arrival.
+I didn't like the one on which Arrival is based and the tower of Babylon. Maybe it was because I read Project Hail Mary first and detailed interaction between two species for learning each others language is almost similar there. So it lost its novelty by the time I read Arrival.
 
 
 Best ones are _Liking what you see_, _Hell is absence of God_, _The Merchant and the Alchemist's Gate_ and _Understand_ 

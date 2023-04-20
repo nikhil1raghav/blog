@@ -9,12 +9,12 @@ noComment=true
 Hi, I'm Nikhil.  Welcome to my website. 
 
 
-As of writing this, It has been 1 year since I'm out of college and employed at [Flipkart](https://flipkart.com) where I work as a Software Engineer. At work I build and maintain an internal CI/CD platform. My work primarily involves developing REST APIs that interface with container orchestration tools and workflow engines. Occasionally, I also get to work on the internals of these technologies.
+As of writing this, It has been 1 year since I'm out of college and employed at [Flipkart](https://flipkart.com) where I work as a Software Engineer. At work I build and maintain an internal CI/CD platform. My work primarily involves developing and designing APIs that interface with container orchestration tools and workflow engines. Improve performance of the system. Occasionally, I also get to work on the internals of these technologies.
 
 Recently I created [kindle-send](https://github.com/nikhil1raghav/kindle-send). It allows you to send webpages, collection of bookmarks as an ebook to your ereader. Try this, if you read a lot of blogs and don't like to strain your eyes on a digital screen.
 
 
-My hobbies include singing, playing basketball, reading all kind of books and blogs (except softcore self-help), collecting music,  designing banners, logos and vector art. I'm a sucker for good visual design and typography. Trying to learn 3D modelling just because I love what [beeplecrap](https://www.behance.net/beeple) does.
+My hobbies include singing, playing basketball, reading all kind of books and blogs (except softcore self-help and chick lit ofc), collecting music,  designing banners, logos and vector art. I'm a sucker for good visual design and typography. Trying to learn 3D modelling just because I love what [beeplecrap](https://www.behance.net/beeple) does.
 
 I watch a lot of movies too if that passes as a hobby.
 
