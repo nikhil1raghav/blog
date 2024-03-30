@@ -9,11 +9,7 @@ noComment=true
 Hi, I'm Nikhil.  Welcome to my website. 
 
 
-
-Recently I created [kindle-send](https://github.com/nikhil1raghav/kindle-send). It allows you to send webpages, collection of bookmarks as an ebook to your ereader. Try this, if you read a lot of blogs and don't like to strain your eyes on a digital screen. BONUS - this way you can import highlights to obsidian, readwise etc. 
-
-
-I love to sing (sometimes I spend hours jamming alone), play basketball, reading, collecting music (to listen to music in outer space), designing banners, logos and vector art (don't do it anymore). 
+I love to sing (sometimes I spend hours jamming), play basketball, reading, collecting music (to listen to music in outer space), designing banners, logos and vector art (don't do it anymore). 
 
 I'm a sucker for good visual design and typography. Trying to learn 3D modelling just because I love what [beeplecrap](https://www.behance.net/beeple) does.
 
@@ -24,6 +20,8 @@ I'm happiest when I'm solving complex problems with people who are kind, thought
 I'm a solid type [A-person](https://www.b-society.org/chronobiology/). Slowly turning into B ;).
 
 
+
+Recently I created [kindle-send](https://github.com/nikhil1raghav/kindle-send). It allows you to send webpages, collection of bookmarks as an ebook to your ereader. Try this, if you read a lot of blogs and don't like to strain your eyes on a digital screen. BONUS - this way you can import highlights to obsidian, readwise etc. 
 
 
 
