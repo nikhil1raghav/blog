@@ -6,19 +6,28 @@ tags=["books"]
 
 Some books that I read after creating this page.
 
-I love reading for both recreational consumption and educated execution. Stopped maintaining this list at some point in time as it motivated shallow reading but I'm at it again, no shallow reading this time.
+I love reading for both recreational consumption and educated execution. I don't like to read for facts but for absorbing patterns and mindsets. Therefore fiction and non-fiction both serve the purpose.
 
+Some might say that fiction is just well written entertainment, but storytelling plays a vital role in shaping who we are and how we present ourselves.
 
+Never tried audiobooks. I sleep if I listen to podcasts if they are just audio. So I prefer going through transcripts.
 
 You might want to look at [How I learned to stop worrying and start reading](http://www.shubhro.com/2019/07/11/rules-reading/)
 
 And this tweet by [illacertus](https://www.youtube.com/channel/UCmvhCWvHk3-SJqljh5cCm8A)
 
 
-
 {{<tweet user="illacertus" id="779563228959498240">}}
 
 
+
+## 40 rules of love
+
+"Sweet Blasphemy" would have been such an apt and less tacky name. Reading it makes you more kind and less judgemental. A beautiful love story and filled with wisdom.  
+
+The 40 rules themselves are phony, pointless and sometimes corny. Had a good time reading it. The pace takes a while to pickup. 
+
+Though, there are inconsistencies in between compared to how skillfully other parts are written. I love how author writes convincing first person narratives without leaking through the characters herself.
 
 
 ## Kafka on the shore
