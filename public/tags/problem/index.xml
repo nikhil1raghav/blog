@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem on Purple Terminal - Nikhil&#39;s Blog</title>
+    <link>//localhost:1313/tags/problem/</link>
+    <description>Recent content in Problem on Purple Terminal - Nikhil&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Nikhil 2021</copyright>
+    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/problem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving A XOR operation - Hackerearth</title>
+      <link>//localhost:1313/posts/xor-operation/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/xor-operation/</guid>
+      <description>&lt;p&gt;For context, &lt;a href=&#34;https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/practice-problems/algorithm/strange-xor-2-fc8ad535/&#34;&gt;link&lt;/a&gt; to the problem being discussed.&lt;/p&gt;&#xA;&lt;h4 id=&#34;solution-that-passes&#34;&gt;Solution that passes&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Let&amp;rsquo;s say $X = e_1\oplus e_2\oplus\cdots \oplus e_n$ i.e. XOR of all elements of $S$. If it satisfies the condition of being $k$ then it is the answer, otherwise no answer exists.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;why-is-it-so&#34;&gt;Why is it so?&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;One thing is for sure that every element will be mapped to some other element in the set.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If the answer is $k$ then $a_i$ will be mapped to $a_i\oplus k$. So what we can do is we can check to which element, first element of the set will be mapped, i.e. try every possible pair with first element and check if so formed $k$ is the answer. Mind that $k$ will always be positive as there is no repetition in a set.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

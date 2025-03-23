@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Codeforces Round #690 (Div. 3) :: Purple Terminal - Nikhil&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="It was the first round in which I managed to solve 6 problems out of 7, submitting the last one in last 3 seconds. Following are some thoughts I had while solving those problems and some mistakes I made. I make it a point to refer the notebook I use for writing observations and calculations during contest for writing these blogs. So that even if I delay the post by a day or two I don&rsquo;t miss much on the content. So let&rsquo;s start with the first problem.
+" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="//localhost:1313/posts/cf1462/" />
+
+
+
+
+
+<link rel="stylesheet" href="//localhost:1313/assets/style.css">
+
+  <link rel="stylesheet" href="//localhost:1313/assets/pink.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//localhost:1313/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="//localhost:1313/img/favicon/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  <meta name="twitter:site" content="" />
+
+<meta name="twitter:creator" content="Nikhil" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Codeforces Round #690 (Div. 3) :: Purple Terminal - Nikhil&#39;s Blog">
+<meta property="og:description" content="Editorial and commentary on performance for codeforces round 690" />
+<meta property="og:url" content="//localhost:1313/posts/cf1462/" />
+<meta property="og:site_name" content="Codeforces Round #690 (Div. 3)" />
+
+  
+    <meta property="og:image" content="//localhost:1313/img/favicon/pink.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-12-17 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+	<head>
+		
+		
+
+		
+		<link rel="stylesheet" href=//localhost:1313/assets/katex.min.css integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src=//localhost:1313/assets/katex.min.js integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src=//localhost:1313/assets/auto-render.min.js integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
+		
+	</head>
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Purple Terminal
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/archive">Archive</a></li>
+        
+      
+        
+          <li><a href="/books">Books</a></li>
+        
+      
+        
+          <li><a href="/links">Links</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="/subscribe">Subscribe</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/archive">Archive</a></li>
+      
+    
+      
+        <li><a href="/books">Books</a></li>
+      
+    
+      
+        <li><a href="/links">Links</a></li>
+      
+    
+      
+        <li><a href="/posts">Posts</a></li>
+      
+    
+      
+        <li><a href="/subscribe">Subscribe</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/cf1462/" style="font-size:2.4rem;">Codeforces Round #690 (Div. 3)</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2020-12-17 [Updated: 2020-12-17]
+      </span>
+    
+    
+    <span class="post-author">::
+      Nikhil
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="//localhost:1313/tags/codeforces/">codeforces</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/review/">review</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/upsolve/">upsolve</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>It was the first round in which I managed to solve 6 problems out of 7, submitting the last one in last 3 seconds. Following are some thoughts I had while solving those problems and some mistakes I made. I make it a point to refer the notebook I use for writing observations and calculations during contest for writing these blogs. So that even if I delay the post by a day or two I don&rsquo;t miss much on the content. So let&rsquo;s start with the first problem.</p>
+<h3 id="solved-during-contest">Solved during contest<a href="#solved-during-contest" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h4 id="a-favorite-sequence"><a href="https://codeforces.com/contest/1462/problem/A">A. Favorite sequence</a><a href="#a-favorite-sequence" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>At first glance, it looked like simple use of a deque.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>deque<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> q;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	cin<span style="color:#f92672">&gt;&gt;</span>x;
+</span></span><span style="display:flex;"><span>	q.push_back(x);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(i<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){cout<span style="color:#f92672">&lt;&lt;</span>q.front()<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34; &#34;</span>;q.pop_front();}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">else</span>{cout<span style="color:#f92672">&lt;&lt;</span>q.back()<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34; &#34;</span>;q.pop_back();}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>It would have saved me 3 minutes but ended up implementing a more contrived solution with two pointers managing start and end of an array.</li>
+</ul>
+<h4 id="b-last-year"><a href="https://codeforces.com/contest/1462/problem/B">B. Last Year&rsquo;s Substring</a><a href="#b-last-year" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>You have to tell if it is possible to take a prefix and a suffix of the given string and merge them to form &ldquo;2020&rdquo;.</li>
+<li>So iterate on the length of the prefix which from 0 to 4 and take the remaining from suffix, if you hit &ldquo;2020&rdquo; then the string is good.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(len<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;len<span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">4</span>;len<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	string prefix<span style="color:#f92672">=</span>s.substr(<span style="color:#ae81ff">0</span>,len);
+</span></span><span style="display:flex;"><span>	string suffix<span style="color:#f92672">=</span>s.substr(n<span style="color:#f92672">-</span>len);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>((prefix<span style="color:#f92672">+</span>suffix)<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;2020&#34;</span>){puts(<span style="color:#e6db74">&#34;YES&#34;</span>);<span style="color:#66d9ef">return</span>;}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>puts(<span style="color:#e6db74">&#34;NO&#34;</span>);
+</span></span></code></pre></div><h4 id="c-unique-number"><a href="https://codeforces.com/contest/1462/problem/C">C. Unique Number</a><a href="#c-unique-number" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>Simple complete search problem.</li>
+<li>One observation is that you don&rsquo;t need 0 because requirement is off smallest integer with a given sum, so 0 doesn&rsquo;t help in any way.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">dfs</span>(string s){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> sum<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> i:s)sum<span style="color:#f92672">+=</span>(i<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(sum<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">50</span>)<span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(dp[sum]<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>)dp[sum]<span style="color:#f92672">=</span>min(dp[sum],stoll(s));
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">else</span>{
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>s.empty())dp[sum]<span style="color:#f92672">=</span>stoll(s);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> mx<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;0&#39;</span>;<span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>s.empty())mx<span style="color:#f92672">=</span>s.back();
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">char</span> i<span style="color:#f92672">=</span>mx<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span><span style="color:#e6db74">&#39;9&#39;</span>;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>		dfs(s<span style="color:#f92672">+</span>i);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="d-add-to-neighbour-and-remove"><a href="https://codeforces.com/1462/problem/D">D. Add to Neighbour and Remove</a><a href="#d-add-to-neighbour-and-remove" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>Thought it would be solvable using dynamic programming by looking at the constraints and the answer it needed, used up about 20 minutes to find a recurrence then jumped over to E1 struggled with that for 10 minutes then came back to D.</li>
+<li>Problem is to find the maximum number of partitions the given array can be divided into such that all partitions have equal sum.</li>
+<li>First observation is that total sum should be divisble by the sum of the partition.</li>
+<li>It is feasible to iterate on the sum of the first partition i.e. prefix sum and find out if we can make it till the end with the given sum.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ans<span style="color:#f92672">=</span>n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>set<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> s;
+</span></span><span style="display:flex;"><span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> p(n<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	p[i]<span style="color:#f92672">=</span>p[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">+</span>a[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>	s.insert(p[i]);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> x<span style="color:#f92672">=</span>p[i];
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(p[n]<span style="color:#f92672">%</span>x<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span>)<span style="color:#66d9ef">continue</span>; <span style="color:#75715e">//first observation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">bool</span> ok<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> parts<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> cur<span style="color:#f92672">=</span>x;cur<span style="color:#f92672">&lt;=</span>p[n];cur<span style="color:#f92672">+=</span>x){
+</span></span><span style="display:flex;"><span>		parts<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>		ok<span style="color:#f92672">&amp;=</span>(s.find(cur)<span style="color:#f92672">!=</span>s.end());
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> moves<span style="color:#f92672">=</span>n<span style="color:#f92672">-</span>parts;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(ok)ans<span style="color:#f92672">=</span>min(ans,moves);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="e1-close-tuples-easy-version"><a href="https://codeforces.com/contest/1462/problem/E1">E1. Close Tuples (easy version)</a><a href="#e1-close-tuples-easy-version" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>How many tuples of 3 elements exist in given array such that difference between maximum and minimum element in the tuple is less than or equal to two?</li>
+<li>I try to solve such problems by looking at the contribution of each element in the answer, and then adjust for overcounting.</li>
+<li>So for every element, if it is the minimum element in the tuple other two elements can be chosen from all +1 and +2&rsquo;s. Similarly if it is the maximum element in the tuple than other two elements can be chosen from all -1&rsquo;s and -2&rsquo;s. How to count the tuples in which it is neither maximum nor minimum?</li>
+<li>Trying all possible scenarios for the current element, this is what I submitted in contest to get AC.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>reverse(all(a));
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">+=</span>f[a[i]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>f[a[i]];
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">+=</span>f[a[i]<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>f[a[i]];
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">+=</span>f[a[i]<span style="color:#f92672">+</span><span style="color:#ae81ff">2</span>]<span style="color:#f92672">*</span>f[a[i]];
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">+=</span>f[a[i]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>f[a[i]<span style="color:#f92672">+</span><span style="color:#ae81ff">2</span>];
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">+=</span>f[a[i]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>f[a[i]<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(a[i]<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">2</span>)ans<span style="color:#f92672">+=</span>f[a[i]<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]<span style="color:#f92672">*</span>(f[a[i]]<span style="color:#f92672">+</span>f[a[i]<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(a[i]<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">2</span>)ans<span style="color:#f92672">+=</span>(f[a[i]<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]<span style="color:#f92672">*</span>(f[a[i]<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>))<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> k<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>;k<span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">2</span>;k<span style="color:#f92672">++</span>)ans<span style="color:#f92672">+=</span>(f[a[i]<span style="color:#f92672">+</span>k]<span style="color:#f92672">*</span>(f[a[i]<span style="color:#f92672">+</span>k]<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>))<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>	f[a[i]]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>It is a pretty hacky way to go about this problem, as I missed the crucial observation that order doesn&rsquo;t matter, which is very helpful to solve its harder version.</li>
+</ul>
+<h4 id="f-the-treasure-of-the-segments"><a href="https://codeforces.com/1462/problem/F">F. The Treasure of The Segments</a><a href="#f-the-treasure-of-the-segments" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>
+<p>In last 15 minutes I decided to solve this one over E2 because I wasn&rsquo;t making any headway in solving the latter.</p>
+</li>
+<li>
+<p>In a good set of segments there will exist a segment such that it intersects all other segments. Goal is to find the largest set of segments that is good.</p>
+</li>
+<li>
+<p>So, if we count for every segment, the number of segment it intersects then the answer would be the maximum number among them. Add 1 to it if you don&rsquo;t consider a segment&rsquo;s intersection with itself.</p>
+</li>
+<li>
+<p>Now all elements not in the largest set need to be removed.</p>
+</li>
+<li>
+<p>How to count for every segment the number of segment it intersects? I don&rsquo;t know.</p>
+</li>
+<li>
+<p>Can we count the complement instead? Can we count the segments that don&rsquo;t intersect with given segment fast enough such that the calculation can be done for all the segments?</p>
+</li>
+<li>
+<p>Counting the complement is easier. Let&rsquo;s say there are two segments [l1, r1] and [l2, r2].</p>
+</li>
+<li>
+<p>These two segments don&rsquo;t intersect if l1&gt;r2 or l2&gt;r1. These conditions can&rsquo;t be followed simultaneously, so no overcounting.</p>
+</li>
+<li>
+<p>Subproblem is to count all l&rsquo;s greater than current r and count all r&rsquo;s less than current l.</p>
+</li>
+<li>
+<p>This can be accomplished by simple binary search, if you sort the input obviously and need to make two arrays one sorted on l and other sorted on r.</p>
+</li>
+<li>
+<p><a href="https://codeforces.com/contest/1462/submission/101344297">Submission</a></p>
+</li>
+</ul>
+<h3 id="solved-after-contest">Solved after contest<a href="#solved-after-contest" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h4 id="e2-close-tuples-hard-version"><a href="https://codeforces.com/contest/1462/problem/E2">E2. Close Tuples (hard version)</a><a href="#e2-close-tuples-hard-version" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li><strong>Why order doesn&rsquo;t matter?</strong></li>
+<li>Consider that instead of an array you are given buckets of numbers where each bucket can hold only one type of number and frequency of the number is equal to the frequency of that number in the array. It is a fancy way to say that <strong>you are given frequency array of the given array</strong>.</li>
+<li>Now you&rsquo;re asked to create those tuples, you will end up creating as many tuples as in the original problem. The reason is even if a number comes earlier than some number in the array, what really matters is how it compares to the other number because that comparison decides its position in the array.</li>
+<li>Contribution of every number in the array can be counted by counting only the tuples in which the number is minimum. For that we need frequency of the numbers in [number, number+k] which can be done using binary search (order doesn&rsquo;t matter, so we can sort the array to do that).</li>
+</ul>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="//localhost:1313/posts/cpintro/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Introduction to Competitive Programming</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="//localhost:1313/posts/ltime89/">
+                <span class="button__text">Codechef October Lunchtime 2020 Division 1</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+<style>
+.newsletter{
+	display:flex;
+	flex-direction:column;
+}
+
+</style>
+<div class="newsletter">
+<iframe src="https://nikhilr.substack.com/embed" width="auto" height="320" style="" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+  
+
+
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© Nikhil 2021</span>
+    
+      </div>
+  </div>
+</footer>
+<script src="//localhost:1313/assets/main.js"></script>
+<script src="//localhost:1313/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

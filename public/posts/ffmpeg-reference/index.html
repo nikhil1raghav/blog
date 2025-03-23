@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Basic ffmpeg reference :: Purple Terminal - Nikhil&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1. Converting to some format ffmpeg -i input.mp3 output.m4a 2. Merging audio and video Can change final container (mkv is most versatile), ffmpeg automatically decides the decoders for the job. ffmpeg -i audio.mp3 -i video.mp4 -c copy merged_video.mkv 3. Keeping Output quality same as Input quality (-sameq) ffmpeg -i input.avi -sameq output.mkv 4. Convert only first 30 seconds (-t) ffmpeg -i aadat.mp3 -t 30 aadatintro.mp3 -t also supports hh:mm:ss as time format Variation of this can be used to cut a part of the video, -ss flag sets the start time. So set the start time with -ss and duration with -t ffmpeg -i aadat.mp3 -ss 1:12 -t 1:00 solo.mp3 5. Strip audio or video -an removes audio and -vn strips video ffmpeg -i video.mp4 -vn audio.mp3 6. Bitrate -ab sets the audio bitrate and -b sets the video bitrate explicitly ffmpeg -i audio.mp3 -ab 128k audiocompressed.mp3 Notes default bitrate for video is 200kbps and 64 kbps for audio ffmpeg options are always applied to next file in argument list, can be input or ouput file. RTFM for more " />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="//localhost:1313/posts/ffmpeg-reference/" />
+
+
+
+
+
+<link rel="stylesheet" href="//localhost:1313/assets/style.css">
+
+  <link rel="stylesheet" href="//localhost:1313/assets/pink.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//localhost:1313/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="//localhost:1313/img/favicon/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  <meta name="twitter:site" content="" />
+
+<meta name="twitter:creator" content="Nikhil Raghav" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Basic ffmpeg reference :: Purple Terminal - Nikhil&#39;s Blog">
+<meta property="og:description" content="Basic and most used ffmpeg, notes for reference" />
+<meta property="og:url" content="//localhost:1313/posts/ffmpeg-reference/" />
+<meta property="og:site_name" content="Basic ffmpeg reference" />
+
+  
+    <meta property="og:image" content="//localhost:1313/img/favicon/pink.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-09-19 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+	<head>
+		
+		
+
+		
+	</head>
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Purple Terminal
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/archive">Archive</a></li>
+        
+      
+        
+          <li><a href="/books">Books</a></li>
+        
+      
+        
+          <li><a href="/links">Links</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="/subscribe">Subscribe</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/archive">Archive</a></li>
+      
+    
+      
+        <li><a href="/books">Books</a></li>
+      
+    
+      
+        <li><a href="/links">Links</a></li>
+      
+    
+      
+        <li><a href="/posts">Posts</a></li>
+      
+    
+      
+        <li><a href="/subscribe">Subscribe</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/ffmpeg-reference/" style="font-size:2.4rem;">Basic ffmpeg reference</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2020-09-19 [Updated: 2020-09-19]
+      </span>
+    
+    
+    <span class="post-author">::
+      Nikhil Raghav
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="//localhost:1313/tags/media/">media</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/linux/">linux</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/reference/">reference</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <h4 id="1-converting-to-some-format">1. Converting to some format<a href="#1-converting-to-some-format" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i input.mp3 output.m4a
+</span></span></code></pre></div><h4 id="2-merging-audio-and-video">2. Merging audio and video<a href="#2-merging-audio-and-video" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>Can change final container (mkv is most versatile), ffmpeg automatically decides the decoders for the job.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i audio.mp3 -i video.mp4 -c copy merged_video.mkv
+</span></span></code></pre></div><h4 id="3-keeping-output-quality-same-as-input-quality--sameq">3. Keeping Output quality same as Input quality (-sameq)<a href="#3-keeping-output-quality-same-as-input-quality--sameq" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i input.avi -sameq output.mkv
+</span></span></code></pre></div><h4 id="4-convert-only-first-30-seconds--t">4. Convert only first 30 seconds (-t)<a href="#4-convert-only-first-30-seconds--t" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i aadat.mp3 -t <span style="color:#ae81ff">30</span> aadatintro.mp3
+</span></span></code></pre></div><ul>
+<li><code>-t</code> also supports <code>hh:mm:ss</code> as time format</li>
+<li>Variation of this can be used to cut a part of the video, <code>-ss</code> flag sets the start time. So set the start time with <code>-ss</code> and duration with <code>-t</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i aadat.mp3 -ss 1:12 -t 1:00 solo.mp3
+</span></span></code></pre></div><h4 id="5-strip-audio-or-video">5. Strip audio or video<a href="#5-strip-audio-or-video" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li><code>-an</code> removes audio and <code>-vn</code> strips video</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i video.mp4 -vn audio.mp3
+</span></span></code></pre></div><h4 id="6-bitrate">6. Bitrate<a href="#6-bitrate" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li><code>-ab</code> sets the audio bitrate and <code>-b</code> sets the video bitrate explicitly</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i audio.mp3 -ab 128k audiocompressed.mp3
+</span></span></code></pre></div><h4 id="notes">Notes<a href="#notes" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>default bitrate for video is 200kbps and 64 kbps for audio</li>
+<li>ffmpeg options are always applied to next file in argument list, can be input or ouput file.</li>
+<li>RTFM for more</li>
+</ul>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="//localhost:1313/posts/searx/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Private search engine in 5 minutes</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="//localhost:1313/posts/counting-with-maps/">
+                <span class="button__text">Counting with hashmaps</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+<style>
+.newsletter{
+	display:flex;
+	flex-direction:column;
+}
+
+</style>
+<div class="newsletter">
+<iframe src="https://nikhilr.substack.com/embed" width="auto" height="320" style="" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+  
+
+
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© Nikhil 2021</span>
+    
+      </div>
+  </div>
+</footer>
+<script src="//localhost:1313/assets/main.js"></script>
+<script src="//localhost:1313/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

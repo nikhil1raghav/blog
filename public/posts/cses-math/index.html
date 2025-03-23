@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>CSES Math Problemset Tutorial :: Purple Terminal - Nikhil&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NOTE : It is incomplete, If you don&rsquo;t find what you&rsquo;re looking for, check back in a week.
+Table of Contents Exponentiation Exponentiation II Counting Divisors Common divisors Sum of Divisors Binomial Coefficients Creating Strings II Distributing Apples Christmas Party Fibonacci Numbers Throwing Dice Graph Paths I Graph Paths II Dice Probability Bracket Sequences I Bracket Sequences II So, there are total 31 problems, let&rsquo;s solve them by the solve count.
+" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="//localhost:1313/posts/cses-math/" />
+
+
+
+
+
+<link rel="stylesheet" href="//localhost:1313/assets/style.css">
+
+  <link rel="stylesheet" href="//localhost:1313/assets/pink.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//localhost:1313/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="//localhost:1313/img/favicon/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  <meta name="twitter:site" content="" />
+
+<meta name="twitter:creator" content="Nikhil" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CSES Math Problemset Tutorial :: Purple Terminal - Nikhil&#39;s Blog">
+<meta property="og:description" content="A somewhat chatty editorial of CSES mathematics section" />
+<meta property="og:url" content="//localhost:1313/posts/cses-math/" />
+<meta property="og:site_name" content="CSES Math Problemset Tutorial" />
+
+  
+    <meta property="og:image" content="//localhost:1313/img/favicon/pink.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-06-15 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+	<head>
+		
+		
+
+		
+		<link rel="stylesheet" href=//localhost:1313/assets/katex.min.css integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src=//localhost:1313/assets/katex.min.js integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src=//localhost:1313/assets/auto-render.min.js integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
+		
+	</head>
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Purple Terminal
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/archive">Archive</a></li>
+        
+      
+        
+          <li><a href="/books">Books</a></li>
+        
+      
+        
+          <li><a href="/links">Links</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="/subscribe">Subscribe</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/archive">Archive</a></li>
+      
+    
+      
+        <li><a href="/books">Books</a></li>
+      
+    
+      
+        <li><a href="/links">Links</a></li>
+      
+    
+      
+        <li><a href="/posts">Posts</a></li>
+      
+    
+      
+        <li><a href="/subscribe">Subscribe</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/cses-math/" style="font-size:2.4rem;">CSES Math Problemset Tutorial</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-06-15 [Updated: 2021-06-15]
+      </span>
+    
+    
+    <span class="post-author">::
+      Nikhil
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="//localhost:1313/tags/cses/">cses</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/cp/">cp</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/math/">math</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <p><strong>NOTE : It is incomplete, If you don&rsquo;t find what you&rsquo;re looking for, check back in a week.</strong></p>
+<div>
+	<h2>Table of Contents</h2>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#exponentiation">Exponentiation</a></li>
+    <li><a href="#exponentiation-ii">Exponentiation II</a></li>
+    <li><a href="#counting-divisors">Counting Divisors</a></li>
+    <li><a href="#common-divisors">Common divisors</a></li>
+    <li><a href="#sum-of-divisors">Sum of Divisors</a></li>
+    <li><a href="#binomial-coefficients">Binomial Coefficients</a></li>
+    <li><a href="#creating-strings-ii">Creating Strings II</a></li>
+    <li><a href="#distributing-apples">Distributing Apples</a></li>
+    <li><a href="#christmas-party">Christmas Party</a></li>
+    <li><a href="#fibonacci-numbers">Fibonacci Numbers</a></li>
+    <li><a href="#throwing-dice">Throwing Dice</a></li>
+    <li><a href="#graph-paths-i">Graph Paths I</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#graph-paths-ii">Graph Paths II</a></li>
+    <li><a href="#dice-probability">Dice Probability</a></li>
+    <li><a href="#bracket-sequences-i">Bracket Sequences I</a></li>
+    <li><a href="#bracket-sequences-ii">Bracket Sequences II</a></li>
+  </ul>
+</nav>
+</div>
+
+<p>So, there are total 31 problems, let&rsquo;s solve them by the solve count.</p>
+<h2 id="exponentiation">Exponentiation<a href="#exponentiation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/result/2320542/">Problem Statement</a></p>
+<p><strong>Given $a$ and $b$, calculate $a^b$ modulo $10^9+7$. Standard application of binary exponentiation.</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">modp</span>(<span style="color:#66d9ef">int</span> a,<span style="color:#66d9ef">int</span> b){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(b<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>)<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> u<span style="color:#f92672">=</span>(<span style="color:#ae81ff">1LL</span><span style="color:#f92672">*</span>u<span style="color:#f92672">*</span>u)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(b<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>)<span style="color:#66d9ef">return</span> a<span style="color:#f92672">*</span>u<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> u;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h2 id="exponentiation-ii">Exponentiation II<a href="#exponentiation-ii" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1712">Problem Statement</a></p>
+<p><strong>Given $a$,$b$ and $c$, calculate $a^{b^{c}}$ modulo $10^9+7$.</strong></p>
+<p>Is $a^b$ multiplied with itself $c$ times equal to $a^{b^c}$?</p>
+<p>No, it is equal to $a^{bc}$, as exponents get added while multiplying.</p>
+<p><strong>Can $b^c$ be reduced further?</strong></p>
+<p>According to <a href="https://brilliant.org/wiki/fermats-little-theorem/">fermat&rsquo;s little theorem</a> $a^{p-1} \equiv 1 mod p$, here $p$ being a prime integer.</p>
+<p>So we can break down $b^c$ into some $x$ parts $p-1$ and an integer. $$b^c = (p-1)*x + r$$</p>
+<p>Therefore, $$a^{b^{c}} = a^{(p-1)*x+r}$$</p>
+<p>or $$a^{b^{c}} = a^{(p-1)*x}a^r$$</p>
+<p>or $$a^{b^{c}} = a^r$$</p>
+<p><strong>How to find $r$ now? After finding $r$ it becomes same as first problem.</strong></p>
+<p>$r$ is remainder $b^c$ is divided by $p-1$.</p>
+<p>Thus, it is equivalent to solving first problem twice, once raising $b$ to $c$ using $p-1$ as mod and then raising $a$ to $r$ using $p$ as mod. $p$ here is $10^9 +7$</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#66d9ef">int</span> mod<span style="color:#f92672">=</span><span style="color:#ae81ff">1e9</span><span style="color:#f92672">+</span><span style="color:#ae81ff">7</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> r<span style="color:#f92672">=</span>modp(b,c,mod<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ans<span style="color:#f92672">=</span>modp(a,r,mod);
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ans<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="counting-divisors">Counting Divisors<a href="#counting-divisors" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1713">Problem Statement</a></p>
+<p>Count number of divisors of $X$. There are about $10^5$ such queries in the largest test. It is trivial to find divisors of $N$ in $O(N\sqrt{N})$, and it will be very slow here because of the large number of such queries.</p>
+<p>One observation is that we have to just <strong>count</strong> the number of divisors not <strong>find</strong> the exact divisors.</p>
+<p>Can we do some pre-processing and answer all queries in O(1) after that?</p>
+<p>Let&rsquo;s keep a vector $dv$ where $dv[i]$ is number of divisors of $i$. Any number $i$ will contribute $1$ to $dv[j]$ such that $j$ is multiple of $i$.</p>
+<p><strong>So, if we update answer for multiples of $i$ by $1$ for every $i$, will it be fast enough?</strong></p>
+<p>Number of steps for calculating answers up to $n$ is $n + \frac{n}2 + \frac{n}3 + \cdots + \frac{n}n$.</p>
+<p>It is equal to $$ n \sum\limits_{x=1}^n \frac{1}x$$</p>
+<p>or $$n \int \limits_{x=1}^n \frac{1}x = n log n$$</p>
+<p>Therefore, it is fast enough to pre-process in $O(nlogn)$ and then answer queries in $O(1)$.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;</span>N;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span>i;j<span style="color:#f92672">&lt;</span>N;j<span style="color:#f92672">+=</span>i)dv[j]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> t;cin<span style="color:#f92672">&gt;&gt;</span>t;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span>(t<span style="color:#f92672">--</span>){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> x;cin<span style="color:#f92672">&gt;&gt;</span>x;
+</span></span><span style="display:flex;"><span>	cout<span style="color:#f92672">&lt;&lt;</span>dv[x]<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h2 id="common-divisors">Common divisors<a href="#common-divisors" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1081">Problem Statement</a></p>
+<p><strong>Find a pair of numbers in given array such that they have maximum gcd.</strong></p>
+<p>Equivalent to finding greatest divisor which divides at least 2 numbers in the given array.
+We already know how to count divisors of a number in given range, as done in previous problem. Here we have to count multiples of numbers from $1$ to $10^6$ which exist in the given array, then print the largest number which has at least two multiples in the array.</p>
+<p>Code is similar to the previous problem.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#66d9ef">int</span> N<span style="color:#f92672">=</span><span style="color:#ae81ff">1e6</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> available[N],ct[N],x,n;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>n;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	cin<span style="color:#f92672">&gt;&gt;</span>x;
+</span></span><span style="display:flex;"><span>	available[x]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;</span>N;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span>i;j<span style="color:#f92672">&lt;</span>N;j<span style="color:#f92672">+=</span>i){
+</span></span><span style="display:flex;"><span>		ct[i]<span style="color:#f92672">+=</span>available[j]; <span style="color:#75715e">//update contribution of multiple
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>N<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">--</span>){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(ct[i]<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">2</span>){
+</span></span><span style="display:flex;"><span>		cout<span style="color:#f92672">&lt;&lt;</span>i<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h2 id="sum-of-divisors">Sum of Divisors<a href="#sum-of-divisors" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1082">Problem Statement</a></p>
+<p><strong>Given a number $n$, calculate sum of all divisors of numbers in range $1$ to $n$ modulo $10^9+7$.</strong></p>
+<p>In previous problem we did count how many times a divisor occurs for given numbers in an array. Now, let&rsquo;s say our array has all the numbers in range $[ 1,n]$. So once we get the frequency of all the divisors, it is a linear sum after that.</p>
+<p>But, $n$ is too large to create an array and divisors will be very big too, obviously.</p>
+<p>Unlike previous problem, all numbers from $1$ to $n$ are present here. Maybe this uniformity makes the problem easier for big $n$.</p>
+<p>Number of multiples of $i$ in range $[1,n]$ is $\lfloor \frac{n}i \rfloor$.</p>
+<p>Therefore, the answer to the problem for a given $n$ is</p>
+<p>$$ \sum \limits_{i=1}^n \lfloor\frac{n}i\rfloor * i$$</p>
+<p>As $n$ can be as big as $10^{12}$. We can&rsquo;t calculate this sum in linear time directly.</p>
+<p><strong>Here are some observations:</strong></p>
+<ul>
+<li>We can calculate first $\sqrt n$ terms avoiding TLE verdict.</li>
+<li>After that $\lfloor\frac{n}i\rfloor$ takes only $\sqrt n$ distinct values.</li>
+<li>When $i$ changes in range $[ \sqrt n, n]$, then $\frac{n}i$ changes from $\sqrt n$ to $1$.</li>
+<li>$\frac {n}x$ is the largest value of $i$ for which $\lfloor\frac{n}i\rfloor$ is $x$.</li>
+<li>All $i \in [\sqrt n, n]$ such that $\lfloor \frac{n}i \rfloor = X$ is continuous.</li>
+</ul>
+<p>For an integer $X$:</p>
+<ul>
+<li>$l$ is <strong>smallest value of $i$</strong> such that $\lfloor \frac{n}i \rfloor = X$</li>
+<li>$r$ is <strong>largest value of $i$ such that</strong> $\lfloor \frac{n}i \rfloor = X$</li>
+<li>Contribution of the interval in $[\sqrt n, n]$ where $\lfloor \frac{n}i \rfloor = X$, can be written as:
+$$ X ⋅ \sum \limits_{i=l}^r i = X ⋅ \Biggl( \frac{r*(r+1)}2 - \frac{l*(l-1)}2 \Biggr)$$</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>ll inv2<span style="color:#f92672">=</span><span style="color:#ae81ff">500000004</span>;
+</span></span><span style="display:flex;"><span>ll n;
+</span></span><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>n;
+</span></span><span style="display:flex;"><span>ll inv2<span style="color:#f92672">=</span>modp(<span style="color:#ae81ff">2</span>,mod<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>);
+</span></span><span style="display:flex;"><span>ll ans<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">*</span>i<span style="color:#f92672">&lt;=</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">=</span>(ans<span style="color:#f92672">+</span>(<span style="color:#ae81ff">1LL</span><span style="color:#f92672">*</span>(n<span style="color:#f92672">/</span>i)<span style="color:#f92672">*</span>i)<span style="color:#f92672">%</span>mod)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>ll l<span style="color:#f92672">=</span>sqrtl(n);
+</span></span><span style="display:flex;"><span>l<span style="color:#f92672">++</span>; <span style="color:#75715e">//left is 1+right of the last value
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">for</span>(ll val<span style="color:#f92672">=</span>l;val<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">1</span> ;val<span style="color:#f92672">--</span>){
+</span></span><span style="display:flex;"><span>	ll r<span style="color:#f92672">=</span>n<span style="color:#f92672">/</span>val; <span style="color:#75715e">//r can be as large as n
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	ll contribution <span style="color:#f92672">=</span> (r<span style="color:#f92672">%</span>mod)<span style="color:#f92672">*</span>((r<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>mod)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(r<span style="color:#f92672">&lt;</span>l)<span style="color:#66d9ef">continue</span>; <span style="color:#75715e">//zero contribution when interval is non-existent
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	ll left <span style="color:#f92672">=</span> (l<span style="color:#f92672">%</span>mod)<span style="color:#f92672">*</span>((l<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span>mod)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	contribution <span style="color:#f92672">=</span> (contribution <span style="color:#f92672">-</span>left <span style="color:#f92672">+</span> mod)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	contribution <span style="color:#f92672">=</span> (contribution<span style="color:#f92672">*</span>inv2)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	contribution <span style="color:#f92672">=</span> (contribution<span style="color:#f92672">*</span>(val<span style="color:#f92672">%</span>mod))<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">=</span>(contribution<span style="color:#f92672">+</span>ans)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	l<span style="color:#f92672">=</span>r<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ans<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="binomial-coefficients">Binomial Coefficients<a href="#binomial-coefficients" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1079">Problem Statement</a></p>
+<p>Many queries of the form $n$ and $r$ calculate $C(n,r)$ modulo $10^9 +7$</p>
+<p>calculate factorial and inverse factorial in advance and then answer all queries in $O(1)$.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>f[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">ncr</span>(<span style="color:#66d9ef">int</span> n,<span style="color:#66d9ef">int</span> r){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(n<span style="color:#f92672">&lt;</span>r)<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> res<span style="color:#f92672">=</span><span style="color:#ae81ff">1LL</span><span style="color:#f92672">*</span>f[n]<span style="color:#f92672">*</span>inv[r]<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1LL</span><span style="color:#f92672">*</span>res<span style="color:#f92672">*</span>inv[n<span style="color:#f92672">-</span>r]<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h2 id="creating-strings-ii">Creating Strings II<a href="#creating-strings-ii" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1715">Problem Statement</a></p>
+<p><strong>How many different strings can be formed from the characters of given string?</strong></p>
+<p>Here, using its characters means that all characters are to be used. So we have to print number of all valid permutations of given string.</p>
+<p>Let&rsquo;s suppose all characters are distinct in a string of length $N$, then answer is $N!$. If $X$ characters are same out of $N$ then number of distinct permutations will be $\frac {N!}{X!}$ because after making $X$ characters same, we counted identical permutations $X!$ times.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> h(<span style="color:#ae81ff">26</span>);
+</span></span><span style="display:flex;"><span>string s;
+</span></span><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>s;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> i:s)h[i<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ans<span style="color:#f92672">=</span>f[s.length()];
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">26</span>;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	ans<span style="color:#f92672">=</span>ans<span style="color:#f92672">*</span>inv[h[i]]<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h2 id="distributing-apples">Distributing Apples<a href="#distributing-apples" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1716">Problem Statement</a></p>
+<p>Ways to distribute $m$ apples among $n$ children. It is possible that someone gets nothing. Consider $n-1$ partitions and $m$ apples are to be arranged together. Now every arrangement can be considered as a possible distribution. Apples to the left of $i_{th}$ partition are number of apples $i_{th}$ child gets, and number of apples to the right of last partition is the number of apples the last child gets.</p>
+<p>It is equivalent to arranging $n-1$ characters of one type and $m$ characters of another type in a string. We just solved a similar problem above.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> n,m;
+</span></span><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>n<span style="color:#f92672">&gt;&gt;</span>m;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ans<span style="color:#f92672">=</span>f[n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">+</span>m]<span style="color:#f92672">*</span>inv[m]<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>ans<span style="color:#f92672">=</span>ans<span style="color:#f92672">*</span>inv[n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ans<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="christmas-party">Christmas Party<a href="#christmas-party" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1717">Problem Statement</a></p>
+<p>It is equivalent to finding how many ways are there such that a gift doesn&rsquo;t leave with the same child it came to party with, and every gift can be with exactly one child. Therefore it is equal to counting the number of derangements of size $N$.</p>
+<p>Now there is a recurrence for counting derangements. Let&rsquo;s say $D(n)$ is number of derangements of size $n$. Then</p>
+<p>$$ D(n) = (n-1)(D(n-1) + D(n-2))$$</p>
+<p>Consider gift at position $1$ we have $n-1$ choices to replace it with, suppose we replaced it with $x$. After that either we can put $1$ at place of $x$ and then calculate $D(n-2)$, or we can put some other gift at place of $x$ and calculate $D(n-1)$.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>d[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>d[<span style="color:#ae81ff">2</span>]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> n;cin<span style="color:#f92672">&gt;&gt;</span>n;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	d[i]<span style="color:#f92672">=</span><span style="color:#ae81ff">1LL</span><span style="color:#f92672">*</span>(i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">*</span>(d[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">+</span>d[i<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>])<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>d[n]<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="fibonacci-numbers">Fibonacci Numbers<a href="#fibonacci-numbers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1722">Problem Statement</a></p>
+<p>Find $n_{th}$ fibonacci number, here $n$ can be as large as $10^{18}$, so $O(n)$ approach won&rsquo;t work. Can be calculated by matrix exponentiation. <a href="http://zobayer.blogspot.com/2010/11/matrix-exponentiation.html">Further reading on matrix exponentiation</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>ll n;cin<span style="color:#f92672">&gt;&gt;</span>n;
+</span></span><span style="display:flex;"><span>ll fib[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">2</span>]<span style="color:#f92672">=</span>{{<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>},{<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>}},ret[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">2</span>]<span style="color:#f92672">=</span>{{<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>},{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>}},tmp[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">2</span>]<span style="color:#f92672">=</span>{{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>}};
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i,j,k;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span>(n){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(n<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>		memset(tmp,<span style="color:#ae81ff">0</span>,<span style="color:#66d9ef">sizeof</span> tmp);
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;k<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>					tmp[i][j]<span style="color:#f92672">=</span>(tmp[i][j]<span style="color:#f92672">+</span>ret[i][k]<span style="color:#f92672">*</span>fib[k][j])<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;j<span style="color:#f92672">++</span>)ret[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	memset(tmp,<span style="color:#ae81ff">0</span>,<span style="color:#66d9ef">sizeof</span> tmp);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;k<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>				tmp[i][j]<span style="color:#f92672">=</span>(tmp[i][j]<span style="color:#f92672">+</span>fib[i][k]<span style="color:#f92672">*</span>fib[k][j])<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">2</span>;j<span style="color:#f92672">++</span>)fib[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>	n<span style="color:#f92672">/=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ret[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="throwing-dice">Throwing Dice<a href="#throwing-dice" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1096">Problem Statement</a></p>
+<p>Ways to get sum $n$ by throwing a dice. Let&rsquo;s say answer for $n$ is $T_n$.</p>
+<p>$$T_n=T_{n-1} + T_{n-2} + T_{n-3} + T_{n-4} + T_{n-5} + T_{n-6}$$</p>
+<p>As we can only get the values in range $[1,6]$, so these are the only penultimate states.</p>
+<p>Here again $n$ can be as large as $10^{18}$. It is similar to how we calculated fibonacci numbers, but with extra terms.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>ll n;cin<span style="color:#f92672">&gt;&gt;</span>n;
+</span></span><span style="display:flex;"><span>ll mat[<span style="color:#ae81ff">6</span>][<span style="color:#ae81ff">6</span>]<span style="color:#f92672">=</span>{{<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>}};
+</span></span><span style="display:flex;"><span>ll ret[<span style="color:#ae81ff">6</span>][<span style="color:#ae81ff">6</span>]<span style="color:#f92672">=</span>{{<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>},
+</span></span><span style="display:flex;"><span>		{<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>}};
+</span></span><span style="display:flex;"><span>ll tmp[<span style="color:#ae81ff">6</span>][<span style="color:#ae81ff">6</span>];
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i,j,k;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span>(n){
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(n<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>	memset(tmp,<span style="color:#ae81ff">0</span>,<span style="color:#66d9ef">sizeof</span> tmp);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;k<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>				tmp[i][j]<span style="color:#f92672">=</span>(tmp[i][j]<span style="color:#f92672">+</span>ret[i][k]<span style="color:#f92672">*</span>mat[k][j])<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;j<span style="color:#f92672">++</span>)ret[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	memset(tmp,<span style="color:#ae81ff">0</span>,<span style="color:#66d9ef">sizeof</span> tmp);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;k<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>				tmp[i][j]<span style="color:#f92672">=</span>(tmp[i][j]<span style="color:#f92672">+</span>mat[i][k]<span style="color:#f92672">*</span>mat[k][j])<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">6</span>;j<span style="color:#f92672">++</span>)mat[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	n<span style="color:#f92672">/=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ret[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="graph-paths-i">Graph Paths I<a href="#graph-paths-i" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1723">Problem Statement</a></p>
+<h5 id="given-a-directed-graph-with-n-nodes-find-out-number-of-paths-from-node-1-to-n-with-exactly-k-edges">Given a directed graph with $n$ nodes find out number of paths from node $1$ to $n$ with exactly $k$ edges.<a href="#given-a-directed-graph-with-n-nodes-find-out-number-of-paths-from-node-1-to-n-with-exactly-k-edges" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h5>
+<p>Adjacency matrix of an graph has an interesting property. When $A$ is adjacency matrix of a graph, then $A^k[i][j]$ contains the number of paths of length $k$ from $i$ to $j$.</p>
+<p>You can see it is true when $k$ is $1$. Adjacency matrix is essentially populated with number of paths of length $1$ between every pair of nodes.</p>
+<h5 id="how-to-be-sure-that-it-is-true-for-higher-powers">How to be sure that it is true for higher powers?<a href="#how-to-be-sure-that-it-is-true-for-higher-powers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h5>
+<p>It can be proved by using principle of mathematical induction.</p>
+<p>We know that it is true for $k=1$</p>
+<p>Suppose it is true for any $k=x$, now $A^x[i][j]$ is number of paths of length $x$ from $i$ to $j$.</p>
+<p>Let&rsquo;s call number of paths of length $x+1$ from $i$ to $j$ as $C_{x+1}[i][j]$.</p>
+<p>Every path from $i$ to $j$ of length $x+1$ will surely be extending a path of length $x$ by $1$. Now from every intermediate node $y$ where path of length $x$ from $i$ ends, we need to find number of paths of length $1$ starting from $y$ and ending at $j$.
+Therefore, we can write</p>
+<p>$$ C_{x+1}[i][j] =  \sum\limits_{y=1}^n A^x[i][y] ⋅ A[y][j]$$</p>
+<p>Thus, $C_{x+1}$ is equal to multiplying $A^x$ and $A$, more precisely $A^{x+1}$.</p>
+<p>To solve the problem, we&rsquo;ll create an adjacency matrix for the given graph, call it $A$ and then print $A^k[1][n]$ as the answer.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>n<span style="color:#f92672">&gt;&gt;</span>m<span style="color:#f92672">&gt;&gt;</span>K;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>m;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	cin<span style="color:#f92672">&gt;&gt;</span>u<span style="color:#f92672">&gt;&gt;</span>v;
+</span></span><span style="display:flex;"><span>	u<span style="color:#f92672">--</span>;v<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>	adj[u][v]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)ret[i][i]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span>(K){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(K<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>		memset(tmp,<span style="color:#ae81ff">0</span>,<span style="color:#66d9ef">sizeof</span> tmp);
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span>n;k<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>					tmp[i][j]<span style="color:#f92672">=</span>(tmp[i][j]<span style="color:#f92672">+</span>ret[i][k]<span style="color:#f92672">*</span>adj[k][j])<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)ret[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	memset(tmp,<span style="color:#ae81ff">0</span>,<span style="color:#66d9ef">sizeof</span> tmp);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span>n;k<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>				tmp[i][j]<span style="color:#f92672">=</span>(tmp[i][j]<span style="color:#f92672">+</span>adj[i][k]<span style="color:#f92672">*</span>adj[k][j])<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)adj[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	K<span style="color:#f92672">/=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ret[<span style="color:#ae81ff">0</span>][n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="graph-paths-ii">Graph Paths II<a href="#graph-paths-ii" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1724">Problem Statement</a></p>
+<p>In a weighted graph of $n$ nodes. Find the minimum path length from $1$ to $n$ with exactly $k$ edges.</p>
+<p>It can be solved by using similar dp we used in the problem above.</p>
+<p>Let&rsquo;s say $C_{x}[i][j]$ is minimum path length of $x$ edge path from $i$ to $j$.</p>
+<p>Then, we can write $$C_{x+1}[i][j] = \min\limits_{k=1}^n C_{x}[i][k]+C_{1}[k][j]$$</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>n<span style="color:#f92672">&gt;&gt;</span>m<span style="color:#f92672">&gt;&gt;</span>K;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>){ret[i][j]<span style="color:#f92672">=</span>adj[i][j]<span style="color:#f92672">=</span>inf;}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>m;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	cin<span style="color:#f92672">&gt;&gt;</span>u<span style="color:#f92672">&gt;&gt;</span>v<span style="color:#f92672">&gt;&gt;</span>w;
+</span></span><span style="display:flex;"><span>	u<span style="color:#f92672">--</span>;v<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>	adj[u][v]<span style="color:#f92672">=</span>min(adj[u][v],w);
+</span></span><span style="display:flex;"><span>	ret[u][v]<span style="color:#f92672">=</span>adj[u][v];
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>K<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span>(K){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(K<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)tmp[i][j]<span style="color:#f92672">=</span>inf;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span>n;k<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>					tmp[i][j]<span style="color:#f92672">=</span>min(tmp[i][j],ret[i][k]<span style="color:#f92672">+</span>adj[k][j]);
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)ret[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)tmp[i][j]<span style="color:#f92672">=</span>inf;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;k<span style="color:#f92672">&lt;</span>n;k<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>				tmp[i][j]<span style="color:#f92672">=</span>min(tmp[i][j],adj[i][k]<span style="color:#f92672">+</span>adj[k][j]);
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>)<span style="color:#66d9ef">for</span>(j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;j<span style="color:#f92672">&lt;</span>n;j<span style="color:#f92672">++</span>)adj[i][j]<span style="color:#f92672">=</span>tmp[i][j];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	K<span style="color:#f92672">/=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(ret[<span style="color:#ae81ff">0</span>][n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">&gt;=</span>inf)puts(<span style="color:#e6db74">&#34;-1&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ret[<span style="color:#ae81ff">0</span>][n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="dice-probability">Dice Probability<a href="#dice-probability" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/1725">Problem Statement</a></p>
+<p>What is the probability that sum of the outcomes of rolling a 6-faced dice $n$ times is in range $[a,b]$?</p>
+<p>Let&rsquo;s solve a simpler problem first.</p>
+<p>What is the probability that sum of outcomes is $X$, if we roll a dice $n$ times? As distance between $a$ and $b$ is very less we can add up answers to all the numbers between $a$ and $b$.</p>
+<p>Let $dp[i][j]$ be probability of getting sum $i$ in $j$ rolls.</p>
+<p>So, $$dp[i][j] = \sum\limits_{x=1}^{min(j,6)}\frac{dp[i-1][j-x]}6$$</p>
+<p>After calculating dp table, final answer of the problem will be $\sum\limits_{i=a}^bdp[n][i]$</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> n,a,b;cin<span style="color:#f92672">&gt;&gt;</span>n<span style="color:#f92672">&gt;&gt;</span>a<span style="color:#f92672">&gt;&gt;</span>b;
+</span></span><span style="display:flex;"><span>dp[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">=</span><span style="color:#ae81ff">1.0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> roll<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;roll<span style="color:#f92672">&lt;=</span>n;roll<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> sum<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;sum<span style="color:#f92672">&lt;=</span>roll<span style="color:#f92672">*</span><span style="color:#ae81ff">6</span>;sum<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> lst<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;lst<span style="color:#f92672">&lt;=</span>min(<span style="color:#ae81ff">6</span>,sum);lst<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>			dp[roll][sum]<span style="color:#f92672">+=</span>dp[roll<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][sum<span style="color:#f92672">-</span>lst];
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		dp[roll][sum]<span style="color:#f92672">/=</span><span style="color:#ae81ff">6.0</span>;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">double</span> ans<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>a;i<span style="color:#f92672">&lt;=</span>b;i<span style="color:#f92672">++</span>)ans<span style="color:#f92672">+=</span>dp[n][i];
+</span></span><span style="display:flex;"><span>printf(<span style="color:#e6db74">&#34;%.6lf&#34;</span>,ans);
+</span></span></code></pre></div><h2 id="bracket-sequences-i">Bracket Sequences I<a href="#bracket-sequences-i" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/2064">Problem statement</a></p>
+<p><strong>Calculate the number of valid bracket sequences of length $n$.</strong></p>
+<p>Here, the total length of the sequence is $n$. So there won&rsquo;t be any valid sequence when $n$ is odd because we&rsquo;ll not have equal number of opening and closing brackets.</p>
+<p>So what are the necessary and sufficient conditions to create a valid bracket sequence of length $n$.</p>
+<ul>
+<li>Equal number of opening and closing brackets</li>
+<li>At every point number of closing brackets must be less than or equal to number of opening brackets.</li>
+</ul>
+<p>Therefore after printing 0 for every odd $n$, we needn&rsquo;t care about first condition. Now, we have $\frac{n}2$ opening brackets and $\frac{n}2$ closing brackets and have to find number of valid bracket sequences using all of them.</p>
+<p>Thus we have two kind of moves - Use $)$ or $($, and there is a limit on their use, each move can be used exactly $n/2$ times.</p>
+<p>We can model this problem to an equivalent grid walking problem.</p>
+<p>There is a grid (as shown in the figure below), you are standing at $(0,0)$ and the destination is $(\frac{n}2, \frac{n}2)$, count total possible paths such that you can only move up i.e. use &ldquo;$)$&rdquo; exactly $\frac{n}2$ times and move right i.e. use &ldquo;$($&rdquo; exactly $\frac{n}2$ times.</p>
+
+  <img src="/files/grid1.png"  class="left"  style="margin:auto;width:40%;"  />
+
+
+<p>But, what about the condition that at every moment : $$closing\space brackets \leq opening \space brackets$$
+can be rephrased as:
+$$ moves\space in \space upward \space direction \leq moves \space to \space the \space right$$</p>
+<p>It means that no point in the possible valid paths will be above anti-diagonal. In the figures below, figure to the left shows a valid path, as it is entirely below the diagonal, and the figure to the left shows an invalid path as it overshoots diagonal at point $P$.</p>
+<p>
+  <img src="/files/grid-valid.png"  class="left"  style="float:left;margin:auto;width:40%;"  />
+
+
+
+  <img src="/files/grid-invalid.png"  class="left"  style="margin:auto;width:40%;"  />
+
+</p>
+<p><strong>How to count these good paths?</strong></p>
+<p>Total possible paths irrespective of the conditions imposed by the diagonal are ${}^n C_{\frac{n}2}$
+So, if we can somehow count all the paths that overshoot the diagonal at some point, we can subtract them from total to get the count of good paths.</p>
+<p>When a path crosses the diagonal for the first time, let&rsquo;s call it $k_{th}$ move. Note that $k$ here is odd because it is the first time up moves become greater than right moves. Till $k_{th}$ move, we already have used exactly, $\frac{k-1}2$ right moves and $\frac{k-1}2 + 1$ up moves.</p>
+<p>We are left with $\frac{n}2 - \frac{k-1}2$ right moves and $\frac{n}2 - \frac{k-1}2 - 1$ up moves.</p>
+<p><strong>PLEASE PAY ATTENTION NOW (MAGICAL STEP OF THE PROOF)</strong></p>
+<p>Now, for every move if we <strong>go up whenever the invalid path goes right</strong> and <strong>go right whenever the invalid path goes up</strong>, then <strong>sum of the moves in both directions becomes constant again</strong>.</p>
+<p><strong>What do we get by making the sum of moves constant?</strong></p>
+<p>It means that now any invalid path can be mapped to a path from $(0,0)$ to a <strong>fixed position</strong> in the grid, and we know how to calculate number of possible paths between two points in a grid, if we have only two kind of moves.</p>
+<p><strong>What is that fixed point?</strong></p>
+<p>In essence we swapped the number of right moves left and number of up moves left with each other.</p>
+<p>By doing so,$$total \space right \space moves = \frac{k-1}2 + \frac{n}2 - \frac{k-1}2 -1 = \frac{n}2 - 1 $$</p>
+<p>And, $$ total \space up \space moves = \frac{k-1}2 + 1 + \frac{n}2 - \frac{k-1}2 = \frac{n}2 + 1$$</p>
+<p>So final position every time would be $(\frac{n}2 -1 , \frac{n}2 +1)$, as shown in the figure below</p>
+<p>Therefore number of such paths is ${}^nC_{\frac{n}2 -1}$</p>
+
+  <img src="/files/grid-final.png"  class="left"  style="margin:auto;width:40%;"  />
+
+
+<p>Therefore answer is $$Total\space paths - bad \space paths = {}^nC_{\frac{n}2} - {}^nC_{\frac{n}2 -1}$$</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>n;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(n<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>	puts(<span style="color:#e6db74">&#34;0&#34;</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> total<span style="color:#f92672">=</span>ncr(n,n<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> bad<span style="color:#f92672">=</span>ncr(n,n<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ans<span style="color:#f92672">=</span>(total<span style="color:#f92672">-</span>bad<span style="color:#f92672">+</span>mod)<span style="color:#f92672">%</span>mod;
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>ans<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div><h2 id="bracket-sequences-ii">Bracket Sequences II<a href="#bracket-sequences-ii" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://cses.fi/problemset/task/2187">Problem Link</a></p>
+<p>Instead of just the number $n$, you are also given a prefix of the sequence, how many valid ways are to complete this sequence such that it becomes a valid bracket sequence of length $n$.</p>
+<p>Let $O$ be <strong>number of opening brackets</strong> in the prefix and $C$ be <strong>number of closing brackets</strong> in the prefix.</p>
+<p><strong>Re-frame this problem to previously seen grid walking problem</strong></p>
+<p>You are standing at $(O,C)$ on the grid, how many ways are there to reach $(n/2, n/2)$ such that you always remain below the straight line connecting $(n/2, n/2)$ and $(0,0)$.</p>
+<p>So, $Total \space Paths = {}^{n-(O+C)}C_{\frac{n}2-O}$, irrespective of any condition.</p>
+<p>Again, all invalid paths can be mapped to paths from $(O,C)$ to $(\frac{n}2 -1, \frac{n}2 +1)$</p>
+<p>Thus, $Bad \space paths = {}^{n-(O+C)}C_{\frac{n}2 - O -1}$</p>
+<p>First we check if the prefix is valid, i.e. it is under the diagonal, and number of opening brackets and closing brackets is less than $\frac{n}2$.</p>
+<p>If prefix is not valid, answer is $0$.</p>
+<p>else, it is $Total \space paths - Bad \space paths$</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>string s;cin<span style="color:#f92672">&gt;&gt;</span>s;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> o<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>,c<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> valid<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> i:s){
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(i<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;)&#39;</span>)c<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">else</span> o<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>	valid<span style="color:#f92672">&amp;=</span>(c<span style="color:#f92672">&lt;=</span>o);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>valid<span style="color:#f92672">&amp;=</span>(c<span style="color:#f92672">&lt;=</span>(n<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>valid<span style="color:#f92672">&amp;=</span>(o<span style="color:#f92672">&lt;=</span>(n<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>valid or n<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>	puts(<span style="color:#e6db74">&#34;0&#34;</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> total<span style="color:#f92672">=</span>ncr(n<span style="color:#f92672">-</span>(o<span style="color:#f92672">+</span>c), n<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>o);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> bad<span style="color:#f92672">=</span>ncr(n<span style="color:#f92672">-</span>(o<span style="color:#f92672">+</span>c), n<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>o<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>cout<span style="color:#f92672">&lt;&lt;</span>(total<span style="color:#f92672">-</span>bad<span style="color:#f92672">+</span>mod)<span style="color:#f92672">%</span>mod<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span></code></pre></div>
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="//localhost:1313/posts/magic-potion/">
+                <span class="button__icon">←</span>
+                <span class="button__text">[Tutorial] I. Magic Potion - Asia Nanjing Regional Contest 2018-19</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="//localhost:1313/posts/links3/">
+                <span class="button__text">Monday Links #3</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+<style>
+.newsletter{
+	display:flex;
+	flex-direction:column;
+}
+
+</style>
+<div class="newsletter">
+<iframe src="https://nikhilr.substack.com/embed" width="auto" height="320" style="" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+  
+
+
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© Nikhil 2021</span>
+    
+      </div>
+  </div>
+</footer>
+<script src="//localhost:1313/assets/main.js"></script>
+<script src="//localhost:1313/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

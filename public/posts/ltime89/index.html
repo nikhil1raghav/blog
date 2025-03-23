@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Codechef October Lunchtime 2020 Division 1 :: Purple Terminal - Nikhil&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Made 3 full successful submissions and 1 partial scored 325 points with lot of wrong submissions and ended up at 230th place. Here are the notes on some problems I solved during and after the contest and the thought process I had while solving them. I write these posts so that I can document any new problem solving techniques, observation or method of thinking about the problem I encounter during a contest. It also doubles up as an upsolving journal and lets me review my own thought process and outlook during the contest.
+" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="//localhost:1313/posts/ltime89/" />
+
+
+
+
+
+<link rel="stylesheet" href="//localhost:1313/assets/style.css">
+
+  <link rel="stylesheet" href="//localhost:1313/assets/pink.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//localhost:1313/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="//localhost:1313/img/favicon/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  <meta name="twitter:site" content="" />
+
+<meta name="twitter:creator" content="Nikhil" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Codechef October Lunchtime 2020 Division 1 :: Purple Terminal - Nikhil&#39;s Blog">
+<meta property="og:description" content="October lunchtime performance notes, mini editorials and upsolve journal" />
+<meta property="og:url" content="//localhost:1313/posts/ltime89/" />
+<meta property="og:site_name" content="Codechef October Lunchtime 2020 Division 1" />
+
+  
+    <meta property="og:image" content="//localhost:1313/img/favicon/pink.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-11-01 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+	<head>
+		
+		
+
+		
+		<link rel="stylesheet" href=//localhost:1313/assets/katex.min.css integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src=//localhost:1313/assets/katex.min.js integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src=//localhost:1313/assets/auto-render.min.js integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
+		
+	</head>
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Purple Terminal
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/archive">Archive</a></li>
+        
+      
+        
+          <li><a href="/books">Books</a></li>
+        
+      
+        
+          <li><a href="/links">Links</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="/subscribe">Subscribe</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/archive">Archive</a></li>
+      
+    
+      
+        <li><a href="/books">Books</a></li>
+      
+    
+      
+        <li><a href="/links">Links</a></li>
+      
+    
+      
+        <li><a href="/posts">Posts</a></li>
+      
+    
+      
+        <li><a href="/subscribe">Subscribe</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/ltime89/" style="font-size:2.4rem;">Codechef October Lunchtime 2020 Division 1</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2020-11-01 [Updated: 2020-11-01]
+      </span>
+    
+    
+    <span class="post-author">::
+      Nikhil
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="//localhost:1313/tags/review/">review</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/codechef/">codechef</a>&nbsp;
+    
+    #<a href="//localhost:1313/tags/upsolve/">upsolve</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>Made 3 full successful submissions and 1 partial scored 325 points with lot of wrong submissions and ended up at 230th place. Here are the notes on some problems I solved during and after the contest and the thought process I had while solving them. I write these posts so that I can document any new problem solving techniques, observation or method of thinking about the problem I encounter during a contest. It also doubles up as an upsolving journal and lets me review my own thought process and outlook during the contest.</p>
+<h1 id="solved-during-contest">Solved during contest<a href="#solved-during-contest" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h4 id="chef-likes-good-sequences"><a href="https://www.codechef.com/LTIME89A/problems/GSUB">Chef Likes Good Sequences</a><a href="#chef-likes-good-sequences" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>At first glance thought it would be a hard problem, without thinking much wrote a brute force for the first subtask, then saw the submission countwas highest for this problem.</li>
+<li>Every update (except terminal updates) either created 3 partitions or merged two partitions, so every query can be answered in $O(1)$ by counting the old and new partitions thus created.</li>
+<li>Had 1 WA on this approach because of a simple implementation mistake, which I was quick to figure out. Will include single testcases like $n=1$ while testing locally.</li>
+</ul>
+<h4 id="cute-chef-gift"><a href="https://www.codechef.com/LTIME89A/problems/COPAR">Cute Chef Gift</a><a href="#cute-chef-gift" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>
+<p>Simple number theory problem.</p>
+</li>
+<li>
+<p>First thoughts were that I have to find such a partition of the array such that set of primes of both the partitions is disjoint. Used up 20 minutes thinking about implementation details. Should&rsquo;ve solved first subtask rather than thinking about how to get 100.</p>
+</li>
+<li>
+<p>An observation that solved first two subtasks without doing anything fancy was that if two numbers aren&rsquo;t coprime then they should be in same partition. This helped in calculating bounds of a partition $O(n^2)$ which was enough to pass first two subtasks.</p>
+</li>
+<li>
+<p>For 100 points, maintained frequency of all the primes that are in the array and started deleting elements from right, if at some point all the primes used till now become zero then the remaining set is certainly disjoint with the set of all elements removed.</p>
+</li>
+<li>
+<p>Editorial had a simpler approach but still it is a nice idea to use in future when I&rsquo;ll have to find some disjoint partition.</p>
+</li>
+</ul>
+<h4 id="chef-is-just-throwing-random-words"><a href="https://www.codechef.com/LTIME89A/problems/SSO">Chef Is Just Throwing Random Words</a><a href="#chef-is-just-throwing-random-words" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>When I saw this problem in first minute of the contest I thought it is very hard.</li>
+<li>But when I looked at it after solving above two problems, I found it easier and also had an approach in mind that was to build the answer bit by bit.</li>
+<li>So started thinking when will the given bit be set in the answer, a bit will be set if there is some carry remaining from previous summations or we have a number that has this bit.</li>
+<li>Coded it fast enough but missed a corner case and passed 3 testcases out of 4. It is nice how codechef keeps testing the solution even if it fails the first testcase. It helps a lot in finding the mistake during contest.</li>
+<li>Wrote an assert statement to check if the answer can be greater than $2^{30}$, and then made changes to the solution to get AC.</li>
+</ul>
+<h1 id="solved-after-contest">Solved after contest<a href="#solved-after-contest" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h4 id="counting-spaghetti"><a href="https://www.codechef.com/LTIME89A/problems/CDSUMS">Counting Spaghetti</a><a href="#counting-spaghetti" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>Solved first subtask in contest which was no brainer, but the important observation that I missed from solving first subtask was that if you have all coins in interval $[L:R]$ , if you fix the number of coins used then there is a continuous range of different sums that can be made by those coins.</li>
+<li>Second subtask can be done by iterating on the number of spaghetti you take and adding up the lengths of the ranges thus formed. Taking care of overlapping ranges.</li>
+<li>For solving third task we can just count the ranges which don&rsquo;t overlap, when we solve the quadratic equation as given in editorial, if the equation has no real roots, then no segment overlaps so we solve it how we solved second subtask, otherwise, iterate on the segment size where the equation is positive.</li>
+</ul>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="//localhost:1313/posts/cf1462/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Codeforces Round #690 (Div. 3)</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="//localhost:1313/posts/selfupdate/">
+                <span class="button__text">Self updating readme on github</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+<style>
+.newsletter{
+	display:flex;
+	flex-direction:column;
+}
+
+</style>
+<div class="newsletter">
+<iframe src="https://nikhilr.substack.com/embed" width="auto" height="320" style="" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+  
+
+
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© Nikhil 2021</span>
+    
+      </div>
+  </div>
+</footer>
+<script src="//localhost:1313/assets/main.js"></script>
+<script src="//localhost:1313/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

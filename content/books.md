@@ -1,192 +1,75 @@
 +++
-title="Books"
-description="A place to note down things that I want to remember and share from the books I read"
-tags=["books"]
+title = "Book Reviews"
+date = "2024-11-30"
+reviews = [
+  { title = "Wool",review = "Read this because Apple TV show wasn't moving fast.", rating = "4" },
+  { title = "Death's end",review = "First half is good, second half leaves a lot to desire. You can stop reading after 70%", rating = "3" },
+  { title = "Dark Forest",review = "Good story, great scale, bumpy translation", rating = "4" },
+  { title = "Three body problem",review = "Great Sci-fi, you'll learn how to stop scientific progress with two protons", rating = "4" },
+  { title = "Veronica Decides To Die",review = "I want to read all books by Coelho", rating = "4" },
+  { title = "Our trees still grow in Dehra",review = "School homework. Done late", rating = "3" },
+  { title = "14 years with Boss", review = "Read one chapter from it in a random NCERT book. I like learning about movies, so picked up the book.", rating = "3" },
+  { title = "By way of deception : Making of a Mossad officer", review = "Read this after watching Munich. Re-read worthy", rating = "4" },
+  { title = "Thoughts of a philosophical fighter pilot", review = "I was bored when I read it for the first time. As it is a collection of his talks, material is very redundant.", rating = "2" },
+  { title = "The Castle - Franz Kafka", review = "Frustrating. Last Kafka book I'll read", rating = "2" },
+  { title = "The Reluctant Fundamentalist", review = "Ali Sethi sang this Ghazal \"Dil lagaane ki baat karte ho\" which is in the movie of the same name. I also like Sonya Jehan who is in the same movie. So read the book. It's a good book.", rating = "4" },
+  { title = "The Measure", review = "Speculative Sci-fi. Solid promise and progress, meh payoff", rating = "3" },
+  { title = "Gunahon Ka Devta", review = "Loved this. Recommended.", rating = "4" },
+  { title = "Build", review = "Recommended.", rating = "4" },
+  { title = "Gods Themselves", review = "Gripping. Amazing plot and weird alien sex. I saw those aliens in my dreams the same night.", rating = "4" },
+  { title = "What I talk about when I talk about running", review = "If you love Murakami and running", rating = "3" },
+  { title = "40 rules of love", review = "Makes you kinder and want to read Rumi.", rating = "3" },
+  { title = "Kafka on the shore", review = "I liked it. Magical realism, good character development and animation by Ghibli studios.", rating = "4" },
+  { title = "The Metamorphosis", review = "Recommend this to people you hate.", rating = "2" },
+  { title = "Story of your life and others", review = "Best ones are _Liking what you see_, _Hell is absence of God_, _The Merchant and the Alchemist's Gate_ and _Understand_ ", rating = "4" },
+  { title = "Lifecycle of Software Objects", review = "Cool book cover. This can be a Netflix show. Resonates as you might have seen this pattern over and over in your life. A startup pioneers new tech, everything goes well until they run out of time to figure out how to make the business profitable. Now when they pull the plug and shut down the shop, hobbyists, tinkerers and fanboys are left behind. Finding ways to make whatever they're left with work. Forming communities. Things aren't fun anymore.", rating = "3" },
+  { title = "Designing Distributed Systems", review = "Good primer for cloud native deployment patterns. Outdated code.", rating = "3" },
+  { title = "Designing Data Intensive Applications", review = "he Book I think Architects keep under their pillow and read first thing in the morning.", rating = "3" },
+  { title = "Effective Engineer", review = "It has two major ideas - prioritize high leverage tasks, make feedback loops shorter. Rest of the book is examples, techniques and action plans to adopt, practice and exploit these ideas. So reading the book and making notes is half the battle. Must read even if you're not planning to be an engineer for long.", rating = "4" },
+  { title = "Project Hail Mary", review = "Book you can recommend to someone who wants to get into reading or sci-fi. Andy Weir writes like a blogger. PRO TIP : Read books set in a spaceship during flights. Sound of aeroplane engine and occasional turbulence elevate the reading experience", rating = "4" },
+  { title = "Foundation", review = "Read this as it is a popular classic, not planning to read other books in the series. Apple TV show is so good it is unfair.", rating = "3" },
+  { title = "Beowulf", review = "Took a lot of effort to complete, which wasn't worth it at all. Zemeckis movie is better.", rating = "2" },
+  { title = "Flowers for Algernon", review = "A novella. Man with an IQ of 68 triples his IQ after treatment. Story is first person account of these changes. So quality of writing waxes and wanes with the IQ. Might also help you be empathetic towards people who have a slower learning pace.", rating = "4" },
+  { title = "Einstein's Dreams", review = "Short and evoking. 30 thought experiments", rating = "3" },
+  { title = "High Output Management", review = "THE BOOK for MANAGERS but presents clever ideas that can be used by anyone. For example the idea that material becomes more valuable as it moves through the process, can be used to optimize any process you're working with whether it is conveyor belt in a factory or a CI pipeline.", rating = "2" },
+  { title = "Dune", review = "Boring. Read it because 2021 movie ended prematurely.", rating = "3" },
+  { title = "Missing Readme", review = "Great book, doesn't matter if you’re starting out or not.", rating = "3" },
+  { title = "Old man and the Sea", review = "I love this. Reminds me of my English teacher.", rating = "4" },
+  { title = "Pragmatic Thinking", review = "Written well, I couldn't move past one chapter of Pragmatic programmer but reading it was effortless.", rating = "3" },
+  { title = "Picture of Dorian Grey", review = "Yes please, more stories about Faustian Bargain.", rating = "4" },
+  { title = "Brave New World", review = "At this point things misinformation, short attention span, constant search for escapism, racism is so normalised that it doesn't ring any bells when you read about it in a ninety year old book. Watch Logan's run", rating = "3" },
+  { title = "I am legend", review = "Zombies screeching outside my house, while I'm trying to fall asleep in a cozy blanket is a fantasy I entertain. Loved this book", rating = "3" },
+  { title = "Devdas", review = "Watch DevD. Read this book. Then watch DevD again", rating = "3" },
+  { title = "The Dream Machine: Revolution that made computing personal", review = "Multiverse of Computer Science and Engineering. Cameos from Alan Turing, Alan Kay, Von Neumann or whoever you know", rating = "3" },
+  { title = "Vijaydan Detha ki Lokpriya Kahaniyan", review = "I love his stories. Sadly this is the only book that is available easily.", rating = "5" },
+  { title = "Jagannath", review = "Bizarre short stories. Didn't like it.", rating = "2" },
+  { title = "Animal Farm", review = "Mandatory read. If you just want to read what you already see around put into words beautifully.", rating = "3" },
+  { title = "Men without Women", review = "This introduced me to Murakami. Found it better than Hemingway's book with same name. Re-read worthy", rating = "4" },
+  { title = "Of mice and men", review = "Books ain't no good. A guy needs somebody to be near him", rating = "3" },
+  { title = "Karmayog", review = "Great Book. Recommended", rating = "4" },
+  { title = "The Great Mental Models: General Thinking Concepts", review = "I'm a Charlie Munger fanboy", rating = "3" },
+  { title = "Fahrenheit 451", review = "Boring. Now I know what inspired hounds in Kingsman and Golden circle.", rating = "2" },
+  { title = "A Guide to the Good Life: The Ancient Art of Stoic Joy", review = "Read it if you're hearing the word stoic for the first time and want some reference to other stoic philosophy books.", rating = "3" },
+  { title = "The War of Art", review = "Writer's block. I read this I'm still in writer's block.", rating = "3" },
+  { title = "Pirate Cinema", review = "", rating = "3" },
+  { title = "Swipe to Unlock", review = "Fluff", rating = "1" },
+  { title = "1984", review = "More of a mandatory read. Didn't like it that much. Easy to recommend", rating = "3" },
+  { title = "Food rules : An Eater's manual", review = "Don't eat what your grandma won't recognize as food", rating = "4" },
+  { title = "Drive: The Surprising Truth About What Motivates Us", review = "Blog Post, turned into a book. Read a summary somewhere, save time.", rating = "2" },
+  { title = "The 22 immutable laws of Marketing - Al ries, Jack trout", review = "Was mentioned in Tim Ferris podcast. Easy to process, actionable wisdom.", rating = "2" },
+  { title = "The Vault of Vishnu", review = "Started so well, ended like a B-grade bollywood movie.", rating = "2" },
+  { title = "Irresistible : The Rise of Addictive Technology and Business of Keeping Us Hooked", review = "You can't leave a habit cold turkey, there are parts to it which need to dismantled or just replaced one by one and some caution to be taken to not including the same cues in your environment which'll result in relapse. Good book.", rating = "3" },
+  { title = "Planet of the Apes", review = "Read the book even if you have watched the movies, just read it.", rating = "4" },
+  { title = "Chitralekha", review = "Exploration of sin, human nature and effectiveness of imposed abstinence. Cat theory", rating = "2" },
+
+
+
+
+
+
+
+
+]
 +++
 
-Some books that I read after creating this page.
-
-I love reading for both recreational consumption and educated execution. Don't like to read for facts but for absorbing patterns and mindsets. Therefore fiction and non-fiction both serve the purpose.
-
-Some might say that fiction is just well written entertainment, but storytelling plays a vital role in shaping who we are and how we present ourselves. What's wrong with entertainment?
-
-Tried audiobooks. I sleep if I listen to podcasts if they are just audio, prefer reading transcripts instead.
-
-You might want to look at [How I learned to stop worrying and start reading](http://www.shubhro.com/2019/07/11/rules-reading/)
-
-
-- **Veronika decides to Die**
-I'm biased towards Paulo Coelho
-
-- **Our trees still grow in Dehra**
-
-- **14 years with Boss**
-Wanted to read about old school Indian film studio and the process
-
-- **The Reluctant Fundamentalist**
-Ali Sethi sang this Ghazal "Dil lagaane ki baat karte ho" which is in the movie of the same name. I also like Sonya Jehan who is in the same movie. So read the book. It's a good book.
-
-- **The Measure**
-Speculative fiction, like the promise and progress but payoff sucked.
-
-- **Gunahon ka Devta** 
-Loved this
-
-- **Women - Charles Bukowski**
-
-- **Factotum - Charles Bukowski**
-Reading Bukowski is like having an episode of schizophrenia and talking to your split personality. 
-
-- **Build**
-Recommended
-
-- **Gods Themselves**
-Gripping. Amazing plot and weird alien sex. Not joking I saw those aliens in my dreams the same night.
-
-- **What I talk about when I talk about running**
-
-- **Androids**
-Must read. Reminded me of Dream machine but this one is not boring.
-
-- **40 rules of love** 
-Makes you kinder and want to read Rumi. The 40 rules themselves are phony, pointless and corny.
-
-- **Kafka on the shore**
-I liked it. Magical realism, good character development and animation by Ghibli studios.
-
-- **The Metamorphosis**
-Recommend this to people you hate.
-
-
-- **Story of your life and others**
-Best ones are _Liking what you see_, _Hell is absence of God_, _The Merchant and the Alchemist's Gate_ and _Understand_ 
-"Dermatology" computer virus. This virus has begun infecting video servers around the world, altering broadcasts so that faces and bodies exhibit conditions such as acne and varicose veins.
-
-- **Lifecycle of Software Objects**
-This can be a Netflix show. Resonates as you might have seen this pattern over and over in your life. A startup pioneers new tech, everything goes well until they run out of time to figure out how to make the business profitable. Now when they pull the plug and shut down the shop, hobbyists, tinkerers and fanboys are left behind. Finding ways to make whatever they're left with work. Forming communities. Things aren't fun anymore. 
-
-- **Designing Distributed Systems**
-Good primer for cloud native deployment patterns
-
-- **Designing Data Intensive Applications**
-The Book I think Architects keep under their pillow and read first thing in the morning.
-
-- **Effective Engineer**
-It has two major ideas - prioritize high leverage tasks, make feedback loops shorter. Rest of the book is examples, techniques and action plans to adopt, practice and exploit these ideas.
-So reading the book and making notes is half the battle. Must read even if you're not planning to be an engineer for long. 
-
-
-- **Project Hail Mary**
-Book you can recommend to someone who wants to get into reading or sci-fi. Andy Weir writes like a blogger.
-PRO TIP : Read books set in a spaceship during flights. Sound of aeroplane engine and occasional turbulence elevate the reading experience
-
-- **Foundation**
-Read this as it is a popular classic, not planning to read other books in the series. 
-
-- **Beowulf**
-Took a lot of effort to complete, which wasn't worth it at all. Zemeckis movie is better.
-
-- **Flowers for Algernon**
-A novella. Man with an IQ of 68 triples his IQ after treatment. Story is first person account of these changes. So quality of writing waxes and wanes with the IQ. Might also help you be empathetic towards people who have a slower learning pace. 
-
-
-- **Einstein's Dreams**
-Short and evoking read. 30 thought experiments. 
-
-- **High Output Management**
-It is like THE BOOK for MANAGERS but presents clever ideas that can be used by anyone. For example the idea that material becomes more valuable as it moves through the process, can be used to optimize any process you're working with whether it is conveyor belt in a factory or a CI pipeline.
-
-- **Dune**
-Boring. Read it because 2021 movie ended prematurely.
-
-- **Little Prince**
-Didn't understand much of it. Why does it read like Nate the Snake.
-
-- **Missing Readme**
-Great book, doesn't matter if you’re starting out or not.
-
-- **Old man and the Sea**
-I love this. Reminds me of my English teacher.
-
-- **Pragmatic Thinking** Written well, I couldn't move past one chapter of Pragmatic programmer but reading it was effortless.
-
-- **[Picture of Dorian Grey](https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray)**
-Who doesn't love stories about Faustian Bargain.
-
-- **[Brave New World](https://www.goodreads.com/book/show/5129.Brave_New_World)**
-At this point things like misinformation, short attention spans, intoxication to escape reality and racism is so mainstream that it doesn't ring any bells when you read about it again and again in a ninety year old book.
-
-- **[I am legend](https://www.goodreads.com/book/show/40940649-i-am-legend)**
-Felt like reading a book about zombies. Wasn't disappointed.
-
-- **[Devdas](https://www.goodreads.com/book/show/28571424)**
-Read it just to get the references in [Dev D](https://www.imdb.com/title/tt1327035/).
-
-- **[The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal](https://www.goodreads.com/book/show/722412.The_Dream_Machine)**
-Multiverse of Computer Science and Engineering. Cameos from Alan Turing, Alan Kay, Von Neumann or whoever you know
-
-- **[Vijaydan Detha ki Lokpriya Kahaniyan](https://www.goodreads.com/book/show/48665614-vijaydan-detha-ki-lokpriya-kahaniyan)**
-I just love his stories
-
-- **[Jagannath](https://www.goodreads.com/book/show/16054161-jagannath)**
-Bizarre and surreal short stories.
-
-- **[Animal Farm](https://www.goodreads.com/book/show/170448.Animal_Farm)**
-Mandatory read. If you just want to read what you already see around put into words beautifully.
-
-- **[Of Mice and Men](https://www.goodreads.com/book/show/890.Of_Mice_and_Men)**
-Books ain't no good. A guy needs somebody to be near him
-
-- **[Men without Women](https://www.goodreads.com/book/show/33652490-men-without-women)**
-This is what introduced me to Murakami
-
-- **[Karmayog](https://www.goodreads.com/book/show/34189589-karmayog)**
-Great book. Recommended.
-
-- **[The Great Mental Models: General Thinking Concepts](https://www.goodreads.com/book/show/44245196-the-great-mental-models)**
-I'm a Charlie Munger fanboy
-
-- **[Fahrenheit 451](https://www.anobii.com/books/fahrenheit-451/9780345410016/0026f2d09a47c2ae38)**
-Boring. Now I know what inspired hounds in Kingsman and Golden circle.
-
-- **[A Guide to the Good Life: The Ancient Art of Stoic Joy](https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life)**
-Read it if you're hearing the word stoic for the first time and want some reference to other stoic philosophy books.
-
-- **[The War of Art](https://www.goodreads.com/book/show/1319.The_War_of_Art)**
-Writer's block. I read this I'm still in writer's block. 
-
-
-- **[The Phoenix Project](https://www.goodreads.com/book/show/17255186-the-phoenix-project)**
-Book every program manager might be reading
-- **[Pirate Cinema](https://www.goodreads.com/book/show/13539171-pirate-cinema)**
-Cory is one of my go to authors now.
-
-- **[Swipe to unlock](https://swipetounlock.com)**
-Fluff
-
-- **[1984](https://www.goodreads.com/book/show/40961427-1984)**  
-More of a mandatory read. Didn't like it that much.
-
-- **[Food rules : An Eater's manual](https://www.goodreads.com/book/show/7015635-food-rules)**
-Don't eat what your grandma won't recognize as food
-
-- **[The Cuckoo's Egg: Tracking a Spy through the Maze of Computer Espionage](https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg)**
-Good book and whole lot engaging if you are familiar with UNIX. Two of the most famous products of Berkeley are LSD and BSD (Unix).
-
-- **[Drive: The Surprising Truth About What Motivates Us](https://www.goodreads.com/book/show/6452796-drive)** Why did I read this? Stay away
-
-- **[Permanent Record - Edward Snowden](https://en.wikipedia.org/wiki/Permanent_Record_(autobiography))**
-Some tech is just hard to believe to exist in 2005 but an engaging book.
-
-- **[The 22 immutable laws of Marketing - Al ries, Jack trout](https://www.goodreads.com/book/show/33449.The_22_Immutable_Laws_of_Marketing)**
-Was mentioned in Tim Ferris podcast. Easy to process, actionable wisdom.
-
-- **[The Vault of Vishnu](https://www.goodreads.com/book/show/49675742-the-vault-of-vishnu)**
-Started so well, ended so bad
-
-- **[Irresistible : The Rise of Addictive Technology and Business of Keeping Us Hooked](https://www.goodreads.com/book/show/30962055-irresistible)** You can't leave a habit cold turkey, there are parts to it which need to dismantled or just replaced one by one and some caution to be taken to not including the same cues in your environment which'll result in relapse. Good book.
-
-- **[Planet of the Apes](https://en.wikipedia.org/wiki/Planet_of_the_Apes_(novel))** Read the book even if you have watched the movies, just read it.
-
-- **[Chitralekha](https://en.wikipedia.org/wiki/Chitralekha_(novel))**
-Exploration of sin, human nature and effectiveness of imposed abstinence. There are two kinds of abstinence, one is absence of desires and the other is just suppressing them, latter is deteriorating. How most coveted things lose their charm and appeal when you have them.
+{{< bookreview >}}

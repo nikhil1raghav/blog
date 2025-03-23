@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codeforces on Purple Terminal - Nikhil&#39;s Blog</title>
+    <link>//localhost:1313/tags/codeforces/</link>
+    <description>Recent content in Codeforces on Purple Terminal - Nikhil&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Nikhil 2021</copyright>
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Codeforces Round #690 (Div. 3)</title>
+      <link>//localhost:1313/posts/cf1462/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cf1462/</guid>
+      <description>&lt;p&gt;It was the first round in which I managed to solve 6 problems out of 7, submitting the last one in last 3 seconds. Following are some thoughts I had while solving those problems and some mistakes I made. I make it a point to refer the notebook I use for writing observations and calculations during contest for writing these blogs. So that even if I delay the post by a day or two I don&amp;rsquo;t miss much on the content. So let&amp;rsquo;s start with the first problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Codeforces Round #676 (Div. 2)</title>
+      <link>//localhost:1313/posts/cf1421/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cf1421/</guid>
+      <description>&lt;p&gt;Had to perform better than last round to increase the rating again but started thinking in wrong direction for problem D, but solved it afterwards without editorials and easy to come up with solution. So I had to get this analysis out of the way before tonight&amp;rsquo;s Div.3 round. Contest was easy enough till D. I&amp;rsquo;m still not able to understand how I will approach problem E, it will be a blog in itself when I understand that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Codeforces Raif Round 1 [Div.1 &#43; Div.2]</title>
+      <link>//localhost:1313/posts/cf1428/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cf1428/</guid>
+      <description>&lt;p&gt;Most recent round I participated in after a break of about 2 weeks. This is a new exercise that I&amp;rsquo;ve started to note down my thoughts and performance history in these blogs. So that I don&amp;rsquo;t repeat same mistakes more often and have some more clarity about what I go through when I&amp;rsquo;m participating and it will also double up as notes for some techniques and styles I come across while solving or upsolving that contest. Let&amp;rsquo;s start already.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Counting with hashmaps</title>
+      <link>//localhost:1313/posts/counting-with-maps/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/counting-with-maps/</guid>
+      <description>&lt;p&gt;It is a recurring and really useful idea to count some property in O(n) in an array if the relation is some kind of equation where right hand side and left hand side only differs in their indexes. For example &lt;strong&gt;counting number of subarrays with sum X&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-subarrays-with-sum-x&#34;&gt;1. Subarrays with sum X&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s say we are given an array &lt;strong&gt;A&lt;/strong&gt; of length &lt;strong&gt;N&lt;/strong&gt; and we have to count how many subarrays of &lt;strong&gt;A&lt;/strong&gt; sum up to a given number &lt;strong&gt;X&lt;/strong&gt;. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for &lt;strong&gt;A&lt;/strong&gt;. After that we have two options:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

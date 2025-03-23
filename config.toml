@@ -1,8 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
-paginate = 15
-googleAnalytics = "UA-128511835-2"
+pagination.pagerSize = 15
 enableEmoji=true
 [params]
   # dir name of your main content (default is `content/posts`).

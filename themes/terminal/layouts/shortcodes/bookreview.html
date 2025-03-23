@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <tr>
+      <th>Book Title</th>
+      <th>Review</th>
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Page.Params.reviews }}
+    <tr>
+      <td><a href="{{ .url }}" target="_blank">{{ .title }}</a></td>
+      <td>{{ .review }}</td>
+      <td>
+        {{ range seq (int .rating) }}
+        ⭐
+        {{ end }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+

@@ -21,7 +21,9 @@ I'm a solid type [A-person](https://www.b-society.org/chronobiology/). Slowly tu
 
 
 
-Recently I created [kindle-send](https://github.com/nikhil1raghav/kindle-send). It allows you to send webpages, collection of bookmarks as an ebook to your ereader. Try this, if you read a lot of blogs and don't like to strain your eyes on a digital screen. BONUS - this way you can import highlights to obsidian, readwise etc. 
+Long time back, I created [kindle-send](https://github.com/nikhil1raghav/kindle-send). It allows you to send webpages, collection of bookmarks as an ebook to your ereader. Try this, if you read a lot of blogs and don't like to strain your eyes on a digital screen. BONUS - this way you can import highlights to obsidian, readwise etc. 
+
+
 
 
 
