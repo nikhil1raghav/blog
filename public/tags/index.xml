@@ -233,12 +233,5 @@
       <guid>//localhost:1313/tags/techniques/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Books</title>
-      <link>//localhost:1313/tags/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/books/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

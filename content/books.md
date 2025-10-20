@@ -1,7 +1,9 @@
 +++
 title = "Book Reviews"
 date = "2024-11-30"
+
 reviews = [
+  { title = "Shift", review = "Good sequel to wool, you learn nanotech can be endgame for humanity's progress. Gave me enough closure to not read the third installment.", rating = "4"},
   { title = "Wool",review = "Read this because Apple TV show wasn't moving fast.", rating = "4" },
   { title = "Death's end",review = "First half is good, second half leaves a lot to desire. You can stop reading after 70%", rating = "3" },
   { title = "Dark Forest",review = "Good story, great scale, bumpy translation", rating = "4" },

@@ -171,10 +171,6 @@
   </url><url>
     <loc>//localhost:1313/archive/</loc>
   </url><url>
-    <loc>//localhost:1313/books-bak/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/books/</loc>
-  </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/links/</loc>

@@ -217,7 +217,8 @@ As the window of size $K$ moves one step from first $K$ elements it leaves behin
 <blockquote>
 <p>Given an array $A$ of length $N$ and an integer $K$, find minimum number of elements to change in the array such that xor of all segments of size $K$ becomes zero.</p>
 <p>where
-$1 \leq K \leq N \leq 2000$ and $0 \leq A_i \leq 1024$</p></blockquote>
+$1 \leq K \leq N \leq 2000$ and $0 \leq A_i \leq 1024$</p>
+</blockquote>
 <p>As the window of size $K$ moves one step from first $K$ elements it leaves behind the first element and includes $K+1_{th}$ element. More formally</p>
 <p>$$ A_1 \oplus A_2 \oplus A_3 \oplus \cdots \oplus A_K = A_2 \oplus A_3 \oplus A_4 \oplus \cdots \oplus A_{K+1}$$</p>
 <p>Therefore, all numbers which are distance $K$ apart in the array must be equal.</p>
