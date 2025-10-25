@@ -1,7 +1,6 @@
 +++
 title="Big Browser is watching"
 description="How I tried to stop using firefox and ended up with two more browsers"
-Author="Nikhil"
 date="2020-10-10"
 tags=["browser", "privacy", "palemoon", "firefox"]
 +++

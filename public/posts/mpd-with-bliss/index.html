@@ -1,87 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  
-    <title>How to set up mpd with blissify :: Purple Terminal - Nikhil&#39;s Blog</title>
-  
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="MPD is a server-side music player, which can be further improved by using different plugins and libraries to enhance overall music listening experience on all the devices on a network.
-As it is a server-side application you&rsquo;ll also need a client to go along with it, usually MPD can relay its output to different channels at the same time so you can enjoy it on anything that can process a http stream and is on the same network (any device with a web browser).
-" />
-<meta name="keywords" content="" />
-<meta name="robots" content="noodp" />
-<link rel="canonical" href="//localhost:1313/posts/mpd-with-bliss/" />
-
-
-
-
-
-<link rel="stylesheet" href="//localhost:1313/assets/style.css">
-
-  <link rel="stylesheet" href="//localhost:1313/assets/pink.css">
-
-
-
-
-
-
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//localhost:1313/img/apple-touch-icon-144-precomposed.png">
-
-  <link rel="shortcut icon" href="//localhost:1313/img/favicon/pink.png">
-
-
-
-<meta name="twitter:card" content="summary" />
-
-  <meta name="twitter:site" content="" />
-
-<meta name="twitter:creator" content="Nikhil" />
-
-
-<meta property="og:locale" content="en" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="How to set up mpd with blissify :: Purple Terminal - Nikhil&#39;s Blog">
-<meta property="og:description" content="Step-by-step instructions to get started with music player daemon and creating intelligent playlists offline" />
-<meta property="og:url" content="//localhost:1313/posts/mpd-with-bliss/" />
-<meta property="og:site_name" content="How to set up mpd with blissify" />
-
-  
-    <meta property="og:image" content="//localhost:1313/img/favicon/pink.png">
-  
-
-<meta property="og:image:width" content="2048">
-<meta property="og:image:height" content="1024">
-
-
-  <meta property="article:published_time" content="2021-07-02 00:00:00 &#43;0000 UTC" />
-
-
-
-
-
-
-
-
-
-
-
-
-</head>
-<body class="">
-
-
-<div class="container center headings--one-size">
-
-  <header class="header">
-	<head>
-		
-		
-
-		
-		<link rel="stylesheet" href=//localhost:1313/assets/katex.min.css integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
-<script defer src=//localhost:1313/assets/katex.min.js integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
-<script defer src=//localhost:1313/assets/auto-render.min.js integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to set up mpd with blissify | Nikhil Raghav</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<link rel="stylesheet" href="/assets/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="/assets/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="/assets/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         renderMathInElement(document.body, {
@@ -99,133 +27,43 @@ As it is a server-side application you&rsquo;ll also need a client to go along w
     });
 </script>
 
-		
-	</head>
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="/">
-  <div class="logo">
-    Purple Terminal
-  </div>
-</a>
+  </head>
 
-    </div>
-    <div class="menu-trigger">menu</div>
-  </div>
-  
-    <nav class="menu">
-  <ul class="menu__inner menu__inner--desktop">
-    
+  <body>
+    <nav>
+    <ul class="menu">
       
-        
-          <li><a href="/about">About</a></li>
-        
+      <li><a href="/about">About</a></li>
       
-        
-          <li><a href="/archive">Archive</a></li>
-        
+      <li><a href="/books">Books</a></li>
       
-        
-          <li><a href="/books">Books</a></li>
-        
+      <li><a href="/links">Links</a></li>
       
-        
-          <li><a href="/links">Links</a></li>
-        
+      <li><a href="/posts">Posts</a></li>
       
-        
-          <li><a href="/posts">Posts</a></li>
-        
+      <li><a href="/subscribe">Subscribe</a></li>
       
-        
-          <li><a href="/subscribe">Subscribe</a></li>
-        
-      
-      
-    
+    </ul>
+    <hr/>
+    </nav>
 
-    
-  </ul>
+<div class="article-meta">
+<h1><span class="title">How to set up mpd with blissify</span></h1>
 
-  <ul class="menu__inner menu__inner--mobile">
-    
-      
-        <li><a href="/about">About</a></li>
-      
-    
-      
-        <li><a href="/archive">Archive</a></li>
-      
-    
-      
-        <li><a href="/books">Books</a></li>
-      
-    
-      
-        <li><a href="/links">Links</a></li>
-      
-    
-      
-        <li><a href="/posts">Posts</a></li>
-      
-    
-      
-        <li><a href="/subscribe">Subscribe</a></li>
-      
-    
-    
-  </ul>
-</nav>
+<h2 class="date">2021/07/02</h2>
+</div>
 
-  
-</header>
-
-
-  <div class="content">
-    
-<div class="post">
-  <h1 class="post-title">
-    <a href="//localhost:1313/posts/mpd-with-bliss/" style="font-size:2.4rem;">How to set up mpd with blissify</a></h1>
-  <div class="post-meta">
-    
-      <span class="post-date">
-        2021-07-02 [Updated: 2021-07-02]
-      </span>
-    
-    
-    <span class="post-author">::
-      Nikhil
-    </span>
-    
-  </div>
-
-  
-  <span class="post-tags">
-    
-    #<a href="//localhost:1313/tags/mpd/">mpd</a>&nbsp;
-    
-    #<a href="//localhost:1313/tags/music/">music</a>&nbsp;
-    
-    #<a href="//localhost:1313/tags/linux/">linux</a>&nbsp;
-    
-  </span>
-  
-
-  
-
-  
-
-  <div class="post-content"><div>
-        <p><a href="https://github.com/MusicPlayerDaemon/MPD">MPD</a> is a server-side music player, which can be further improved by using different plugins and libraries to enhance overall music listening experience on all the devices on a network.</p>
+<main>
+<p><a href="https://github.com/MusicPlayerDaemon/MPD">MPD</a> is a server-side music player, which can be further improved by using different plugins and libraries to enhance overall music listening experience on all the devices on a network.</p>
 <p>As it is a server-side application you&rsquo;ll also need a client to go along with it, usually MPD can relay its output to different channels at the same time so you can enjoy it on anything that can process a http stream and is on the same network (any device with a web browser).</p>
 <p>To create playlists and to get more fine-grained control, consider installing <code>ncmpcpp</code> or <code>ncmpc</code> former is written in C++ and latter in C.</p>
 <p><a href="https://github.com/Polochon-street/bliss">Bliss</a> is a C library that computes distance between songs, so once you run it through your complete music collection, it will help you generate playlists on the song or album you are currently playing by queuing similar tracks.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo pacman -S ncmpcpp mpd mpc
-</span></span></code></pre></div><h2 id="why-should-you-use-mpd">Why should you use MPD?<a href="#why-should-you-use-mpd" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+</span></span></code></pre></div><h2 id="why-should-you-use-mpd">Why should you use MPD?</h2>
 <p>Is your music collection over 100GB which doesn&rsquo;t fit on a sd card so you have to choose what songs to store in your mobile? Some music players can&rsquo;t process that kind of collection at once.</p>
 <p>Do you want to run your own local radio station using songs from your collection, accessible from all your devices?</p>
 <p>It looks good on polybar, and is very rice friendly. You can even use your phone as a remote control.</p>
-<h2 id="minimal-configuration-of-mpd">Minimal configuration of mpd<a href="#minimal-configuration-of-mpd" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="minimal-configuration-of-mpd">Minimal configuration of mpd</h2>
 <p>Create a config file for mpd and ncmpcpp in your <code>CONFIG_HOME</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>mkdir .config/ncmpcpp
 </span></span><span style="display:flex;"><span>mkdir .config/mpd
@@ -274,7 +112,7 @@ As it is a server-side application you&rsquo;ll also need a client to go along w
 </span></span><span style="display:flex;"><span>mpc update
 </span></span><span style="display:flex;"><span>ncmpcpp 
 </span></span></code></pre></div><hr>
-<h2 id="set-up-blissify">Set up blissify<a href="#set-up-blissify" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="set-up-blissify">Set up blissify</h2>
 <p>There are some dependencies needed to build <code>blissify</code>, if you have <code>ffmpeg</code> already installed no need to worry about them.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo pacman -S ffmpeg
 </span></span></code></pre></div><p>Clone and build blissify</p>
@@ -291,75 +129,12 @@ As it is a server-side application you&rsquo;ll also need a client to go along w
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>python client.py --queue-length <span style="color:#e6db74">&#34;NUMBER OF SONGS YOU WANT&#34;</span> --song-based
 </span></span></code></pre></div><p><code>--song-based</code> option creates playlist on the basis of the song currently playing or last played song and <code>--album-based</code> option uses the last album as the basis.</p>
 
-      </div></div>
+</main>
 
+  <footer>
   
   
-<div class="pagination">
-    <div class="pagination__title">
-        <span class="pagination__title-h"></span>
-        <hr />
-    </div>
-    <div class="pagination__buttons">
-        
-        <span class="button previous">
-            <a href="//localhost:1313/posts/subarray-xor-zero/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Minimum changes to make XOR of all segments of a fixed length zero</span>
-            </a>
-        </span>
-        
-        
-        <span class="button next">
-            <a href="//localhost:1313/posts/magic-potion/">
-                <span class="button__text">[Tutorial] I. Magic Potion - Asia Nanjing Regional Contest 2018-19</span>
-                <span class="button__icon">→</span>
-            </a>
-        </span>
-        
-    </div>
-</div>
-
-  
-<style>
-.newsletter{
-	display:flex;
-	flex-direction:column;
-}
-
-</style>
-<div class="newsletter">
-<iframe src="https://nikhilr.substack.com/embed" width="auto" height="320" style="" frameborder="0" scrolling="no"></iframe>
-</div>
-
-
-  
-
-
-
-</div>
-
-  </div>
-
-  
-    <footer class="footer">
-  <div class="footer__inner">
-    
-      <div class="copyright copyright--user">
-        <span>© Nikhil 2021</span>
-    
-      </div>
-  </div>
-</footer>
-<script src="//localhost:1313/assets/main.js"></script>
-<script src="//localhost:1313/assets/prism.js"></script>
-
-
-
-
-
-  
-</div>
-
-</body>
+  </footer>
+  </body>
 </html>
+

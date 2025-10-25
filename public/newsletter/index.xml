@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Newsletters on Purple Terminal - Nikhil&#39;s Blog</title>
-    <link>//localhost:1313/newsletter/</link>
+    <link>/newsletter/</link>
     <description>Recent content in Newsletters on Purple Terminal - Nikhil&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2021</copyright>
-    <atom:link href="//localhost:1313/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/newsletter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Links #1</title>
-      <link>//localhost:1313/newsletter/links-1/</link>
+      <link>/newsletter/links-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/newsletter/links-1/</guid>
+      <guid>/newsletter/links-1/</guid>
       <description>&lt;p&gt;Hi! it is first issue of this newsletter, sorry if it comes out to be a bit unpolished. Idea is to share links to things that I’ve explored myself and have helped me.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tools&#34;&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h4 id=&#34;resilio-syncsyncthing&#34;&gt;&lt;a href=&#34;https://www.resilio.com/individuals/&#34;&gt;Resilio Sync&lt;/a&gt; / &lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;This week I discovered &lt;a href=&#34;https://www.resilio.com/individuals/&#34;&gt;Resilio Sync&lt;/a&gt; which is a tool to sync files across devices, it uses bittorrent to sync files, so no middleman except peers (which should be your devices). I wanted a cheaper solution to sync my &lt;a href=&#34;https://obsidian.md/&#34;&gt;obsidian&lt;/a&gt; notes with phone.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links #2</title>
-      <link>//localhost:1313/newsletter/links-2/</link>
+      <link>/newsletter/links-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/newsletter/links-2/</guid>
+      <guid>/newsletter/links-2/</guid>
       <description>&lt;p&gt;Happy new year!&lt;br&gt;&#xA;Here is the first edition for this year, here are some links worth your time.&lt;/p&gt;&#xA;&lt;p&gt;1. &lt;a href=&#34;https://sirupsen.com/napkin/neural-net&#34;&gt;Neural network from scratch&lt;/a&gt; is a surprisingly short and thorough blog post on building a neural net from scratch to understand how they work. Don’t forget to checkout other posts on this blog. There are some really cool deep dives.&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If you ever wanted to learn about how video infrastructure on internet works. &lt;a href=&#34;https://howvideo.works/&#34;&gt;How video works&lt;/a&gt; is a primer on playback, content-delivery and transcoding, all on one page.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links #3</title>
-      <link>//localhost:1313/newsletter/links-3/</link>
+      <link>/newsletter/links-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/newsletter/links-3/</guid>
+      <guid>/newsletter/links-3/</guid>
       <description>&lt;p&gt;This iteration is about two weeks off but better late then never.&lt;/p&gt;&#xA;&lt;h3 id=&#34;some-ways-dns-can-break&#34;&gt;&lt;a href=&#34;https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/&#34;&gt;Some ways DNS can break&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;From really slow network requests to an email landing in your spam folder. There are many problems that can arise from incorrectly configured DNS. &lt;a href=&#34;https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/&#34;&gt;This&lt;/a&gt; post is a lists some of such problems that don’t look like DNS problems at all on first look.&lt;/p&gt;&#xA;&lt;h3 id=&#34;coding-for-ssds&#34;&gt;&lt;a href=&#34;https://codecapsule.com/2014/02/12/coding-for-ssds-part-1-introduction-and-table-of-contents/&#34;&gt;Coding for SSDs&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;SSDs are not slower RAMs. There are lot of things that are practically different from the mental model of SSDs being faster HDDs and slower RAMs. &lt;a href=&#34;https://codecapsule.com/2014/02/12/coding-for-ssds-part-1-introduction-and-table-of-contents/&#34;&gt;This&lt;/a&gt; 6 part blog series covers more than enough on what you should know to update your mental model of how SSDs work, sixth part being the summary of first five.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links #4</title>
-      <link>//localhost:1313/newsletter/links-4/</link>
+      <link>/newsletter/links-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/newsletter/links-4/</guid>
+      <guid>/newsletter/links-4/</guid>
       <description>&lt;p&gt;Hi!, welcome to 4th issue of my highly irregular newsletter. One of the reasons for this irregularity is that it is hard to find quality links to share and I make it a point to go through them myself before I share. Sometimes I just don’t feel like writing so I don’t.&lt;/p&gt;&#xA;&lt;p&gt;Here are some links worth your time. Experimenting with a new format where I sprinkle supporting links here and there which are related to the heading and could make their own entry.&lt;/p&gt;</description>
     </item>
   </channel>

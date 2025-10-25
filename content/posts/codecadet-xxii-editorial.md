@@ -1,6 +1,5 @@
 +++
 title="[Tutorial] Codecadet XXII"
-Author="Nikhil"
 math="true"
 date="2021-09-25"
 description="Solutions and ideas for problems of Codecadet XXII"

@@ -1,7 +1,6 @@
 +++
 title="Tools I use"
 description="Tools I use daily"
-author="Nikhil"
 date="2025-10-20"
 tags=["lists", "tools", "productivity"]
 +++

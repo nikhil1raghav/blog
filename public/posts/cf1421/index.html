@@ -1,86 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  
-    <title>Codeforces Round #676 (Div. 2) :: Purple Terminal - Nikhil&#39;s Blog</title>
-  
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Had to perform better than last round to increase the rating again but started thinking in wrong direction for problem D, but solved it afterwards without editorials and easy to come up with solution. So I had to get this analysis out of the way before tonight&rsquo;s Div.3 round. Contest was easy enough till D. I&rsquo;m still not able to understand how I will approach problem E, it will be a blog in itself when I understand that.
-" />
-<meta name="keywords" content="" />
-<meta name="robots" content="noodp" />
-<link rel="canonical" href="//localhost:1313/posts/cf1421/" />
-
-
-
-
-
-<link rel="stylesheet" href="//localhost:1313/assets/style.css">
-
-  <link rel="stylesheet" href="//localhost:1313/assets/pink.css">
-
-
-
-
-
-
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//localhost:1313/img/apple-touch-icon-144-precomposed.png">
-
-  <link rel="shortcut icon" href="//localhost:1313/img/favicon/pink.png">
-
-
-
-<meta name="twitter:card" content="summary" />
-
-  <meta name="twitter:site" content="" />
-
-<meta name="twitter:creator" content="Nikhil" />
-
-
-<meta property="og:locale" content="en" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Codeforces Round #676 (Div. 2) :: Purple Terminal - Nikhil&#39;s Blog">
-<meta property="og:description" content="Performance analysis and notes on codeforces round 676" />
-<meta property="og:url" content="//localhost:1313/posts/cf1421/" />
-<meta property="og:site_name" content="Codeforces Round #676 (Div. 2)" />
-
-  
-    <meta property="og:image" content="//localhost:1313/img/favicon/pink.png">
-  
-
-<meta property="og:image:width" content="2048">
-<meta property="og:image:height" content="1024">
-
-
-  <meta property="article:published_time" content="2020-10-20 00:00:00 &#43;0000 UTC" />
-
-
-
-
-
-
-
-
-
-
-
-
-</head>
-<body class="">
-
-
-<div class="container center headings--one-size">
-
-  <header class="header">
-	<head>
-		
-		
-
-		
-		<link rel="stylesheet" href=//localhost:1313/assets/katex.min.css integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
-<script defer src=//localhost:1313/assets/katex.min.js integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
-<script defer src=//localhost:1313/assets/auto-render.min.js integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codeforces Round #676 (Div. 2) | Nikhil Raghav</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<link rel="stylesheet" href="/assets/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="/assets/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="/assets/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         renderMathInElement(document.body, {
@@ -98,151 +27,61 @@
     });
 </script>
 
-		
-	</head>
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="/">
-  <div class="logo">
-    Purple Terminal
-  </div>
-</a>
+  </head>
 
-    </div>
-    <div class="menu-trigger">menu</div>
-  </div>
-  
-    <nav class="menu">
-  <ul class="menu__inner menu__inner--desktop">
-    
+  <body>
+    <nav>
+    <ul class="menu">
       
-        
-          <li><a href="/about">About</a></li>
-        
+      <li><a href="/about">About</a></li>
       
-        
-          <li><a href="/archive">Archive</a></li>
-        
+      <li><a href="/books">Books</a></li>
       
-        
-          <li><a href="/books">Books</a></li>
-        
+      <li><a href="/links">Links</a></li>
       
-        
-          <li><a href="/links">Links</a></li>
-        
+      <li><a href="/posts">Posts</a></li>
       
-        
-          <li><a href="/posts">Posts</a></li>
-        
+      <li><a href="/subscribe">Subscribe</a></li>
       
-        
-          <li><a href="/subscribe">Subscribe</a></li>
-        
-      
-      
-    
+    </ul>
+    <hr/>
+    </nav>
 
-    
-  </ul>
+<div class="article-meta">
+<h1><span class="title">Codeforces Round #676 (Div. 2)</span></h1>
 
-  <ul class="menu__inner menu__inner--mobile">
-    
-      
-        <li><a href="/about">About</a></li>
-      
-    
-      
-        <li><a href="/archive">Archive</a></li>
-      
-    
-      
-        <li><a href="/books">Books</a></li>
-      
-    
-      
-        <li><a href="/links">Links</a></li>
-      
-    
-      
-        <li><a href="/posts">Posts</a></li>
-      
-    
-      
-        <li><a href="/subscribe">Subscribe</a></li>
-      
-    
-    
-  </ul>
-</nav>
+<h2 class="date">2020/10/20</h2>
+</div>
 
-  
-</header>
-
-
-  <div class="content">
-    
-<div class="post">
-  <h1 class="post-title">
-    <a href="//localhost:1313/posts/cf1421/" style="font-size:2.4rem;">Codeforces Round #676 (Div. 2)</a></h1>
-  <div class="post-meta">
-    
-      <span class="post-date">
-        2020-10-20 [Updated: 2020-10-20]
-      </span>
-    
-    
-    <span class="post-author">::
-      Nikhil
-    </span>
-    
-  </div>
-
-  
-  <span class="post-tags">
-    
-    #<a href="//localhost:1313/tags/codeforces/">codeforces</a>&nbsp;
-    
-    #<a href="//localhost:1313/tags/review/">review</a>&nbsp;
-    
-    #<a href="//localhost:1313/tags/upsolve/">upsolve</a>&nbsp;
-    
-  </span>
-  
-
-  
-
-  
-
-  <div class="post-content"><div>
-        <p>Had to perform better than last round to increase the rating again but started thinking in wrong direction for problem D, but solved it afterwards without editorials and easy to come up with solution. So I had to get this analysis out of the way before tonight&rsquo;s Div.3 round. Contest was easy enough till D. I&rsquo;m still not able to understand how I will approach problem E, it will be a blog in itself when I understand that.</p>
-<h2 id="solved-during-contest">Solved during contest<a href="#solved-during-contest" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<h3 id="a-xorwice"><a href="https://codeforces.com/contest/1421/problem/A">A. XORwice</a><a href="#a-xorwice" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<main>
+<p>Had to perform better than last round to increase the rating again but started thinking in wrong direction for problem D, but solved it afterwards without editorials and easy to come up with solution. So I had to get this analysis out of the way before tonight&rsquo;s Div.3 round. Contest was easy enough till D. I&rsquo;m still not able to understand how I will approach problem E, it will be a blog in itself when I understand that.</p>
+<h2 id="solved-during-contest">Solved during contest</h2>
+<h3 id="a-xorwice"><a href="https://codeforces.com/contest/1421/problem/A">A. XORwice</a></h3>
 <ul>
 <li>Fairly easy and interesting problem.</li>
 <li>In problems involving XOR I (and generally everyone) create answer bit by bit, because if you set MSB then you&rsquo;re already better off then setting or unsetting bits on smaller positions.</li>
 <li>Here answer was straightforward <strong>a</strong> $\oplus$ <strong>b</strong>. As there are only four cases to consider and build answer bit by bit.</li>
 </ul>
-<h3 id="b-putting-bricks-on-the-wall"><a href="https://codeforces.com/contest/1421/problem/B">B. Putting Bricks on the wall</a><a href="#b-putting-bricks-on-the-wall" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="b-putting-bricks-on-the-wall"><a href="https://codeforces.com/contest/1421/problem/B">B. Putting Bricks on the wall</a></h3>
 <ul>
 <li>Everyone had an easier solution to it, by checking only if flipping position to right and down of &ldquo;S&rdquo; and flipping positions to left and up of &ldquo;F&rdquo; works or one of their combination.</li>
 <li>Used the same idea but overkilled it by doing a full traversal after every adjustment. It had bugs so again took me 60 minutes to submit correctly.</li>
 <li>Second B. in a row where I spent more time than C and ended up loosing thinking time for D.</li>
 </ul>
-<h3 id="c-palindromifier"><a href="https://codeforces.com/contest/1421/problem/C">C. Palindromifier</a><a href="#c-palindromifier" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="c-palindromifier"><a href="https://codeforces.com/contest/1421/problem/C">C. Palindromifier</a></h3>
 <ul>
 <li>Intended solution was easy to come up. Took me 15 minutes.</li>
 <li>Once you get hang of what are the operations &lsquo;L&rsquo; and &lsquo;R&rsquo; you realize that you can always replicate whole string except first and last letter. So have to think of some letter to centre the palindrome around and some steps such that copying the second letter would be the last step.</li>
 </ul>
-<h2 id="solved-after-contest">Solved after contest<a href="#solved-after-contest" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<h3 id="d-hexagons"><a href="https://codeforces.com/contest/1421/problem/D">D. Hexagons</a><a href="#d-hexagons" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h2 id="solved-after-contest">Solved after contest</h2>
+<h3 id="d-hexagons"><a href="https://codeforces.com/contest/1421/problem/D">D. Hexagons</a></h3>
 <ul>
 <li>Before contest tried some equations calculating contributions of different moves to get to the final position. After calculating that, I found out that you don&rsquo;t need moves that go in opposite directions in one way so but still had 3 variables and 2 equations. Here went my 40 minutes.</li>
 <li>After contest saw the editorial, didn&rsquo;t understand much of it, but problem was easy enough that you have only certain combinations of moves you can make for example if you want to reach $(x,y)$ first try going directly there by using the moves that allow you to do so - this will be our base answer. After that try going $(x,x)$ first and then make adjustments to combe to $(x,y)$ or you can go $(y,y)$ first and then come to $(x,y)$. It covers everything.</li>
 <li>These combinations were the three variables in two equations that I wasn&rsquo;t able to solve.</li>
 <li><a href="https://codeforces.com/contest/1421/submission/95949775">Code</a></li>
 </ul>
-<h3 id="e-swedish-heroes"><a href="https://codeforces.com/contest/1421/problem/E">E. Swedish Heroes</a><a href="#e-swedish-heroes" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="e-swedish-heroes"><a href="https://codeforces.com/contest/1421/problem/E">E. Swedish Heroes</a></h3>
 <ul>
 <li>Check back later on to see, I haven&rsquo;t solved it yet.</li>
 <li>There are two type of solutions I&rsquo;ve seen so far one is dynamic programming solution where states are</li>
@@ -252,75 +91,12 @@
 <li>I don&rsquo;t understand it yet and other solution just uses the idea of setting negatives such that <code>(n+m)%3==1</code> and no alternate pattern of <code>+</code> and <code>-</code> forms.</li>
 </ul>
 
-      </div></div>
+</main>
 
+  <footer>
   
   
-<div class="pagination">
-    <div class="pagination__title">
-        <span class="pagination__title-h"></span>
-        <hr />
-    </div>
-    <div class="pagination__buttons">
-        
-        <span class="button previous">
-            <a href="//localhost:1313/posts/selfupdate/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Self updating readme on github</span>
-            </a>
-        </span>
-        
-        
-        <span class="button next">
-            <a href="//localhost:1313/posts/cf1428/">
-                <span class="button__text">Codeforces Raif Round 1 [Div.1 &#43; Div.2]</span>
-                <span class="button__icon">→</span>
-            </a>
-        </span>
-        
-    </div>
-</div>
-
-  
-<style>
-.newsletter{
-	display:flex;
-	flex-direction:column;
-}
-
-</style>
-<div class="newsletter">
-<iframe src="https://nikhilr.substack.com/embed" width="auto" height="320" style="" frameborder="0" scrolling="no"></iframe>
-</div>
-
-
-  
-
-
-
-</div>
-
-  </div>
-
-  
-    <footer class="footer">
-  <div class="footer__inner">
-    
-      <div class="copyright copyright--user">
-        <span>© Nikhil 2021</span>
-    
-      </div>
-  </div>
-</footer>
-<script src="//localhost:1313/assets/main.js"></script>
-<script src="//localhost:1313/assets/prism.js"></script>
-
-
-
-
-
-  
-</div>
-
-</body>
+  </footer>
+  </body>
 </html>
+

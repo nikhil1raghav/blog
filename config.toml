@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "terminal"
+theme = "hugo-xmin"
 pagination.pagerSize = 15
 enableEmoji=true
 [params]
@@ -49,11 +49,11 @@ enableEmoji=true
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Purple Terminal - Nikhil's Blog"
+    title = "Nikhil Raghav"
     subtitle = ""
     owner = "Nikhil"
     keywords = ""
-    copyright = "© Nikhil 2021"
+    copyright = "© Nikhil 2025"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -69,10 +69,6 @@ enableEmoji=true
         identifier = "about"
         name = "About"
         url = "/about"
-	[[languages.en.menu.main]]
-	identifier="archive"
-	name="Archive"
-	url="/archive"
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"

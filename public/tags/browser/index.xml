@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Browser on Purple Terminal - Nikhil&#39;s Blog</title>
-    <link>//localhost:1313/tags/browser/</link>
-    <description>Recent content in Browser on Purple Terminal - Nikhil&#39;s Blog</description>
+    <title>Browser on Nikhil Raghav</title>
+    <link>/tags/browser/</link>
+    <description>Recent content in Browser on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© Nikhil 2021</copyright>
+    <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Big Browser is watching</title>
-      <link>//localhost:1313/posts/palemoon/</link>
+      <link>/posts/palemoon/</link>
       <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/palemoon/</guid>
+      <guid>/posts/palemoon/</guid>
       <description>&lt;p&gt;&lt;em&gt;UPD : These views are really old, I still use firefox, you can stop updating firefox by making changes to about:policies or can use icecat or librewolf. But firefox is by far the most advanced and private browser.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I love minimal software and always try to minimize bloat on whatever system I use. I also like to read too many blogs on internet but you don&amp;rsquo;t need a power hungry and feature rich browser to &amp;ldquo;just read blogs&amp;rdquo;. So recently, I came across &lt;a href=&#34;https://www.youtube.com/watch?v=EBWy1d-JE6A&#34;&gt;this&lt;/a&gt; video introducing &lt;a href=&#34;https://hacktivis.me/projects/badwolf&#34;&gt;BadWolf&lt;/a&gt;, which is a minimal &lt;a href=&#34;https://webkitgtk.org&#34;&gt;WebKitGTK+&lt;/a&gt; based browser that has two very accessible buttons to toggle javascript and images on a webpage and one simple download manager. I know there is much more going on behind the scenes, but this is what that meets the eye first.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,6 +1,5 @@
 +++
 title="Minimum changes to make XOR of all segments of a fixed length zero"
-Author="Nikhil"
 math="true"
 date="2021-07-17"
 description="Dynamic programming solution of a not so interesting problem"

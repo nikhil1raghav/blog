@@ -1,6 +1,5 @@
 +++
 title="How to set up mpd with blissify"
-Author="Nikhil"
 math="true"
 date="2021-07-02"
 description="Step-by-step instructions to get started with music player daemon and creating intelligent playlists offline"

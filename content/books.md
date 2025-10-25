@@ -4,12 +4,12 @@ date = "2024-11-30"
 
 reviews = [
   { title = "Shift", review = "Good sequel to wool, you learn nanotech can be endgame for humanity's progress. Gave me enough closure to not read the third installment.", rating = "4"},
-  { title = "Wool",review = "Read this because Apple TV show wasn't moving fast.", rating = "4" },
-  { title = "Death's end",review = "First half is good, second half leaves a lot to desire. You can stop reading after 70%", rating = "3" },
-  { title = "Dark Forest",review = "Good story, great scale, bumpy translation", rating = "4" },
-  { title = "Three body problem",review = "Great Sci-fi, you'll learn how to stop scientific progress with two protons", rating = "4" },
-  { title = "Veronica Decides To Die",review = "I want to read all books by Coelho", rating = "4" },
-  { title = "Our trees still grow in Dehra",review = "School homework. Done late", rating = "3" },
+  { title = "Wool", review = "Read this because Apple TV show wasn't moving fast.", rating = "4" },
+  { title = "Death's end", review = "First half is good, second half leaves a lot to desire. You can stop reading after 70%", rating = "3" },
+  { title = "Dark Forest", review = "Good story, great scale, bumpy translation", rating = "4" },
+  { title = "Three body problem", review = "Great Sci-fi, you'll learn how to stop scientific progress with two protons", rating = "4" },
+  { title = "Veronica Decides To Die", review = "I want to read all books by Coelho", rating = "4" },
+  { title = "Our trees still grow in Dehra", review = "School homework. Done late", rating = "3" },
   { title = "14 years with Boss", review = "Read one chapter from it in a random NCERT book. I like learning about movies, so picked up the book.", rating = "3" },
   { title = "By way of deception : Making of a Mossad officer", review = "Read this after watching Munich. Re-read worthy", rating = "4" },
   { title = "Thoughts of a philosophical fighter pilot", review = "I was bored when I read it for the first time. As it is a collection of his talks, material is very redundant.", rating = "2" },
@@ -23,10 +23,10 @@ reviews = [
   { title = "40 rules of love", review = "Makes you kinder and want to read Rumi.", rating = "3" },
   { title = "Kafka on the shore", review = "I liked it. Magical realism, good character development and animation by Ghibli studios.", rating = "4" },
   { title = "The Metamorphosis", review = "Recommend this to people you hate.", rating = "2" },
-  { title = "Story of your life and others", review = "Best ones are _Liking what you see_, _Hell is absence of God_, _The Merchant and the Alchemist's Gate_ and _Understand_ ", rating = "4" },
+  { title = "Story of your life and others", review = "Best ones are _Liking what you see_, _Hell is absence of God_, _The Merchant and the Alchemist's Gate_ and _Understand_", rating = "4" },
   { title = "Lifecycle of Software Objects", review = "Cool book cover. This can be a Netflix show. Resonates as you might have seen this pattern over and over in your life. A startup pioneers new tech, everything goes well until they run out of time to figure out how to make the business profitable. Now when they pull the plug and shut down the shop, hobbyists, tinkerers and fanboys are left behind. Finding ways to make whatever they're left with work. Forming communities. Things aren't fun anymore.", rating = "3" },
   { title = "Designing Distributed Systems", review = "Good primer for cloud native deployment patterns. Outdated code.", rating = "3" },
-  { title = "Designing Data Intensive Applications", review = "he Book I think Architects keep under their pillow and read first thing in the morning.", rating = "3" },
+  { title = "Designing Data Intensive Applications", review = "The Book I think Architects keep under their pillow and read first thing in the morning.", rating = "3" },
   { title = "Effective Engineer", review = "It has two major ideas - prioritize high leverage tasks, make feedback loops shorter. Rest of the book is examples, techniques and action plans to adopt, practice and exploit these ideas. So reading the book and making notes is half the battle. Must read even if you're not planning to be an engineer for long.", rating = "4" },
   { title = "Project Hail Mary", review = "Book you can recommend to someone who wants to get into reading or sci-fi. Andy Weir writes like a blogger. PRO TIP : Read books set in a spaceship during flights. Sound of aeroplane engine and occasional turbulence elevate the reading experience", rating = "4" },
   { title = "Foundation", review = "Read this as it is a popular classic, not planning to read other books in the series. Apple TV show is so good it is unfair.", rating = "3" },
@@ -35,7 +35,7 @@ reviews = [
   { title = "Einstein's Dreams", review = "Short and evoking. 30 thought experiments", rating = "3" },
   { title = "High Output Management", review = "THE BOOK for MANAGERS but presents clever ideas that can be used by anyone. For example the idea that material becomes more valuable as it moves through the process, can be used to optimize any process you're working with whether it is conveyor belt in a factory or a CI pipeline.", rating = "2" },
   { title = "Dune", review = "Boring. Read it because 2021 movie ended prematurely.", rating = "3" },
-  { title = "Missing Readme", review = "Great book, doesn't matter if you’re starting out or not.", rating = "3" },
+  { title = "Missing Readme", review = "Great book, doesn't matter if you're starting out or not.", rating = "3" },
   { title = "Old man and the Sea", review = "I love this. Reminds me of my English teacher.", rating = "4" },
   { title = "Pragmatic Thinking", review = "Written well, I couldn't move past one chapter of Pragmatic programmer but reading it was effortless.", rating = "3" },
   { title = "Picture of Dorian Grey", review = "Yes please, more stories about Faustian Bargain.", rating = "4" },
@@ -62,16 +62,17 @@ reviews = [
   { title = "The Vault of Vishnu", review = "Started so well, ended like a B-grade bollywood movie.", rating = "2" },
   { title = "Irresistible : The Rise of Addictive Technology and Business of Keeping Us Hooked", review = "You can't leave a habit cold turkey, there are parts to it which need to dismantled or just replaced one by one and some caution to be taken to not including the same cues in your environment which'll result in relapse. Good book.", rating = "3" },
   { title = "Planet of the Apes", review = "Read the book even if you have watched the movies, just read it.", rating = "4" },
-  { title = "Chitralekha", review = "Exploration of sin, human nature and effectiveness of imposed abstinence. Cat theory", rating = "2" },
-
-
-
-
-
-
-
-
+  { title = "Chitralekha", review = "Exploration of sin, human nature and effectiveness of imposed abstinence. Cat theory", rating = "2" }
 ]
 +++
 
 {{< bookreview >}}
+<br>
+<br>
+Books I've read, updated less frequently. Three stars is normal, four stars are very good and five stars exceptional.
+<br>
+<br>
+
+
+
+{{< /bookreview >}}

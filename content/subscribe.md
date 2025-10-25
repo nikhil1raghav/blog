@@ -9,10 +9,11 @@ Trying to improve as an engineer, competitive programmer and finding new ways an
 
 
 
-Won't spam and you can read previous versions [here](/newsletter).
+Won't spam and you can read previous versions [here](https://purpleterminal.substack.com/).
 
-In case you don't like subscribing via email, [here](https://nikhilr.substack.com/feed) is full content RSS Feed for the newsletter
+In case you don't like subscribing via email, [here](https://purpleterminal.substack.com/feed) is full content RSS Feed for the newsletter
 
+RSS feed for this blog [here](/index.xml)
 
 
 

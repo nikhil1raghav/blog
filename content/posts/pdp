@@ -1,6 +1,5 @@
 +++
 title="[Partition DP] Handling Partitions with Dynamic Programming"
-Author="Nikhil"
 math="true"
 date="2021-07-18"
 description="Two example problems involving partitions and how to solve them with dynamic programming"

@@ -1,6 +1,5 @@
 +++
 title="CSES Math Problemset Tutorial"
-Author="Nikhil"
 math="true"
 date="2021-06-15"
 description="A somewhat chatty editorial of CSES mathematics section"
