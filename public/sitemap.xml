@@ -2,193 +2,193 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/lists/</loc>
+    <loc>/tags/lists/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/productivity/</loc>
+    <loc>/tags/productivity/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tools/</loc>
+    <loc>/tags/tools/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/tools-i-use/</loc>
+    <loc>/posts/tools-i-use/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/books/</loc>
+    <loc>/books/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/codecadet-xxii-editorial/</loc>
+    <loc>/posts/codecadet-xxii-editorial/</loc>
     <lastmod>2021-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cp/</loc>
+    <loc>/tags/cp/</loc>
     <lastmod>2021-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/manan/</loc>
+    <loc>/tags/manan/</loc>
     <lastmod>2021-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
+    <loc>/tags/tutorial/</loc>
     <lastmod>2021-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/dynamic-programming/</loc>
+    <loc>/tags/dynamic-programming/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/subarray-xor-zero/</loc>
+    <loc>/posts/subarray-xor-zero/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/mpd-with-bliss/</loc>
+    <loc>/posts/mpd-with-bliss/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/linux/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mpd/</loc>
+    <loc>/tags/mpd/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/music/</loc>
+    <loc>/tags/music/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/magic-potion/</loc>
+    <loc>/posts/magic-potion/</loc>
     <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/flow/</loc>
+    <loc>/tags/flow/</loc>
     <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/icpc/</loc>
+    <loc>/tags/icpc/</loc>
     <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cses/</loc>
+    <loc>/tags/cses/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/cses-math/</loc>
+    <loc>/posts/cses-math/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/math/</loc>
+    <loc>/tags/math/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/links/</loc>
+    <loc>/tags/links/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links3/</loc>
+    <loc>/posts/links3/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/bits/</loc>
+    <loc>/tags/bits/</loc>
     <lastmod>2021-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/hackerearth/</loc>
+    <loc>/tags/hackerearth/</loc>
     <lastmod>2021-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/problem/</loc>
+    <loc>/tags/problem/</loc>
     <lastmod>2021-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/xor-operation/</loc>
+    <loc>/posts/xor-operation/</loc>
     <lastmod>2021-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links2/</loc>
+    <loc>/posts/links2/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links1/</loc>
+    <loc>/posts/links1/</loc>
     <lastmod>2021-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/cpintro/</loc>
+    <loc>/posts/cpintro/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/notes/</loc>
+    <loc>/tags/notes/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/codeforces/</loc>
+    <loc>/tags/codeforces/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/cf1462/</loc>
+    <loc>/posts/cf1462/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/review/</loc>
+    <loc>/tags/review/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/upsolve/</loc>
+    <loc>/tags/upsolve/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/codechef/</loc>
+    <loc>/tags/codechef/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/ltime89/</loc>
+    <loc>/posts/ltime89/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/automation/</loc>
+    <loc>/tags/automation/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/selfupdate/</loc>
+    <loc>/posts/selfupdate/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/cf1421/</loc>
+    <loc>/posts/cf1421/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/cf1428/</loc>
+    <loc>/posts/cf1428/</loc>
     <lastmod>2020-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/palemoon/</loc>
+    <loc>/posts/palemoon/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/browser/</loc>
+    <loc>/tags/browser/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/firefox/</loc>
+    <loc>/tags/firefox/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/palemoon/</loc>
+    <loc>/tags/palemoon/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/privacy/</loc>
+    <loc>/tags/privacy/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/searx/</loc>
+    <loc>/posts/searx/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/searx/</loc>
+    <loc>/tags/searx/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/ffmpeg-reference/</loc>
+    <loc>/posts/ffmpeg-reference/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/media/</loc>
+    <loc>/tags/media/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/reference/</loc>
+    <loc>/tags/reference/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/atcoder/</loc>
+    <loc>/tags/atcoder/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/counting-with-maps/</loc>
+    <loc>/posts/counting-with-maps/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/programming/</loc>
+    <loc>/tags/programming/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/techniques/</loc>
+    <loc>/tags/techniques/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>//localhost:1313/archive/</loc>
+    <loc>/archive/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/links/</loc>
+    <loc>/links/</loc>
   </url><url>
-    <loc>//localhost:1313/subscribe/</loc>
+    <loc>/subscribe/</loc>
   </url><url>
-    <loc>//localhost:1313/til/</loc>
+    <loc>/til/</loc>
   </url>
 </urlset>
