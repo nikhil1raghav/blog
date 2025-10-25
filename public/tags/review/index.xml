@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Review on Nikhil Raghav</title>
-    <link>/tags/review/</link>
+    <link>//localhost:1313/tags/review/</link>
     <description>Recent content in Review on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Codeforces Round #690 (Div. 3)</title>
-      <link>/posts/cf1462/</link>
+      <link>//localhost:1313/posts/cf1462/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/posts/cf1462/</guid>
+      <guid>//localhost:1313/posts/cf1462/</guid>
       <description>&lt;p&gt;It was the first round in which I managed to solve 6 problems out of 7, submitting the last one in last 3 seconds. Following are some thoughts I had while solving those problems and some mistakes I made. I make it a point to refer the notebook I use for writing observations and calculations during contest for writing these blogs. So that even if I delay the post by a day or two I don&amp;rsquo;t miss much on the content. So let&amp;rsquo;s start with the first problem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codechef October Lunchtime 2020 Division 1</title>
-      <link>/posts/ltime89/</link>
+      <link>//localhost:1313/posts/ltime89/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/posts/ltime89/</guid>
+      <guid>//localhost:1313/posts/ltime89/</guid>
       <description>&lt;p&gt;Made 3 full successful submissions and 1 partial scored 325 points with lot of wrong submissions and ended up at 230th place. Here are the notes on some problems I solved during and after the contest and the thought process I had while solving them. I write these posts so that I can document any new problem solving techniques, observation or method of thinking about the problem I encounter during a contest. It also doubles up as an upsolving journal and lets me review my own thought process and outlook during the contest.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codeforces Round #676 (Div. 2)</title>
-      <link>/posts/cf1421/</link>
+      <link>//localhost:1313/posts/cf1421/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/posts/cf1421/</guid>
+      <guid>//localhost:1313/posts/cf1421/</guid>
       <description>&lt;p&gt;Had to perform better than last round to increase the rating again but started thinking in wrong direction for problem D, but solved it afterwards without editorials and easy to come up with solution. So I had to get this analysis out of the way before tonight&amp;rsquo;s Div.3 round. Contest was easy enough till D. I&amp;rsquo;m still not able to understand how I will approach problem E, it will be a blog in itself when I understand that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codeforces Raif Round 1 [Div.1 &#43; Div.2]</title>
-      <link>/posts/cf1428/</link>
+      <link>//localhost:1313/posts/cf1428/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/posts/cf1428/</guid>
+      <guid>//localhost:1313/posts/cf1428/</guid>
       <description>&lt;p&gt;Most recent round I participated in after a break of about 2 weeks. This is a new exercise that I&amp;rsquo;ve started to note down my thoughts and performance history in these blogs. So that I don&amp;rsquo;t repeat same mistakes more often and have some more clarity about what I go through when I&amp;rsquo;m participating and it will also double up as notes for some techniques and styles I come across while solving or upsolving that contest. Let&amp;rsquo;s start already.&lt;/p&gt;</description>
     </item>
   </channel>

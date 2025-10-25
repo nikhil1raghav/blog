@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codechef on Nikhil Raghav</title>
-    <link>/tags/codechef/</link>
+    <link>//localhost:1313/tags/codechef/</link>
     <description>Recent content in Codechef on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/codechef/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/codechef/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Codechef October Lunchtime 2020 Division 1</title>
-      <link>/posts/ltime89/</link>
+      <link>//localhost:1313/posts/ltime89/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/posts/ltime89/</guid>
+      <guid>//localhost:1313/posts/ltime89/</guid>
       <description>&lt;p&gt;Made 3 full successful submissions and 1 partial scored 325 points with lot of wrong submissions and ended up at 230th place. Here are the notes on some problems I solved during and after the contest and the thought process I had while solving them. I write these posts so that I can document any new problem solving techniques, observation or method of thinking about the problem I encounter during a contest. It also doubles up as an upsolving journal and lets me review my own thought process and outlook during the contest.&lt;/p&gt;</description>
     </item>
   </channel>

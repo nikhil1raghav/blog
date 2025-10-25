@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Searx on Nikhil Raghav</title>
-    <link>/tags/searx/</link>
+    <link>//localhost:1313/tags/searx/</link>
     <description>Recent content in Searx on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/searx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/searx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Private search engine in 5 minutes</title>
-      <link>/posts/searx/</link>
+      <link>//localhost:1313/posts/searx/</link>
       <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/posts/searx/</guid>
+      <guid>//localhost:1313/posts/searx/</guid>
       <description>&lt;p&gt;Every non privacy respecting search engine out there logs your search history to profile you and target you with more personalised ads, sometimes that also leads to a self created filter bubble.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://searx.me&#34;&gt;&lt;strong&gt;Searx&lt;/strong&gt;&lt;/a&gt; is a metasearch engine available under GPL 3, which compiles search results from more than 70 search engines. Fun fact is you can deploy it locally and enjoy searching from your customised search engine. I&amp;rsquo;ll walk you through the deployment.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dynamic-Programming on Nikhil Raghav</title>
-    <link>/tags/dynamic-programming/</link>
+    <link>//localhost:1313/tags/dynamic-programming/</link>
     <description>Recent content in Dynamic-Programming on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minimum changes to make XOR of all segments of a fixed length zero</title>
-      <link>/posts/subarray-xor-zero/</link>
+      <link>//localhost:1313/posts/subarray-xor-zero/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/posts/subarray-xor-zero/</guid>
+      <guid>//localhost:1313/posts/subarray-xor-zero/</guid>
       <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Given an array $A$ of length $N$ and an integer $K$, find minimum number of elements to change in the array such that xor of all segments of size $K$ becomes zero.&lt;/p&gt;&#xA;&lt;p&gt;where&#xA;$1 \leq K \leq N \leq 2000$ and $0 \leq A_i \leq 1024$&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;As the window of size $K$ moves one step from first $K$ elements it leaves behind the first element and includes $K+1_{th}$ element. More formally&lt;/p&gt;</description>
     </item>
   </channel>

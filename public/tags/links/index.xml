@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Links on Nikhil Raghav</title>
-    <link>/tags/links/</link>
+    <link>//localhost:1313/tags/links/</link>
     <description>Recent content in Links on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monday Links #3</title>
-      <link>/posts/links3/</link>
+      <link>//localhost:1313/posts/links3/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>/posts/links3/</guid>
+      <guid>//localhost:1313/posts/links3/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://asciinema.org&#34;&gt;Asciinema&lt;/a&gt; Purely text-based approach to recording terminal sessions. I saw something of this kind on &lt;a href=&#34;https://scrimba.com&#34;&gt;scrimba&lt;/a&gt; where you can pause the video and start editing the code on the screen. Asciinema is a better way to post command line sessions or tutorials than writing down zillion commands for copy pasting or a gif without any video controls where someone has to wait for the loop to complete so that they can pickup from where they left.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monday Links #2</title>
-      <link>/posts/links2/</link>
+      <link>//localhost:1313/posts/links2/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>/posts/links2/</guid>
+      <guid>//localhost:1313/posts/links2/</guid>
       <description>&lt;p&gt;Could&amp;rsquo;ve padded this with some other post but neither had time nor inspiration to write one. Now we have back to back monday links :).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://boris-marinov.github.io/vim-awesome/&#34;&gt;Why is Vim awesome&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://notes.andymatuschak.org/&#34;&gt;Andy Matuschak&amp;rsquo;s notes&lt;/a&gt; Loved the way this website (or I should call it a webpage) is organised, great flow which helps in revisiting whatever you&amp;rsquo;ve recorded without opening zillion tabs and aids in breadth-first-searching the notes instead of falling down into a rabbit hole of information.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monday Links #1</title>
-      <link>/posts/links1/</link>
+      <link>//localhost:1313/posts/links1/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/posts/links1/</guid>
+      <guid>//localhost:1313/posts/links1/</guid>
       <description>&lt;p&gt;This post is a right step in the direction of making this blog a link farm. Many blogs I follow post such kind of links frequently. I thought it is an interesting way to share links and creating new posts without much hardwork other than wandering aimlessly on hackernews and lobsters.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/distributed-architecture-concepts-i-have-learned-while-building-payments-systems/&#34;&gt;Distributed architecture concepts I learned while building a large payments system - The  Pragmatic Engineer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://highscalability.com/youtube-architecture&#34;&gt;Youtube Architecture - High Scalability&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
