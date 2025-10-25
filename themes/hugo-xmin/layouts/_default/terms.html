@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "main" }}
 <h1>{{ .Title }}</h1>
 
 <ul class="terms">
@@ -9,5 +8,4 @@
   </li>
   {{ end }}
 </ul>
-
-{{ partial "footer.html" . }}
+{{ end }}
