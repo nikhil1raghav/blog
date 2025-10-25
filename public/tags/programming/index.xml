@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Nikhil Raghav</title>
-    <link>//localhost:1313/tags/programming/</link>
+    <link>/tags/programming/</link>
     <description>Recent content in Programming on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Counting with hashmaps</title>
-      <link>//localhost:1313/posts/counting-with-maps/</link>
+      <link>/posts/counting-with-maps/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/counting-with-maps/</guid>
+      <guid>/posts/counting-with-maps/</guid>
       <description>&lt;p&gt;It is a recurring and really useful idea to count some property in O(n) in an array if the relation is some kind of equation where right hand side and left hand side only differs in their indexes. For example &lt;strong&gt;counting number of subarrays with sum X&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-subarrays-with-sum-x&#34;&gt;1. Subarrays with sum X&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s say we are given an array &lt;strong&gt;A&lt;/strong&gt; of length &lt;strong&gt;N&lt;/strong&gt; and we have to count how many subarrays of &lt;strong&gt;A&lt;/strong&gt; sum up to a given number &lt;strong&gt;X&lt;/strong&gt;. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for &lt;strong&gt;A&lt;/strong&gt;. After that we have two options:&lt;/p&gt;</description>
     </item>
   </channel>

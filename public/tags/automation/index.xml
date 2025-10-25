@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automation on Nikhil Raghav</title>
-    <link>//localhost:1313/tags/automation/</link>
+    <link>/tags/automation/</link>
     <description>Recent content in Automation on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self updating readme on github</title>
-      <link>//localhost:1313/posts/selfupdate/</link>
+      <link>/posts/selfupdate/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/selfupdate/</guid>
+      <guid>/posts/selfupdate/</guid>
       <description>&lt;p&gt;Recently created a readme for my profile on github, found out all kinds of things you can automate using github actions and reflect them on your readme, like followers, stars, self updating profile links or a feed from your blog.&lt;/p&gt;&#xA;&lt;p&gt;First of all those who don&amp;rsquo;t know about it, if you create a repo with the same name as your username on github, it will act as a README for your profile. So if you haven&amp;rsquo;t created one yet, go create it. It is like instagram bio on steroids.&lt;/p&gt;</description>
     </item>
   </channel>

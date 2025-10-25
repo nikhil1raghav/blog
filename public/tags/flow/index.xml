@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flow on Nikhil Raghav</title>
-    <link>//localhost:1313/tags/flow/</link>
+    <link>/tags/flow/</link>
     <description>Recent content in Flow on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/flow/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/flow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Tutorial] I. Magic Potion - Asia Nanjing Regional Contest 2018-19</title>
-      <link>//localhost:1313/posts/magic-potion/</link>
+      <link>/posts/magic-potion/</link>
       <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/magic-potion/</guid>
+      <guid>/posts/magic-potion/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://codeforces.com/gym/101981&#34;&gt;Problem link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

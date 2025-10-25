@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on Nikhil Raghav</title>
-    <link>//localhost:1313/tags/tutorial/</link>
+    <link>/tags/tutorial/</link>
     <description>Recent content in Tutorial on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Sat, 25 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Tutorial] Codecadet XXII</title>
-      <link>//localhost:1313/posts/codecadet-xxii-editorial/</link>
+      <link>/posts/codecadet-xxii-editorial/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/codecadet-xxii-editorial/</guid>
+      <guid>/posts/codecadet-xxii-editorial/</guid>
       <description>&lt;h4 id=&#34;1-code-cards&#34;&gt;1. &lt;a href=&#34;https://www.hackerearth.com/problem/algorithm/code-cards-19ccb549/&#34;&gt;Code Cards&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Suppose length of $S1$ is $n$. If $S1$ and $S2$ differ at some index $i$, then we can make $S1_i$ and $S2_i$ equal only when one of them is $ and other is one of the letters in the set { c, o, d, e}.&lt;/p&gt;&#xA;&lt;p&gt;Otherwise, it is impossible to make $S1$ and $S2$ equal.&lt;/p&gt;&#xA;&lt;p&gt;If it is possible, count number of occurrences where $S1$ and $S2$ differ and print that count.&lt;/p&gt;</description>
     </item>
   </channel>

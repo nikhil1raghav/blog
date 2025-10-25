@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cp on Nikhil Raghav</title>
-    <link>//localhost:1313/tags/cp/</link>
+    <link>/tags/cp/</link>
     <description>Recent content in Cp on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
     <lastBuildDate>Sat, 25 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/cp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/cp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Tutorial] Codecadet XXII</title>
-      <link>//localhost:1313/posts/codecadet-xxii-editorial/</link>
+      <link>/posts/codecadet-xxii-editorial/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/codecadet-xxii-editorial/</guid>
+      <guid>/posts/codecadet-xxii-editorial/</guid>
       <description>&lt;h4 id=&#34;1-code-cards&#34;&gt;1. &lt;a href=&#34;https://www.hackerearth.com/problem/algorithm/code-cards-19ccb549/&#34;&gt;Code Cards&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Suppose length of $S1$ is $n$. If $S1$ and $S2$ differ at some index $i$, then we can make $S1_i$ and $S2_i$ equal only when one of them is $ and other is one of the letters in the set { c, o, d, e}.&lt;/p&gt;&#xA;&lt;p&gt;Otherwise, it is impossible to make $S1$ and $S2$ equal.&lt;/p&gt;&#xA;&lt;p&gt;If it is possible, count number of occurrences where $S1$ and $S2$ differ and print that count.&lt;/p&gt;</description>
     </item>
     <item>
       <title>[Tutorial] I. Magic Potion - Asia Nanjing Regional Contest 2018-19</title>
-      <link>//localhost:1313/posts/magic-potion/</link>
+      <link>/posts/magic-potion/</link>
       <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/magic-potion/</guid>
+      <guid>/posts/magic-potion/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://codeforces.com/gym/101981&#34;&gt;Problem link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSES Math Problemset Tutorial</title>
-      <link>//localhost:1313/posts/cses-math/</link>
+      <link>/posts/cses-math/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/cses-math/</guid>
+      <guid>/posts/cses-math/</guid>
       <description>&lt;p&gt;&lt;strong&gt;NOTE : It is incomplete, If you don&amp;rsquo;t find what you&amp;rsquo;re looking for, check back in a week.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div&gt;&#xA;&#x9;&lt;h2&gt;Table of Contents&lt;/h2&gt;&#xA;&#x9;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#exponentiation&#34;&gt;Exponentiation&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#exponentiation-ii&#34;&gt;Exponentiation II&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#counting-divisors&#34;&gt;Counting Divisors&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#common-divisors&#34;&gt;Common divisors&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#sum-of-divisors&#34;&gt;Sum of Divisors&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#binomial-coefficients&#34;&gt;Binomial Coefficients&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#creating-strings-ii&#34;&gt;Creating Strings II&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#distributing-apples&#34;&gt;Distributing Apples&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#christmas-party&#34;&gt;Christmas Party&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#fibonacci-numbers&#34;&gt;Fibonacci Numbers&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#throwing-dice&#34;&gt;Throwing Dice&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#graph-paths-i&#34;&gt;Graph Paths I&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#graph-paths-ii&#34;&gt;Graph Paths II&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#dice-probability&#34;&gt;Dice Probability&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#bracket-sequences-i&#34;&gt;Bracket Sequences I&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#bracket-sequences-ii&#34;&gt;Bracket Sequences II&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;So, there are total 31 problems, let&amp;rsquo;s solve them by the solve count.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction to Competitive Programming</title>
-      <link>//localhost:1313/posts/cpintro/</link>
+      <link>/posts/cpintro/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/cpintro/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/files/session.pdf&#34;&gt;Slide Deck&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/nKQpS0dg61Y?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;NOTE : This page is to act as a supplement to the content I covered in the stream. There are some points here which are very concise but are explained well in the stream because video format has its own benefits as you can&amp;rsquo;t write as fast as you speak or think.&lt;/p&gt;</description>
+      <guid>/posts/cpintro/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/session.pdf&#34;&gt;Slide Deck&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/nKQpS0dg61Y?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;NOTE : This page is to act as a supplement to the content I covered in the stream. There are some points here which are very concise but are explained well in the stream because video format has its own benefits as you can&amp;rsquo;t write as fast as you speak or think.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
