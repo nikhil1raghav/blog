@@ -13,15 +13,12 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         renderMathInElement(document.body, {
-          
-          
           delimiters: [
               {left: '$$', right: '$$', display: true},
               {left: '$', right: '$', display: false},
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
-          
           throwOnError : false
         });
     });
@@ -47,6 +44,8 @@
     <hr/>
     </nav>
 
+    <main>
+      
 <div class="article-meta">
 <h1><span class="title">CSES Math Problemset Tutorial</span></h1>
 
@@ -55,9 +54,7 @@
 
 <main>
 <p><strong>NOTE : It is incomplete, If you don&rsquo;t find what you&rsquo;re looking for, check back in a week.</strong></p>
-<div>
-	<h2>Table of Contents</h2>
-	<nav id="TableOfContents">
+<nav id="TableOfContents">
   <ul>
     <li><a href="#exponentiation">Exponentiation</a></li>
     <li><a href="#exponentiation-ii">Exponentiation II</a></li>
@@ -81,8 +78,6 @@
     <li><a href="#bracket-sequences-ii">Bracket Sequences II</a></li>
   </ul>
 </nav>
-</div>
-
 <p>So, there are total 31 problems, let&rsquo;s solve them by the solve count.</p>
 <h2 id="exponentiation">Exponentiation</h2>
 <p><a href="https://cses.fi/problemset/result/2320542/">Problem Statement</a></p>
@@ -462,21 +457,27 @@ Therefore, we can write</p>
 <p>We can model this problem to an equivalent grid walking problem.</p>
 <p>There is a grid (as shown in the figure below), you are standing at $(0,0)$ and the destination is $(\frac{n}2, \frac{n}2)$, count total possible paths such that you can only move up i.e. use &ldquo;$)$&rdquo; exactly $\frac{n}2$ times and move right i.e. use &ldquo;$($&rdquo; exactly $\frac{n}2$ times.</p>
 
-  <img src="/files/grid1.png"  class="left"  style="margin:auto;width:40%;"  />
 
 
+
+
+<img src="/files/grid1.png" alt=""  >
 <p>But, what about the condition that at every moment : $$closing\space brackets \leq opening \space brackets$$
 can be rephrased as:
 $$ moves\space in \space upward \space direction \leq moves \space to \space the \space right$$</p>
 <p>It means that no point in the possible valid paths will be above anti-diagonal. In the figures below, figure to the left shows a valid path, as it is entirely below the diagonal, and the figure to the left shows an invalid path as it overshoots diagonal at point $P$.</p>
 <p>
-  <img src="/files/grid-valid.png"  class="left"  style="float:left;margin:auto;width:40%;"  />
 
 
 
-  <img src="/files/grid-invalid.png"  class="left"  style="margin:auto;width:40%;"  />
 
-</p>
+<img src="/files/grid-valid.png" alt=""  >
+
+
+
+
+
+<img src="/files/grid-invalid.png" alt=""  ></p>
 <p><strong>How to count these good paths?</strong></p>
 <p>Total possible paths irrespective of the conditions imposed by the diagonal are ${}^n C_{\frac{n}2}$
 So, if we can somehow count all the paths that overshoot the diagonal at some point, we can subtract them from total to get the count of good paths.</p>
@@ -493,9 +494,11 @@ So, if we can somehow count all the paths that overshoot the diagonal at some po
 <p>So final position every time would be $(\frac{n}2 -1 , \frac{n}2 +1)$, as shown in the figure below</p>
 <p>Therefore number of such paths is ${}^nC_{\frac{n}2 -1}$</p>
 
-  <img src="/files/grid-final.png"  class="left"  style="margin:auto;width:40%;"  />
 
 
+
+
+<img src="/files/grid-final.png" alt=""  >
 <p>Therefore answer is $$Total\space paths - bad \space paths = {}^nC_{\frac{n}2} - {}^nC_{\frac{n}2 -1}$$</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>cin<span style="color:#f92672">&gt;&gt;</span>n;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(n<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>){
@@ -539,10 +542,14 @@ So, if we can somehow count all the paths that overshoot the diagonal at some po
 </span></span></code></pre></div>
 </main>
 
-  <footer>
+    </main>
+
+      <footer>
   
   
   </footer>
   </body>
 </html>
 
+  </body>
+</html>
