@@ -1,5 +1,0 @@
-{{- $newline := .Get "newline" | default "true" -}}
-<iframe src="{{ .Get `src` }}/embed" class="mastodon-embed" style="max-width:100%;min-height:200px;border:0" width="1000"></iframe>
-<script src="https://qiitadon.com/embed.js" async="async"></script>
-{{- if eq $newline "true" -}}<br>{{- end -}}
-
