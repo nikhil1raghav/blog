@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on Nikhil Raghav</title>
-    <link>/tags/productivity/</link>
+    <link>//localhost:1313/tags/productivity/</link>
     <description>Recent content in Productivity on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
-    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tools I use</title>
-      <link>/posts/tools-i-use/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/tools-i-use/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve seen youtubers add such lists in their description, tools they use for content creation, camera, lens, lights, even the keyboard they use.&lt;/p&gt;&#xA;&lt;p&gt;I thought it would be fun to write mine and get to know what you use. I&amp;rsquo;m a Software Engineer by profession, most of the tools I use can be used in any sort of knowledge work.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Obsidian&lt;/strong&gt; - For notes or jotting anything under the sun. This is where everything ends up. I&amp;rsquo;m using it since 2020. I have tried other note taking tools logseq, notion, joplin, simplenote and friends - paid, free and opensource but couldn&amp;rsquo;t use them as simply I use obsidian.&lt;br&gt;&lt;br&gt;It has most of what I&amp;rsquo;ve learned in life since using it. All the books, journal entries, thoughts, drafts etc.&lt;/p&gt;</description>
+      <link>//localhost:1313/posts/tools-i-use/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/tools-i-use/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve seen youtubers add such lists in their description, tools they use for content creation, camera, lens, lights, even the keyboard they use.&lt;/p&gt;&#xA;&lt;p&gt;I thought it would be fun to write mine and get to know what you use. I&amp;rsquo;m a Software Engineer by profession, most of the tools I use can be used in any sort of knowledge work.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#productivity--note-taking&#34;&gt;Productivity &amp;amp; Note taking&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#ai--development-tools&#34;&gt;AI &amp;amp; Development Tools&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#hardware--devices&#34;&gt;Hardware &amp;amp; Devices&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#writing--utilities&#34;&gt;Writing &amp;amp; Utilities&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;productivity--note-taking&#34;&gt;Productivity &amp;amp; Note taking&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt; - For notes or jotting anything under the sun. This is where everything ends up. I&amp;rsquo;m using it since 2020. I have tried other note taking tools logseq, notion, joplin, simplenote and friends - paid, free and opensource but couldn&amp;rsquo;t use them as simply I use obsidian.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
