@@ -31,12 +31,21 @@ I thought it would be fun to write mine and get to know what you use. I'm a Soft
 3. **[Google Keep](https://keep.google.com/)** - For braindumping. Any screenshot, quick idea, thoughts go into Keep as it is always available on every device I use. Later on I move things to obsidian or archive them.
    
    If you want something private, try [*Quillpad*](https://github.com/quillpad/quillpad)
+   
+   
+   
 
-4. [**Todoist**](https://www.todoist.com/) - For tasks. But I barely use it now as I end up writing things on Post-it notes the night before or in the morning and doing them. Todoist or any task tracking app is still good for keeping lists. But I realised I don't use it that much.
+4. [**Brain.fm**](https://www.brain.fm/) - Focus and relaxing music. It works for me, so I got a yearly subscription. Some of their tracks are crazy good. I listen to them on repeat while working or reading.
+   
+   There unwind tracks are good too, I listen to when I come back from work and do some chores. If I'm not listening to Pakistani Pop Music.
+   
+   
+
+5. [**Todoist**](https://www.todoist.com/) - For tasks. But I barely use it now as I end up writing things on Post-it notes the night before or in the morning and doing them. Todoist or any task tracking app is still good for keeping lists. But I realised I don't use it that much.
    
    I'll cancel my subscription and move my list to Google Tasks, once the current sub ends.
 
-5. [**O'reilly**](https://learning.oreilly.com/) - Subscription for all the tech books, courses by oreilly and some other publishers in the domain like Manning, Packt, No starch. It is convenient and they have live sessions now and then. 
+6. [**O'reilly**](https://learning.oreilly.com/) - Subscription for all the tech books, courses by oreilly and some other publishers in the domain like Manning, Packt, No starch. It is convenient and they have live sessions now and then. 
    
    It was free at Flipkart, I bought mine when I left Flipkart for Uber, it is that good. Best subscription I have
 
