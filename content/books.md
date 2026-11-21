@@ -1,6 +1,6 @@
 +++
 title = "Book Reviews"
-date = "2024-11-30"
+date = "2026-11-21"
 
 reviews = [
   { title = "The Making of Prince of Persia", author = "Jordan Mechner", review = "Read it to feel better about my own unfinished projects. Everything good takes longer and breaks twice.", rating = "5" },
