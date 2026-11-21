@@ -7,26 +7,33 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
-    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Substack</title>
+      <link>/tags/substack/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/substack/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Lists</title>
       <link>/tags/lists/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/tags/lists/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
       <link>/tags/productivity/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
       <link>/tags/tools/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/tags/tools/</guid>
       <description></description>
     </item>

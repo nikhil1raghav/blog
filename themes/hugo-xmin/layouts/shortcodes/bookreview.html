@@ -8,6 +8,7 @@
   <thead>
     <tr>
       <th>Book Title</th>
+      <th>Author</th>
       <th>Review</th>
       <th>Rating</th>
     </tr>
@@ -15,7 +16,9 @@
   <tbody>
     {{ range .Page.Params.reviews }}
     <tr>
-      <td><a href="{{ .url }}" target="_blank">{{ .title }}</a></td>
+      {{ $t := .title }}
+      <td>{{ with .url }}<a href="{{ . }}" target="_blank">{{ $t }}</a>{{ else }}{{ $t }}{{ end }}</td>
+      <td>{{ .author }}</td>
       <td>{{ .review }}</td>
       <td style="white-space: nowrap;">
         {{ range seq (int .rating) }}

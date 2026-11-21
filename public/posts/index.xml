@@ -2,151 +2,242 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nikhil Raghav</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Nikhil Raghav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© Nikhil 2025</copyright>
-    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monthly tech roundup #8</title>
+      <link>/posts/substack-monthly-tech-roundup-8/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-monthly-tech-roundup-8/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/monthly-tech-roundup-8&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;All the good stuff I read and learned last month, plus a few things from November.&lt;/p&gt;&#xA;&lt;p&gt;Every major AI launch already makes it to human consciousness through 24x7 influencers rambling about it. We’ve become numb to it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;models-editing-models&#34;&gt;Models editing models&lt;/h2&gt;&#xA;&lt;p&gt;Craziest thing I came across was &lt;a href=&#34;https://rikiyat.github.io/blog/weight-space-programming/&#34;&gt;GPT-6 Astra editing Qwen3.5-0.8B’s weights&lt;/a&gt;. It changed just 0.016% of them and raised its MATH-500 score from 7.9% to 48.1%, without a training loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weekly tech roundup #8</title>
+      <link>/posts/substack-weekly-tech-roundup-8/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-weekly-tech-roundup-8/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/weekly-tech-roundup-8&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Thanks to everyone who subscribed to my newsletter recently.&lt;/p&gt;&#xA;&lt;p&gt;I was in Japan for last two weeks. So couldn’t post anything.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://substack-post-media.s3.amazonaws.com/public/images/4b269698-e3a1-4a4a-b86c-d3ee5a5c922b_4585x3336.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There is a lot that has happened since. We’ve sonnet 5.5, gpt 6.1 release. OpenAI didn’t release a terra model this time. Dots was launched, background agents by OpenAI.&lt;/p&gt;&#xA;&lt;p&gt;Jev came out and quickly open source counterparts popped up. Then OpenAI released their decisions API, but honestly releasing a Jev like model hurts bottom line for OpenAI, anthropic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Are you rich enough to pay for Claude?</title>
+      <link>/posts/substack-are-you-rich-enough-to-pay-for-claude/</link>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-are-you-rich-enough-to-pay-for-claude/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/are-you-rich-enough-to-pay-for-claude&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I have a fairly good compensation as a big tech engineer. Yet, I don’t like paying $20 or more for Claude.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://substack-post-media.s3.amazonaws.com/public/images/14f44a24-2125-4ae7-8f0f-f0b6cb34862e_2608x1632.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;You don’t get much of Claude for 20$, for 100$ it is like leaving too much&#xA;money on the table.&lt;/p&gt;&#xA;&lt;p&gt;A normal knowledge worker × content creator subscribes to multiple tools:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;an AI daily driver like Claude,&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Wispr Flow because you can speak 4x faster than you write (but I can’t think 4x faster, so I speak gibberish),&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links #7</title>
+      <link>/posts/substack-links-7/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-links-7/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/links-7&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hi, welcome to 7th edition of my infrequent newsletter, which will be more frequent, as I’ve become a “big” influencer with 9k followers ;) and I’ve AI to get some research and organisation out of my plate.&lt;/p&gt;&#xA;&lt;p&gt;If you’re just browsing through substack and somehow opened this link then quick introduction - I share links to the blogs, tools I find interesting (mostly tech) and some book recommendations in my series titled “Links”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Only DSA roadmap you’ll ever need</title>
+      <link>/posts/substack-only-dsa-roadmap-youll-ever-need/</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-only-dsa-roadmap-youll-ever-need/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/only-dsa-roadmap-youll-ever-need&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;why-does-this-exist&#34;&gt;Why does this exist?&lt;/h2&gt;&#xA;&lt;p&gt;Life has too many good things. DSA prep is not one of them.&lt;/p&gt;&#xA;&lt;p&gt;But you need to clear DSA interviews to get a tech job.&#xA;Most of the roadmaps out there are link spams with bazillion boring problems.&lt;/p&gt;&#xA;&lt;p&gt;DSA is not going anywhere for 3-4 years at least. As it is the easiest way to scale the interview pipeline.&lt;/p&gt;&#xA;&lt;p&gt;In other words it is the easiest way to filter candidates out on raw problem solving skills.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why everyone is building the same projects</title>
+      <link>/posts/substack-why-everyone-is-building-the-same/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-why-everyone-is-building-the-same/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/why-everyone-is-building-the-same&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I recently shared a post on LinkedIn about Uber hiring and offered to refer people.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://substack-post-media.s3.amazonaws.com/public/images/8c16b245-8b79-4d77-9698-3bc1fc377bac_1268x1030.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;At first, I opened the first few resumes. Then I downloaded all of them and created a quick filter with Claude based on three things:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;LeetCode / CP ratings — signals that you can clear DSA interviews. But it doesn’t look good on its own. Expert+, Knight, or 5* looks good. Don’t add how many problems you solved; no one cares.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LLM math every software engineer must know</title>
+      <link>/posts/substack-llm-math-every-software-engineer/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-llm-math-every-software-engineer/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/llm-math-every-software-engineer&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Most engineers interact with LLMs daily, yet many struggle to estimate the basic resource profile of the models they use. Here are four mental models to help you put model size, intelligence, memory footprint, and training costs into perspective.&lt;/p&gt;&#xA;&lt;p&gt;Without being too sciency.&lt;/p&gt;&#xA;&lt;h3 id=&#34;i-model-size-parameters--iq&#34;&gt;I. Model size: Parameters != IQ&lt;/h3&gt;&#xA;&lt;p&gt;Models are categorized by their parameter count: 8B, 70B, 405B. A &amp;ldquo;parameter&amp;rdquo; is essentially a single learned weight or bias in a neural network.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tools I use</title>
-      <link>//localhost:1313/posts/tools-i-use/</link>
+      <link>/posts/tools-i-use/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/tools-i-use/</guid>
+      <guid>/posts/tools-i-use/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve seen youtubers add such lists in their description, tools they use for content creation, camera, lens, lights, even the keyboard they use.&lt;/p&gt;&#xA;&lt;p&gt;I thought it would be fun to write mine and get to know what you use. I&amp;rsquo;m a Software Engineer by profession, most of the tools I use can be used in any sort of knowledge work.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#productivity--note-taking&#34;&gt;Productivity &amp;amp; Note taking&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#ai--development-tools&#34;&gt;AI &amp;amp; Development Tools&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#hardware--devices&#34;&gt;Hardware &amp;amp; Devices&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#writing--utilities&#34;&gt;Writing &amp;amp; Utilities&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;productivity--note-taking&#34;&gt;Productivity &amp;amp; Note taking&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/strong&gt; - For notes or jotting anything under the sun. This is where everything ends up. I&amp;rsquo;m using it since 2020. I have tried other note taking tools logseq, notion, joplin, simplenote and friends - paid, free and opensource but couldn&amp;rsquo;t use them as simply I use obsidian.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Links #6</title>
+      <link>/posts/substack-links-6/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-links-6/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/links-6&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hi, writing this after a long break. Almost one year. Last post was in June 2022. Will try sending these out every month or two from now.&lt;/p&gt;&#xA;&lt;p&gt;My interests have changed over the year, so has the name of newsletter (if you didn’t notice).&lt;/p&gt;&#xA;&lt;h4 id=&#34;the-log--what-every-software-engineer-should-know-about-real-time-datas-unifying-abstraction&#34;&gt;&lt;a href=&#34;https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying&#34;&gt;The Log : What every Software engineer should know about real time data’s unifying abstraction&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;This is a fantastic introduction to the distributed log and all of the benefits it can bring to a project as scaling becomes more complex. The blog delves into the significance of logs in achieving data synchronization, consensus, and data integration across distributed systems. Reading it is like listening to an Architect thinking out loud. Length of the post combined with its density makes it a bit challenging to get through in one reading.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links #5</title>
+      <link>/posts/substack-links-5/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-links-5/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/links-5&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h4 id=&#34;changing-stdsort-at-googles-scale&#34;&gt;&lt;a href=&#34;https://danlark.org/2022/04/20/changing-stdsort-at-googles-scale-and-beyond/&#34;&gt;Changing std:sort at Google’s scale&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;How many reasonably fast sorting algorithms do you know about? If you use any modern language, there is a high chance that it has its own implementation of &lt;strong&gt;sort&lt;/strong&gt; which houses multiple algorithms and uses their combination to achieve consistent performance irrespective of the input.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://danlark.org/2022/04/20/changing-stdsort-at-googles-scale-and-beyond/&#34;&gt;This&lt;/a&gt; post is about the internals of sort in both LLVM and GNU. How the author improved LLVM’s std:sort, what kind of problem-solving and experimentation goes into such initiatives, and very satisfying animation that pitches different combinations of sorting algorithms against each other.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links #4</title>
+      <link>/posts/substack-links-4/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-links-4/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/links-4&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hi!, welcome to 4th issue of my highly irregular newsletter. One of the reasons for this irregularity is that it is hard to find quality links to share and I make it a point to go through them myself before I share. Sometimes I just don’t feel like writing so I don’t.&lt;/p&gt;&#xA;&lt;p&gt;Here are some links worth your time. Experimenting with a new format where I sprinkle supporting links here and there which are related to the heading and could make their own entry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links #3</title>
+      <link>/posts/substack-links3/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-links3/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/links3&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This iteration is about two weeks off but better late then never.&lt;/p&gt;&#xA;&lt;h3 id=&#34;some-ways-dns-can-break&#34;&gt;&lt;a href=&#34;https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/&#34;&gt;Some ways DNS can break&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;From really slow network requests to an email landing in your spam folder. There are many problems that can arise from incorrectly configured DNS. &lt;a href=&#34;https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/&#34;&gt;This&lt;/a&gt; post is a lists some of such problems that don’t look like DNS problems at all on first look.&lt;/p&gt;&#xA;&lt;h3 id=&#34;coding-for-ssds&#34;&gt;&lt;a href=&#34;https://codecapsule.com/2014/02/12/coding-for-ssds-part-1-introduction-and-table-of-contents/&#34;&gt;Coding for SSDs&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;SSDs are not slower RAMs. There are lot of things that are practically different from the mental model of SSDs being faster HDDs and slower RAMs. &lt;a href=&#34;https://codecapsule.com/2014/02/12/coding-for-ssds-part-1-introduction-and-table-of-contents/&#34;&gt;This&lt;/a&gt; 6 part blog series covers more than enough on what you should know to update your mental model of how SSDs work, sixth part being the summary of first five.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links #2</title>
+      <link>/posts/substack-links-2/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-links-2/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/links-2&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Happy new year!&#xA;Here is the first edition for this year, here are some links worth your time.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://sirupsen.com/napkin/neural-net&#34;&gt;Neural network from scratch&lt;/a&gt; is a surprisingly short and thorough blog post on building a neural net from scratch to understand how they work. Don’t forget to checkout other posts on this blog. There are some really cool deep dives.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;2. If you ever wanted to learn about how video infrastructure on internet works. &lt;a href=&#34;https://howvideo.works&#34;&gt;How video works&lt;/a&gt; is a primer on playback, content-delivery and transcoding, all on one page.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links #1</title>
+      <link>/posts/substack-links-1/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/posts/substack-links-1/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Originally published on &lt;a href=&#34;https://purpleterminal.substack.com/p/links-1&#34;&gt;Substack&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hi! it is first issue of this newsletter, sorry if it comes out to be a bit unpolished. Idea is to share links to things that I’ve explored myself and have helped me.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tools&#34;&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h4 id=&#34;resilio-sync--syncthing&#34;&gt;&lt;a href=&#34;https://www.resilio.com/individuals/&#34;&gt;Resilio Sync&lt;/a&gt; / &lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;This week I discovered &lt;a href=&#34;https://www.resilio.com/individuals/&#34;&gt;Resilio Sync&lt;/a&gt; which is a tool to sync files across devices, it uses bittorrent to sync files, so no middleman except peers (which should be your devices). I wanted a cheaper solution to sync my &lt;a href=&#34;https://obsidian.md&#34;&gt;obsidian&lt;/a&gt; notes with phone.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>[Tutorial] Codecadet XXII</title>
-      <link>//localhost:1313/posts/codecadet-xxii-editorial/</link>
+      <link>/posts/codecadet-xxii-editorial/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/codecadet-xxii-editorial/</guid>
+      <guid>/posts/codecadet-xxii-editorial/</guid>
       <description>&lt;h4 id=&#34;1-code-cards&#34;&gt;1. &lt;a href=&#34;https://www.hackerearth.com/problem/algorithm/code-cards-19ccb549/&#34;&gt;Code Cards&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Suppose length of $S1$ is $n$. If $S1$ and $S2$ differ at some index $i$, then we can make $S1_i$ and $S2_i$ equal only when one of them is $ and other is one of the letters in the set { c, o, d, e}.&lt;/p&gt;&#xA;&lt;p&gt;Otherwise, it is impossible to make $S1$ and $S2$ equal.&lt;/p&gt;&#xA;&lt;p&gt;If it is possible, count number of occurrences where $S1$ and $S2$ differ and print that count.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minimum changes to make XOR of all segments of a fixed length zero</title>
-      <link>//localhost:1313/posts/subarray-xor-zero/</link>
+      <link>/posts/subarray-xor-zero/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/subarray-xor-zero/</guid>
+      <guid>/posts/subarray-xor-zero/</guid>
       <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Given an array $A$ of length $N$ and an integer $K$, find minimum number of elements to change in the array such that xor of all segments of size $K$ becomes zero.&lt;/p&gt;&#xA;&lt;p&gt;where&#xA;$1 \leq K \leq N \leq 2000$ and $0 \leq A_i \leq 1024$&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;As the window of size $K$ moves one step from first $K$ elements it leaves behind the first element and includes $K+1_{th}$ element. More formally&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to set up mpd with blissify</title>
-      <link>//localhost:1313/posts/mpd-with-bliss/</link>
+      <link>/posts/mpd-with-bliss/</link>
       <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/mpd-with-bliss/</guid>
+      <guid>/posts/mpd-with-bliss/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/MusicPlayerDaemon/MPD&#34;&gt;MPD&lt;/a&gt; is a server-side music player, which can be further improved by using different plugins and libraries to enhance overall music listening experience on all the devices on a network.&lt;/p&gt;&#xA;&lt;p&gt;As it is a server-side application you&amp;rsquo;ll also need a client to go along with it, usually MPD can relay its output to different channels at the same time so you can enjoy it on anything that can process a http stream and is on the same network (any device with a web browser).&lt;/p&gt;</description>
     </item>
     <item>
       <title>[Tutorial] I. Magic Potion - Asia Nanjing Regional Contest 2018-19</title>
-      <link>//localhost:1313/posts/magic-potion/</link>
+      <link>/posts/magic-potion/</link>
       <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/magic-potion/</guid>
+      <guid>/posts/magic-potion/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://codeforces.com/gym/101981&#34;&gt;Problem link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSES Math Problemset Tutorial</title>
-      <link>//localhost:1313/posts/cses-math/</link>
+      <link>/posts/cses-math/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/cses-math/</guid>
+      <guid>/posts/cses-math/</guid>
       <description>&lt;p&gt;&lt;strong&gt;NOTE : It is incomplete, If you don&amp;rsquo;t find what you&amp;rsquo;re looking for, check back in a week.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#exponentiation&#34;&gt;Exponentiation&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#exponentiation-ii&#34;&gt;Exponentiation II&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#counting-divisors&#34;&gt;Counting Divisors&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#common-divisors&#34;&gt;Common divisors&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#sum-of-divisors&#34;&gt;Sum of Divisors&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#binomial-coefficients&#34;&gt;Binomial Coefficients&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#creating-strings-ii&#34;&gt;Creating Strings II&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#distributing-apples&#34;&gt;Distributing Apples&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#christmas-party&#34;&gt;Christmas Party&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#fibonacci-numbers&#34;&gt;Fibonacci Numbers&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#throwing-dice&#34;&gt;Throwing Dice&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#graph-paths-i&#34;&gt;Graph Paths I&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#graph-paths-ii&#34;&gt;Graph Paths II&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#dice-probability&#34;&gt;Dice Probability&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#bracket-sequences-i&#34;&gt;Bracket Sequences I&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#bracket-sequences-ii&#34;&gt;Bracket Sequences II&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;p&gt;So, there are total 31 problems, let&amp;rsquo;s solve them by the solve count.&lt;/p&gt;&#xA;&lt;h2 id=&#34;exponentiation&#34;&gt;Exponentiation&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://cses.fi/problemset/result/2320542/&#34;&gt;Problem Statement&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monday Links #3</title>
-      <link>//localhost:1313/posts/links3/</link>
+      <link>/posts/links3/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/links3/</guid>
+      <guid>/posts/links3/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://asciinema.org&#34;&gt;Asciinema&lt;/a&gt; Purely text-based approach to recording terminal sessions. I saw something of this kind on &lt;a href=&#34;https://scrimba.com&#34;&gt;scrimba&lt;/a&gt; where you can pause the video and start editing the code on the screen. Asciinema is a better way to post command line sessions or tutorials than writing down zillion commands for copy pasting or a gif without any video controls where someone has to wait for the loop to complete so that they can pickup from where they left.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solving A XOR operation - Hackerearth</title>
-      <link>//localhost:1313/posts/xor-operation/</link>
+      <link>/posts/xor-operation/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/xor-operation/</guid>
+      <guid>/posts/xor-operation/</guid>
       <description>&lt;p&gt;For context, &lt;a href=&#34;https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/practice-problems/algorithm/strange-xor-2-fc8ad535/&#34;&gt;link&lt;/a&gt; to the problem being discussed.&lt;/p&gt;&#xA;&lt;h4 id=&#34;solution-that-passes&#34;&gt;Solution that passes&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Let&amp;rsquo;s say $X = e_1\oplus e_2\oplus\cdots \oplus e_n$ i.e. XOR of all elements of $S$. If it satisfies the condition of being $k$ then it is the answer, otherwise no answer exists.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;why-is-it-so&#34;&gt;Why is it so?&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;One thing is for sure that every element will be mapped to some other element in the set.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If the answer is $k$ then $a_i$ will be mapped to $a_i\oplus k$. So what we can do is we can check to which element, first element of the set will be mapped, i.e. try every possible pair with first element and check if so formed $k$ is the answer. Mind that $k$ will always be positive as there is no repetition in a set.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monday Links #2</title>
-      <link>//localhost:1313/posts/links2/</link>
+      <link>/posts/links2/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/links2/</guid>
+      <guid>/posts/links2/</guid>
       <description>&lt;p&gt;Could&amp;rsquo;ve padded this with some other post but neither had time nor inspiration to write one. Now we have back to back monday links :).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://boris-marinov.github.io/vim-awesome/&#34;&gt;Why is Vim awesome&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://notes.andymatuschak.org/&#34;&gt;Andy Matuschak&amp;rsquo;s notes&lt;/a&gt; Loved the way this website (or I should call it a webpage) is organised, great flow which helps in revisiting whatever you&amp;rsquo;ve recorded without opening zillion tabs and aids in breadth-first-searching the notes instead of falling down into a rabbit hole of information.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monday Links #1</title>
-      <link>//localhost:1313/posts/links1/</link>
+      <link>/posts/links1/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/links1/</guid>
+      <guid>/posts/links1/</guid>
       <description>&lt;p&gt;This post is a right step in the direction of making this blog a link farm. Many blogs I follow post such kind of links frequently. I thought it is an interesting way to share links and creating new posts without much hardwork other than wandering aimlessly on hackernews and lobsters.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/distributed-architecture-concepts-i-have-learned-while-building-payments-systems/&#34;&gt;Distributed architecture concepts I learned while building a large payments system - The  Pragmatic Engineer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://highscalability.com/youtube-architecture&#34;&gt;Youtube Architecture - High Scalability&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction to Competitive Programming</title>
-      <link>//localhost:1313/posts/cpintro/</link>
+      <link>/posts/cpintro/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/cpintro/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/files/session.pdf&#34;&gt;Slide Deck&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/nKQpS0dg61Y?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;NOTE : This page is to act as a supplement to the content I covered in the stream. There are some points here which are very concise but are explained well in the stream because video format has its own benefits as you can&amp;rsquo;t write as fast as you speak or think.&lt;/p&gt;</description>
+      <guid>/posts/cpintro/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/session.pdf&#34;&gt;Slide Deck&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/nKQpS0dg61Y?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;NOTE : This page is to act as a supplement to the content I covered in the stream. There are some points here which are very concise but are explained well in the stream because video format has its own benefits as you can&amp;rsquo;t write as fast as you speak or think.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codeforces Round #690 (Div. 3)</title>
-      <link>//localhost:1313/posts/cf1462/</link>
+      <link>/posts/cf1462/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/cf1462/</guid>
+      <guid>/posts/cf1462/</guid>
       <description>&lt;p&gt;It was the first round in which I managed to solve 6 problems out of 7, submitting the last one in last 3 seconds. Following are some thoughts I had while solving those problems and some mistakes I made. I make it a point to refer the notebook I use for writing observations and calculations during contest for writing these blogs. So that even if I delay the post by a day or two I don&amp;rsquo;t miss much on the content. So let&amp;rsquo;s start with the first problem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codechef October Lunchtime 2020 Division 1</title>
-      <link>//localhost:1313/posts/ltime89/</link>
+      <link>/posts/ltime89/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/ltime89/</guid>
+      <guid>/posts/ltime89/</guid>
       <description>&lt;p&gt;Made 3 full successful submissions and 1 partial scored 325 points with lot of wrong submissions and ended up at 230th place. Here are the notes on some problems I solved during and after the contest and the thought process I had while solving them. I write these posts so that I can document any new problem solving techniques, observation or method of thinking about the problem I encounter during a contest. It also doubles up as an upsolving journal and lets me review my own thought process and outlook during the contest.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Self updating readme on github</title>
-      <link>//localhost:1313/posts/selfupdate/</link>
+      <link>/posts/selfupdate/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/selfupdate/</guid>
+      <guid>/posts/selfupdate/</guid>
       <description>&lt;p&gt;Recently created a readme for my profile on github, found out all kinds of things you can automate using github actions and reflect them on your readme, like followers, stars, self updating profile links or a feed from your blog.&lt;/p&gt;&#xA;&lt;p&gt;First of all those who don&amp;rsquo;t know about it, if you create a repo with the same name as your username on github, it will act as a README for your profile. So if you haven&amp;rsquo;t created one yet, go create it. It is like instagram bio on steroids.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codeforces Round #676 (Div. 2)</title>
-      <link>//localhost:1313/posts/cf1421/</link>
+      <link>/posts/cf1421/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/cf1421/</guid>
+      <guid>/posts/cf1421/</guid>
       <description>&lt;p&gt;Had to perform better than last round to increase the rating again but started thinking in wrong direction for problem D, but solved it afterwards without editorials and easy to come up with solution. So I had to get this analysis out of the way before tonight&amp;rsquo;s Div.3 round. Contest was easy enough till D. I&amp;rsquo;m still not able to understand how I will approach problem E, it will be a blog in itself when I understand that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codeforces Raif Round 1 [Div.1 &#43; Div.2]</title>
-      <link>//localhost:1313/posts/cf1428/</link>
+      <link>/posts/cf1428/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/cf1428/</guid>
+      <guid>/posts/cf1428/</guid>
       <description>&lt;p&gt;Most recent round I participated in after a break of about 2 weeks. This is a new exercise that I&amp;rsquo;ve started to note down my thoughts and performance history in these blogs. So that I don&amp;rsquo;t repeat same mistakes more often and have some more clarity about what I go through when I&amp;rsquo;m participating and it will also double up as notes for some techniques and styles I come across while solving or upsolving that contest. Let&amp;rsquo;s start already.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Big Browser is watching</title>
-      <link>//localhost:1313/posts/palemoon/</link>
+      <link>/posts/palemoon/</link>
       <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/palemoon/</guid>
+      <guid>/posts/palemoon/</guid>
       <description>&lt;p&gt;&lt;em&gt;UPD : These views are really old, I still use firefox, you can stop updating firefox by making changes to about:policies or can use icecat or librewolf. But firefox is by far the most advanced and private browser.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I love minimal software and always try to minimize bloat on whatever system I use. I also like to read too many blogs on internet but you don&amp;rsquo;t need a power hungry and feature rich browser to &amp;ldquo;just read blogs&amp;rdquo;. So recently, I came across &lt;a href=&#34;https://www.youtube.com/watch?v=EBWy1d-JE6A&#34;&gt;this&lt;/a&gt; video introducing &lt;a href=&#34;https://hacktivis.me/projects/badwolf&#34;&gt;BadWolf&lt;/a&gt;, which is a minimal &lt;a href=&#34;https://webkitgtk.org&#34;&gt;WebKitGTK+&lt;/a&gt; based browser that has two very accessible buttons to toggle javascript and images on a webpage and one simple download manager. I know there is much more going on behind the scenes, but this is what that meets the eye first.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Private search engine in 5 minutes</title>
-      <link>//localhost:1313/posts/searx/</link>
+      <link>/posts/searx/</link>
       <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/searx/</guid>
+      <guid>/posts/searx/</guid>
       <description>&lt;p&gt;Every non privacy respecting search engine out there logs your search history to profile you and target you with more personalised ads, sometimes that also leads to a self created filter bubble.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://searx.me&#34;&gt;&lt;strong&gt;Searx&lt;/strong&gt;&lt;/a&gt; is a metasearch engine available under GPL 3, which compiles search results from more than 70 search engines. Fun fact is you can deploy it locally and enjoy searching from your customised search engine. I&amp;rsquo;ll walk you through the deployment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basic ffmpeg reference</title>
-      <link>//localhost:1313/posts/ffmpeg-reference/</link>
+      <link>/posts/ffmpeg-reference/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/ffmpeg-reference/</guid>
+      <guid>/posts/ffmpeg-reference/</guid>
       <description>&lt;h4 id=&#34;1-converting-to-some-format&#34;&gt;1. Converting to some format&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i input.mp3 output.m4a&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2-merging-audio-and-video&#34;&gt;2. Merging audio and video&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Can change final container (mkv is most versatile), ffmpeg automatically decides the decoders for the job.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i audio.mp3 -i video.mp4 -c copy merged_video.mkv&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;3-keeping-output-quality-same-as-input-quality--sameq&#34;&gt;3. Keeping Output quality same as Input quality (-sameq)&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i input.avi -sameq output.mkv&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;4-convert-only-first-30-seconds--t&#34;&gt;4. Convert only first 30 seconds (-t)&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i aadat.mp3 -t &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt; aadatintro.mp3&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;-t&lt;/code&gt; also supports &lt;code&gt;hh:mm:ss&lt;/code&gt; as time format&lt;/li&gt;&#xA;&lt;li&gt;Variation of this can be used to cut a part of the video, &lt;code&gt;-ss&lt;/code&gt; flag sets the start time. So set the start time with &lt;code&gt;-ss&lt;/code&gt; and duration with &lt;code&gt;-t&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i aadat.mp3 -ss 1:12 -t 1:00 solo.mp3&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;5-strip-audio-or-video&#34;&gt;5. Strip audio or video&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;-an&lt;/code&gt; removes audio and &lt;code&gt;-vn&lt;/code&gt; strips video&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i video.mp4 -vn audio.mp3&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;6-bitrate&#34;&gt;6. Bitrate&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;-ab&lt;/code&gt; sets the audio bitrate and &lt;code&gt;-b&lt;/code&gt; sets the video bitrate explicitly&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ffmpeg -i audio.mp3 -ab 128k audiocompressed.mp3&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;notes&#34;&gt;Notes&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;default bitrate for video is 200kbps and 64 kbps for audio&lt;/li&gt;&#xA;&lt;li&gt;ffmpeg options are always applied to next file in argument list, can be input or ouput file.&lt;/li&gt;&#xA;&lt;li&gt;RTFM for more&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Counting with hashmaps</title>
-      <link>//localhost:1313/posts/counting-with-maps/</link>
+      <link>/posts/counting-with-maps/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/counting-with-maps/</guid>
+      <guid>/posts/counting-with-maps/</guid>
       <description>&lt;p&gt;It is a recurring and really useful idea to count some property in O(n) in an array if the relation is some kind of equation where right hand side and left hand side only differs in their indexes. For example &lt;strong&gt;counting number of subarrays with sum X&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-subarrays-with-sum-x&#34;&gt;1. Subarrays with sum X&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s say we are given an array &lt;strong&gt;A&lt;/strong&gt; of length &lt;strong&gt;N&lt;/strong&gt; and we have to count how many subarrays of &lt;strong&gt;A&lt;/strong&gt; sum up to a given number &lt;strong&gt;X&lt;/strong&gt;. First of all to support subarray sum query in O(1) time we need to calculate prefix sum for &lt;strong&gt;A&lt;/strong&gt;. After that we have two options:&lt;/p&gt;</description>
     </item>
   </channel>
