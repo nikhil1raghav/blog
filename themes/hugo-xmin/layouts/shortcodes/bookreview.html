@@ -4,9 +4,10 @@
 </div>
 {{ end }}
 
-<table>
+<table class="bookshelf">
   <thead>
     <tr>
+      <th class="cover-col"></th>
       <th>Book Title</th>
       <th>Author</th>
       <th>Review</th>
@@ -17,6 +18,11 @@
     {{ range .Page.Params.reviews }}
     <tr>
       {{ $t := .title }}
+      <td class="cover-cell">
+        {{ with .cover }}
+        <img class="book-cover" src="{{ . | relURL }}" alt="Cover of {{ $t }}" loading="lazy" width="46" height="69">
+        {{ end }}
+      </td>
       <td>{{ with .url }}<a href="{{ . }}" target="_blank">{{ $t }}</a>{{ else }}{{ $t }}{{ end }}</td>
       <td>{{ .author }}</td>
       <td>{{ .review }}</td>
@@ -29,3 +35,24 @@
     {{ end }}
   </tbody>
 </table>
+
+<style>
+  .bookshelf { border-collapse: collapse; }
+  .bookshelf .cover-col { width: 46px; }
+  .bookshelf .cover-cell { padding: 3px 10px 3px 0; vertical-align: middle; }
+  .bookshelf tbody tr { border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+  .bookshelf tbody td { padding-top: 3px; padding-bottom: 3px; vertical-align: middle; }
+  .bookshelf .book-cover {
+    display: block;
+    width: 46px;
+    height: 69px;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    background: #2a2f37;
+  }
+  @media (max-width: 600px) {
+    .bookshelf .book-cover { width: 34px; height: 51px; }
+    .bookshelf .cover-col { width: 34px; }
+  }
+</style>
